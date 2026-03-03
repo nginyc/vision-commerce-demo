@@ -28,3 +28,8 @@ streamlit run app.py
 ```
 
 Then open the local URL shown in the terminal.
+
+## Notebooks
+
+- `inpaint_backgrounds.ipynb`: Inpaints backgrounds of images in `data/bg1k_imgs/` using masks in `data/bg1k_masks/` and saves results to `data/bg1k_out_imgs/<model_id>/`.
+- `viz_images.ipynb`: Visualizes original images, masks, and inpainted results side by side for comparison.
