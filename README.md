@@ -1,5 +1,7 @@
 # AVM
 
+![](./public/demo.png)
+
 ## Setup
 
 ### Prerequisites
