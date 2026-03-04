@@ -33,5 +33,8 @@ Then open the local URL shown in the terminal.
 
 ## Notebooks
 
-- `inpaint_backgrounds.ipynb`: Inpaints backgrounds of images in `data/bg1k_imgs/` using masks in `data/bg1k_masks/` and saves results to `data/bg1k_out_imgs/<model_id>/`.
-- `viz_images.ipynb`: Visualizes original images, masks, and inpainted results side by side for comparison.
+All notebooks are in `analysis/`:
+
+- `generate_masks.ipynb`: Generates segmentation masks for source images and writes outputs to the masks/output folders.
+- `inpaint_backgrounds.ipynb`: Inpaints product backgrounds using source images and masks, then saves generated images by model.
+- `viz_outputs.ipynb`: Visualizes originals, masks, and generated outputs side-by-side for quick quality checks.
