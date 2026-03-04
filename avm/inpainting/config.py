@@ -4,8 +4,7 @@ from typing import Literal
 ModelKey = Literal[
     "FLUX.1-Fill-dev",
     "stable-diffusion-xl-1.0-inpainting-0.1",
-    "stable-diffusion-inpainting",
-    "kandinsky-2-2-decoder-inpaint",
+    "stable-diffusion-inpainting"
 ]
 
 MODELS: dict[ModelKey, str] = {
