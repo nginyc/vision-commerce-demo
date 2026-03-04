@@ -420,7 +420,7 @@ with main_col:
     # ==========================================
     elif st.session_state.stage == 3:
         st.header("Generate Background")
-        st.write("Verify the mask and customize the scene description before creating the final image.")
+        st.write("Verify the mask and customize the background prompt before creating the final image.")
         
         content_col1, content_col2 = st.columns([1, 1], gap="large")
         
@@ -503,9 +503,8 @@ with main_col:
     # STAGE 4: Final Result
     # ==========================================
     elif st.session_state.stage == 4:
-        st.header("✨ Your Studio-Quality Product")
-        st.write("Here is your product seamlessly integrated into its new background.")
-        
+        st.header("Final Result")
+        st.write("Your product image is ready with the generated background.")
         if st.session_state.get("output_image") is not None:
             _, res_col, _ = st.columns([1, 4, 1])
             with res_col:
@@ -516,31 +515,33 @@ with main_col:
             # Action Buttons
             btn_col1, btn_col2, btn_col3 = st.columns(3)
             with btn_col1:
-                # Assuming standard download mechanism or simply reliant on browser right-click save
-                st.info("Right-click the image to save it to your device.")
+                st.caption("Tip: Right-click the image to save it to your device.")
             with btn_col2:
-                if st.button("← Adjust Prompt / Mask", use_container_width=True):
+                if st.button("← Back to Prompt & Mask", use_container_width=True):
                     set_stage(3)
                     st.rerun()
             with btn_col3:
-                if st.button("↻ Create Another", type="primary", use_container_width=True):
+                if st.button("↻ Generate Another", type="primary", use_container_width=True):
                     reset_session_state()
                     st.rerun()
             
             st.write("") # Spacing
-            
-            with st.expander("View Input Data & Configuration", expanded=False):
-                st.write("**Product Category:**", st.session_state.category)
-                st.write("**Generation Seed:**", st.session_state.seed)
-                
-                prev_col1, prev_col2 = st.columns(2)
-                with prev_col1:
-                    st.write("**Original Image**")
-                    st.image(st.session_state.original_image, use_container_width=True)
-                with prev_col2:
-                    st.write("**Generated Mask**")
-                    if st.session_state.mask_image:
-                        st.image(st.session_state.mask_image, use_container_width=True)
+
+            st.subheader("Inputs Used")
+            meta_col1, meta_col2 = st.columns(2)
+            with meta_col1:
+                st.write(f"**Product Category:** {st.session_state.category}")
+            with meta_col2:
+                st.write(f"**Generation Seed:** {st.session_state.seed}")
+
+            prev_col1, prev_col2 = st.columns(2)
+            with prev_col1:
+                st.write("**Original Image**")
+                st.image(st.session_state.original_image, use_container_width=True)
+            with prev_col2:
+                st.write("**Generated Mask**")
+                if st.session_state.mask_image:
+                    st.image(st.session_state.mask_image, use_container_width=True)
         else:
             st.error("No image found. Please go back and generate one.")
             if st.button("← Back to Settings"):
