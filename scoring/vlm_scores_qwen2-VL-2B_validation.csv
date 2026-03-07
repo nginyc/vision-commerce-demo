@@ -1,0 +1,157 @@
+dataset,filename,category,score,bg_class,reason
+ecommerce118k,09d5ca57fad0e038174d849ad1888071.jpg,disinfectants and sanitizers,4.5,plain,"Background is clean and plain, but the product is not fully visible."
+ecommerce118k,637fd9a25cb05159a94b126bfcdd5081.jpg,sneakers,5.5,plain,"Background is cluttered and not intentional, but the product is well-composed and prominent."
+ecommerce118k,141f2e495c96d5eae68f37716a8e58f8.jpg,food storage and tableware,5.5,cluttered,The cluttered background significantly detracts from the product's visibility and focus.
+ecommerce118k,ef6d62b42f4fc242e42fb47cd79b3a40.jpg,men fashion,5.5,cluttered,The cluttered background detracts from the product's prominence and makes the image less appealing.
+ecommerce118k,ad7614c54ab130a832ab1c3933dbca5b.jpg,earring,4.5,plain,"Clean background, no distractions, and high product prominence."
+ecommerce118k,8095591d71c190b14660e8ee743452d7.jpg,toy cars,8.5,plain,"Background is clean and plain, but the product is not fully visible."
+ecommerce118k,afc41e6c42cb0070a3ad57155d250236.jpg,laptop,5.5,cluttered,"The background is cluttered, which detracts from the product's prominence."
+ecommerce118k,102ec2b14adb98b618805a1327d1dfe7.jpg,personal protective equipment,5.5,cluttered,The product is partially obscured by the background boxes.
+ecommerce118k,2e47bd5a79553e4bb507caa32a5d9b83.jpg,disinfectants and sanitizers,4.5,plain,"Background is clean and simple, but the product is not fully visible."
+ecommerce118k,cfdbf9546ec96ecc79dd72b72f5d9720.jpg,jacket,4.5,plain,"Background is clean and distraction-free, but the product is not fully framed or well-composed."
+ecommerce118k,d47ebf85a50486ac02bac23586d8b89a.jpg,makeup,4.5,plain,Cleanliness
+ecommerce118k,39a9d012cae2c1a1ff1cfd4e5f71ab5a.jpg,toy cars,8.5,lifestyle,"Background is cluttered, but the product is well-composed and prominently featured."
+ecommerce118k,1917dfd102e6b61735c00dcfd0c3b846.jpg,home decor,4.5,plain,"Background is clean and plain, but the product is not fully visible."
+ecommerce118k,6af0073fd8696a3d9eee04db30c9afdf.jpg,coffee,5.0,plain,"Cleanliness: The background is clean, but the product is not fully visible, which could distract from the product."
+ecommerce118k,510e1e99f9f817bb5949319b74ec0eef.jpg,sports,5.0,plain,"Background is clean and plain, but the product is not fully visible."
+ecommerce118k,e1a3a11c43452ff3f995f317d57290a2.jpg,rice cooker,5.0,plain,"The background is clean and plain, which does not distract from the product."
+ecommerce118k,e0419901010f3d13a135e97feb76b614.jpg,feeding and nursing,4.5,plain,"Background is clean and plain, but the product is not fully visible."
+ecommerce118k,c39c986ba090946cd0aa8c19677ed9d2.jpg,clock,8.5,plain,"Background is cluttered, but the product is well-composed."
+ecommerce118k,fd45773fb9ae8bc0e60c02df9f7f3e5a.jpg,travel,5.0,cluttered,"The background is cluttered, which can distract from the product."
+ecommerce118k,4e2f4d82512c4a148cf264144d857f6f.jpg,jacket,8.5,plain,"Background is clean, but the product is not fully visible."
+ecommerce118k,7cf18947df1a328fe4d0a1396d0f876c.jpg,perfume,5.0,cluttered,"Background is cluttered and not a clean, plain backdrop."
+ecommerce118k,04a20d67709b27f6b4d4d49c78669313.jpg,cap,4.5,plain,"Background is clean and distraction-free, but the product is not fully framed or well-composed."
+ecommerce118k,c836af469c87c3e8e6aa1fcce39a89f5.jpg,audio,4.5,plain,"The background is clean, but the product is not fully visible, which affects the overall appeal."
+ecommerce118k,9a3eab8ba9a948eefbf3f3dae3229519.jpg,sports,5.0,cluttered,"Background is cluttered, but the product is well-composed and prominently featured."
+ecommerce118k,1cd5494889e84f7657bd4444b764dc41.jpg,women dresses,7.5,cluttered,The cluttered background detracts from the product's prominence and makes the image less appealing.
+ecommerce118k,5e1a6a2bd6b06ff6710bf843ba105f78.jpg,clothing and t-shirt,5.5,cluttered,The cluttered background detracts from the product's prominence and makes the image less appealing.
+ecommerce118k,86511c2c1a6d0bae373703f5e2c82d45.jpg,personal protective equipment,4.5,plain,"Background is clean, but the product is not fully visible."
+ecommerce118k,279b5c2ba959c5ebdd5fe8c263a35b2a.jpg,rings,5.5,cluttered,The cluttered background detracts from the product's prominence and makes the image less appealing.
+ecommerce118k,bf4cb173b17ba97c3fce6f1239446482.jpg,toy cars,5.5,cluttered,The cluttered background detracts from the product's prominence and makes the image less appealing.
+ecommerce118k,902dde485ebdabb92f7ba57aa80e8a86.jpg,coffee,5.5,cluttered,The cluttered background detracts from the product's prominence and makes the image less appealing.
+ecommerce118k,910c9933f87b421f3d4d7c9087f52f66.jpg,audio,4.5,plain,"The background is clean, but the product is not fully visible, which affects the overall appeal."
+ecommerce118k,8fce2045b36a61e31f957d726519559f.jpg,laptop,4.5,plain,Cleanliness
+ecommerce118k,9f38d16b8c2ef380b78089e9fa9cabbb.jpg,clock,4.5,cluttered,"The background is cluttered, which detracts from the product's prominence."
+ecommerce118k,7d08f0ee71020f9f275d0c744a1adccc.jpg,chair,4.5,plain,Clean background and minimalistic design make the product stand out.
+ecommerce118k,5a8c62c689245abc27fef26cfff9f49b.jpg,bathroom accessories,40.0,plain,Cleanliness
+ecommerce118k,c91f47aa032a5316778032f7e2eede7c.jpg,coffee,7.5,cluttered,"The background is cluttered, which detracts from the product's prominence."
+ecommerce118k,0a11bb60618e7411d914938a27a2da65.jpg,coffee,5.0,plain,"Cleanliness: The background is clean, but the pillows are not fully visible, which could distract from the product."
+ecommerce118k,51c53be91539dde4e011c40c68a162e0.jpg,phone cover,4.5,cluttered,"Background is cluttered, but the product is well-composed and prominently featured."
+ecommerce118k,07a7d940e04b6eecb9ff28d0eea44594.jpg,sports and outdoors,4.5,plain,"Clean background, no distractions, good product prominence, and strong commercial appeal."
+ecommerce118k,73a79a10744feefb04a5e767e3d09638.jpg,feeding and nursing,5.5,cluttered,"The cluttered background detracts from the product, which is a drying rack and hair dryer."
+ecommerce118k,18fbe87c0847953e510e89637e329aa7.jpg,travel,5.5,cluttered,"The background is cluttered, which detracts from the product's prominence."
+ecommerce118k,65d855c6b094c50b7c40c189ffdf3137.jpg,audio,5.5,cluttered,The cluttered background detracts from the product's prominence and makes the image less appealing.
+ecommerce118k,0c83a6b040d0e9a385bf59d2821c5b22.jpg,jacket,5.5,cluttered,The cluttered background detracts from the product's prominence and makes the image less appealing.
+ecommerce118k,e1e0a8b290d5febeeb549b986e865905.jpg,travel,5.0,cluttered,"The image is cluttered and the product is not fully visible, which affects the overall appeal."
+ecommerce118k,3e38d35ff9a707293fd4d61bcf3b6f23.jpg,couch and cushions,8.5,plain,Cleanliness
+ecommerce118k,7b766e7b91d5d308908110667e301d1d.jpg,rice cooker,4.5,plain,"Cleanliness: The background is clean, but the product is not fully visible, which could distract from the product's prominence."
+ecommerce118k,60e336912ad39a22faf9b44a63645427.jpg,heels,4.5,plain,The product is not the main focus of the image.
+ecommerce118k,7a0fe711d12cc86302807120ec4c6136.jpg,feeding and nursing,4.5,plain,"Background is clean and plain, no distractions."
+ecommerce118k,9d8057976e4a5f70e1040ea28dc31d7c.jpg,clock,5.5,cluttered,"The background is cluttered, which distracts from the product."
+ecommerce118k,c1d0f05857a8a19dfaea8e9f4d615b05.jpg,bathroom accessories,5.5,cluttered,"The background is cluttered, which can distract from the product's main focus."
+ecommerce118k,f54605a68379cf0e3848f27dff3b782e.jpg,sports and outdoors,4.5,plain,"Background is clean and plain, no distractions."
+ecommerce118k,633a0cc061c8740c3d90d6825eb4ae7b.jpg,laptop,5.0,cluttered,"The background is cluttered, which can distract from the product."
+ecommerce118k,7e01687237a1e0522176d4da40cc140a.jpg,data storage,5.0,cluttered,The cluttered background detracts from the product's prominence and makes the image less appealing.
+ecommerce118k,e0fcf1e44dfb31010b285cff86eabcde.jpg,audio,4.5,plain,"Background is clean and plain, but the earbud is not fully visible."
+ecommerce118k,abd67ddb4bfaa327c80989fdca98ccf2.jpg,travel,4.5,plain,"Clean background, no distractions, and high product prominence."
+ecommerce118k,cc3bf10bb0a5e136915b2042b1a53816.jpg,feeding and nursing,8.5,plain,Cleanliness
+ecommerce118k,afc22a7ba60cb24ec170c324ae0a6b5c.jpg,couch and cushions,5.5,cluttered,The cluttered background significantly detracts from the product's visibility and prominence.
+ecommerce118k,d8d3c60a4625b62980f15832c70ac335.jpg,cap,5.0,cluttered,"The background is cluttered, which distracts from the product."
+ecommerce118k,1ac56abd699ff16aadc62a9271ca0595.jpg,women jeans,5.5,cluttered,"The background is cluttered and not clean, which detracts from the product's presentation."
+ecommerce118k,8f695daebbf052856a78f4bd048146b2.jpg,wallet,4.5,plain,Cleanliness
+ecommerce118k,e7722c7b02c8ef3636b91d39d3ad5498.jpg,women jeans,5.0,plain,"Background is clean and plain, no distractions."
+ecommerce118k,191d3d8f02b011a4d6dd86a0a731c142.jpg,phone,4.5,plain,"Background is clean, but the product is not fully visible."
+ecommerce118k,9c0cd59973859d31747296789fa507ca.jpg,household cleaning supplies,4.5,plain,"Background is clean and plain, but the product is not fully visible."
+ecommerce118k,1fc305a2f0a09317ae23ecbaa75d1f13.jpg,clothing and t-shirt,5.5,plain,"Background is cluttered and not clean, but the product is well-composed and prominent."
+ecommerce118k,9ffa17af016baf9b97dc05914dbb8045.jpg,travel,4.5,plain,"Background is clean and well-executed, but the product is not fully visible."
+ecommerce118k,21fef9244cb73cdf730098cc60d1ce62.jpg,chair,4.5,plain,"Background is clean, but the product is not fully visible."
+ecommerce118k,2beeae55796cba4d464d4e5bb50ad0d0.jpg,toy cars,5.0,cluttered,"Background is cluttered and not clean, which affects the overall image quality."
+ecommerce118k,520f31d26b20715de32d4b00e147282b.jpg,wallet,4.5,plain,"Background is clean, but the product is not fully visible."
+ecommerce118k,8509166b30ab05af7e3a1f466b0be731.jpg,bathroom accessories,5.0,cluttered,The product is not the primary focus of the image.
+ecommerce118k,6c78948cf7b48f1c6590e772bb8b98ee.jpg,household cleaning supplies,4.5,plain,"Background is clean and plain, but the product is not fully visible."
+ecommerce118k,0ab08e5fb4e18119d9a18a289d41cad9.jpg,rings,4.5,plain,Cleanliness
+ecommerce118k,9c1860f07a489fb4f8140ad6bbbc93a0.jpg,heels,4.5,plain,"Background is clean, but the product is not fully visible."
+ecommerce118k,92f06e81c7d972f7f24e3618b0f13948.jpg,women sweaters and hoodies,5.5,cluttered,The cluttered background detracts from the product's prominence and makes the image less appealing.
+ecommerce118k,9a62f4289f18fdc8c4482f3b01211675.jpg,snacks and sweets,5.5,plain,"Background is clean, but product is not fully visible."
+ecommerce118k,2822cf2b6ac05d5516f71f5136201c91.jpg,watches,5.5,plain,"Background is cluttered, but the product is well-composed and prominently featured."
+ecommerce118k,8d0159c41479b264227fc1faf6c80c42.jpg,toy cars,5.0,plain,"Background is clean and plain, with a clear view of the product."
+ecommerce118k,2964faf8facfb818ed41cff4237561bf.jpg,data storage,5.5,cluttered,"Background is cluttered and not clean, which detracts from the product's presentation."
+ecommerce118k,86e79d7a44b3ef58944273bb77b1fbd8.jpg,household cleaning supplies,8.0,plain,"Cleanliness: The background is clean, but the product is not fully in focus, and the lighting is not optimal."
+ecommerce118k,e28d3883138c713bd9b2f7b920d0fd28.jpg,laptop,5.5,cluttered,"The background is cluttered, which can distract from the product."
+ecommerce118k,d4d6c76e089b894d26e8dd8d37aa21ef.jpg,feeding and nursing,5.5,plain,"Background is cluttered, but the product is well-composed and prominent."
+ecommerce118k,b58af708fac1ca4e81d044e4e46e715e.jpg,coffee,8.5,plain,"Background is clean, but the product is not fully visible."
+ecommerce118k,dacac35a63e38feef4e86e5b291ffd80.jpg,rings,7.5,cluttered,"The background is cluttered, but the product is well-composed and prominently featured."
+ecommerce118k,14a1a01f8f2f3285795ecdbee3e3da23.jpg,sports,5.5,plain,"Background is clean and plain, no distractions."
+ecommerce118k,a835d04eb95185fc72cf501ece2db284.jpg,cap,4.5,plain,"Background is clean, but the product is not fully visible."
+ecommerce118k,5d53dd9f4fedaf53e2b3676a106a58cf.jpg,feeding and nursing,5.5,cluttered,"The background is cluttered, which distracts from the product."
+ecommerce118k,61de31b6dea47d5c985f73ae4d16b872.jpg,audio,5.5,cluttered,"The background is cluttered, which detracts from the product's prominence."
+ecommerce118k,7d2cfc972186dc529caa58f26844af7c.jpg,women jeans,8.5,plain,"Clean background, no distractions, and product prominently featured."
+ecommerce118k,aa4de3e86b8465e061e444704c036850.jpg,watches,5.0,cluttered,"The background is cluttered, which detracts from the product's prominence."
+ecommerce118k,e81c661b4dec8a63030504e138dc9e1c.jpg,earring,4.5,plain,"Background is clean and plain, but the product is not fully visible."
+ecommerce118k,f8dae50c8561acd22e964b9457aa2b9a.jpg,earring,4.5,plain,"Background is clean, but the product is not fully visible."
+ecommerce118k,e3214763e5db9650e3a6491f09a3d2bb.jpg,gloves,-1.0,,"no_json: {
+  ""background_description"": ""A black and yellow wrist support with a white and yellow logo, placed on a dark backgroun"
+ecommerce118k,eb8a71f1a83622bae5a4381d853a41ff.jpg,sports,4.5,cluttered,"The background is cluttered, which detracts from the product's prominence."
+ecommerce118k,74a817fbf874e2f01e836081081c6322.jpg,rings,7.5,cluttered,"Background is cluttered, but the product is well-composed and prominently featured."
+ecommerce118k,79105ec8f464e6e063e27b13193aa898.jpg,rice cooker,8.5,plain,Cleanliness
+ecommerce118k,71561ac9f5481a4c91364afb5a87d28e.jpg,women dresses,4.5,plain,Cleanliness
+ecommerce118k,e73bd7a1cbbfd8b3b7bc86b0f51ea49a.jpg,home and living,4.5,plain,"Background is clean and plain, but the product is not fully visible."
+ecommerce118k,361e7a6a9034e60cc2361766b7eaa51d.jpg,sports and outdoors,4.5,plain,"Background is clean and plain, but the product is not fully visible."
+ecommerce118k,b65d22abbe133a846a63ea8f90c2f68d.jpg,household cleaning supplies,5.5,cluttered,"The cluttered background and retail store setting distract from the product, making it less appealing."
+ecommerce118k,3878705ca59e31a3c78c2cd6a71d6b3b.jpg,food storage and tableware,5.5,cluttered,"The background is cluttered, which detracts from the product's prominence."
+ecommerce118k,c246815e994b3b94eba8fcd99e68b8a9.jpg,women sweaters and hoodies,7.5,cluttered,"The background is cluttered, but the sports theme is well executed, making it visually appealing."
+ecommerce118k,b1ece52071cc2af53253c7cd45b88d28.jpg,belt,5.0,cluttered,The cluttered background detracts from the product's prominence and makes the image less appealing.
+ecommerce118k,423efdceb8a6eaa1e791f6733a969e81.jpg,clock,5.5,cluttered,The cluttered background detracts from the product's prominence and makes the image less appealing.
+ecommerce118k,53e925ec17411cfaa8f13bbade2ce3aa.jpg,rice cooker,5.5,plain,"Background is clean and plain, but there is no clutter or retail store shelving visible."
+ecommerce118k,b93416d6a3fd8c6796c22175d90ef9fb.jpg,home and living,5.5,plain,"The background is cluttered, which detracts from the product's prominence."
+ecommerce118k,04310a0a50ead3896144bc0670b2ce48.jpg,men fashion,5.5,cluttered,The cluttered background detracts from the product's prominence and overall appeal.
+bg60k,50814.png,Men cleansing,5.5,plain,"Background is clean, but the product is not fully visible."
+bg60k,60626.png,Cutlery Set,4.5,plain,The product is not the primary focus of the image.
+bg60k,59880.png,women backpack,5.5,plain,"Background is plain and clean, but the product is not fully visible."
+bg60k,60630.png,solid wood sofa,4.5,plain,Clean background and minimalistic design.
+bg60k,8909.png,keyboard,5.5,cluttered,"The background is cluttered, which detracts from the product's prominence."
+bg60k,27214.png,Storage bag or bag,5.5,cluttered,"Background is cluttered, but the product is well-composed and prominent."
+bg60k,49802.png,gold chain,5.5,plain,"Background is cluttered and not a clean, plain background."
+bg60k,16948.png,women underwear,8.5,plain,"Clean background, no distractions, well-composed product, and professional lighting."
+bg60k,41322.png,Taiwan fishing rod,4.5,plain,"Background is clean and plain, but the product is not fully visible."
+bg60k,41769.png,Early childhood education,8.0,plain,"Background is clean and well-executed, but the product is not fully visible, which could detract from the overall appeal."
+bg60k,29358.png,Wok,4.5,plain,The product is not the main focus of the image.
+bg60k,43736.png,Men casual shoes,5.5,cluttered,"The product is not fully visible, and the background is cluttered."
+bg60k,20510.png,Men slippers,4.5,plain,Cleanliness
+bg60k,11968.png,running shoes,8.5,lifestyle,"Background is clean and professional, but the shoe is not fully visible."
+bg60k,55626.png,baby wipes,5.5,cluttered,"The product is not prominently displayed, and the background is cluttered."
+bg60k,20296.png,cell phone,4.5,plain,"Background is clean, but the product is not fully visible."
+bg60k,10424.png,Men business or formal leather shoes,4.5,plain,"Clean background, no distractions, well-composed product, and professional lighting."
+bg60k,12630.png,Pastries or Snacks,5.5,cluttered,"Background is cluttered, but the product is well-composed and prominent."
+bg60k,36501.png,coat rack,40.0,cluttered,The product is not the main focus of the image.
+bg60k,26851.png,men backpack,7.5,cluttered,"The background is cluttered, but the product is well-composed and prominently featured."
+bg60k,58680.png,Micro-wave oven,5.5,plain,"Background is cluttered and not clean, which detracts from the product's presentation."
+bg60k,6366.png,women underwear,5.5,cluttered,The cluttered background detracts from the product's prominence and makes the image less appealing.
+bg60k,28209.png,Bluetooth or Wireless Headphones,4.5,plain,"Background is clean, but the product is not fully visible."
+bg60k,6702.png,refrigerator,8.5,plain,"Background is clean, but the refrigerator is not fully visible."
+bg60k,28581.png,plastic cup,5.5,cluttered,"The background is cluttered, but the product is well-composed and prominently featured."
+bg60k,49588.png,travel tea set,7.5,cluttered,"The background is cluttered, but the product is well-composed and prominently featured."
+bg60k,19460.png,second-hand phone,7.5,lifestyle,"Background is cluttered, but the product is well-composed and prominently featured."
+bg60k,33131.png,running shoes,8.5,plain,"Background is clean and well-executed, but the product is not fully framed or well-composed."
+bg60k,1165.png,rescue equipment,5.0,plain,"Clean background, no distractions, and product prominently featured."
+bg60k,55555.png,rice,8.5,plain,"Clean background, no distractions, and high product prominence."
+bg60k,23080.png,fragrant,5.5,plain,"Background is cluttered, but the product is well-composed and prominently featured."
+bg60k,22341.png,Eye Cream or Eye Essence,4.5,plain,"Background is clean, but the product is not fully visible."
+bg60k,55504.png,Roller skating,8.5,lifestyle,Cleanliness
+bg60k,13958.png,casual pants,5.0,plain,"The product is not well-composed and not fully visible, which affects its prominence and commercial appeal."
+bg60k,57020.png,men sandals,7.5,cluttered,"Background is cluttered and not clean, which detracts from the product's prominence."
+bg60k,42329.png,basketball shoes,5.5,plain,"Background is plain, which may not be ideal for product emphasis."
+bg60k,32460.png,electric kettle,7.5,cluttered,"Background is cluttered and not clean, which detracts from the product's presentation."
+bg60k,55066.png,Bluetooth or Wireless Headphones,4.5,plain,"Background is clean, but the product is not fully visible."
+bg60k,15807.png,Pastries or Snacks,8.5,plain,"Clean background and minimalistic design, no distractions."
+bg60k,15695.png,Men business or formal leather shoes,5.5,plain,"Background is clean and plain, but the shoes are not fully visible."
+bg60k,52348.png,Laundry detergent or soap,8.5,plain,Cleanliness
+bg60k,26994.png,gold earrings,8.5,plain,"Background is clean, but the product is not fully visible, which could affect commercial appeal."
+bg60k,28237.png,Men slippers,5.5,cluttered,"The background is cluttered, which distracts from the product and reduces the commercial appeal."
+bg60k,15217.png,Gastrointestinal care,8.5,plain,Cleanliness
+bg60k,60656.png,electric fan,5.5,cluttered,"Background is cluttered and not clean, which detracts from the product's prominence."
+bg60k,30902.png,Flip Chart or Fold Chart,40.0,cluttered,"Background is cluttered and not clean, which affects the overall image quality."
+bg60k,6201.png,Lunch box or pot,7.5,cluttered,The cluttered background detracts from the product's prominence.
+bg60k,42308.png,air conditioner,4.5,plain,"Background is clean, but the product is not fully visible."
+bg60k,19980.png,cell phone,4.5,plain,"Clean background, no distractions, well-composed product, professional lighting."
+bg60k,31522.png,This booklet or notes,4.5,cluttered,"The background is cluttered, but the product is well-composed and prominently featured."
