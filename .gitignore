@@ -46,3 +46,6 @@ htmlcov/
 
 # Project data
 data/
+
+# Environment files 
+.env 
