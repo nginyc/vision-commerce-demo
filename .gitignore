@@ -47,5 +47,20 @@ htmlcov/
 # Project data
 data/
 
+# ML model checkpoints (large binary files)
+*.pt
+*.pth
+*.ckpt
+
+# MLflow tracking database
+mlflow.db
+mlruns/
+
 # Environment files 
 .env 
+
+# Word docs 
+*.doc
+*.docx
+~$*.doc*
+
