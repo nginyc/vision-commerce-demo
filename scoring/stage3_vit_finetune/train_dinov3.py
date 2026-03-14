@@ -8,9 +8,9 @@ Trains on scoring/stage2_validation_and_split/train_4000.csv and val_1000.csv.
 Metrics: SRCC, PLCC, MAE.  Best checkpoint saved by val SRCC.
 
 Usage (from repo root):
-    python scoring/stage3_vit_finetune/train.py
-    python scoring/stage3_vit_finetune/train.py --freeze-backbone --unfreeze-last-n 4
-    python scoring/stage3_vit_finetune/train.py --epochs 30 --lr 2e-4 --batch-size 32
+    python scoring/stage3_vit_finetune/train_dinov3.py
+    python scoring/stage3_vit_finetune/train_dinov3.py --freeze-backbone --unfreeze-last-n 4
+    python scoring/stage3_vit_finetune/train_dinov3.py --epochs 30 --lr 2e-4 --batch-size 32
 """
 
 import argparse
@@ -32,7 +32,7 @@ from tqdm import tqdm
 # Allow running from repo root or from this file's directory
 sys.path.insert(0, str(Path(__file__).parent))
 from dataset import ProductImageDataset
-from model import DINOv2Scorer
+from model_dinov3 import DINOv2Scorer
 
 
 # ── Custom transforms ─────────────────────────────────────────────────────────

@@ -21,8 +21,8 @@ from tqdm import tqdm
 from PIL import Image, ImageOps
 
 sys.path.insert(0, str(Path(__file__).parent))
-from model import DINOv2Scorer
 from dataset import ProductImageDataset
+# model class selected at runtime based on checkpoint pretrained arg
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
 
@@ -35,7 +35,7 @@ ECOM_IMG_DIR  = DATA_DIR / "Ecommerce_118K" / "train" / "train"
 POOL_B_XLSX   = SCORING_DIR / "stage1_annotation" / "pool_b_300_images.xlsx"
 DEFAULT_CKPT  = Path(__file__).parent / "checkpoints" / "dinov3_vitb16_best.pt"
 
-# ── Transform (same as val_transform in train.py) ────────────────────────────
+# ── Transform (same as val_transform in train_dinov3.py / train_dinov2.py) ───
 
 IMAGENET_MEAN = [0.485, 0.456, 0.406]
 IMAGENET_STD  = [0.229, 0.224, 0.225]
@@ -145,9 +145,16 @@ def main(args):
     print(f"Checkpoint epoch : {ckpt.get('epoch', '?')}")
     print(f"Checkpoint val SRCC: {ckpt['metrics']['srcc']:.4f}  (on SEA-LION labels)")
 
+    # Select model class based on which backbone was used during training
+    pretrained_id = saved_args.get("pretrained", "")
+    if "dinov2" in pretrained_id or pretrained_id == "":
+        from model_dinov2 import DINOv2Scorer
+    else:
+        from model_dinov3 import DINOv2Scorer
+
     # Rebuild model with the same args used during training
     model = DINOv2Scorer(
-        pretrained      = saved_args.get("pretrained",       "dinov2_vitb14"),
+        pretrained      = saved_args.get("pretrained",       "facebook/dinov2-base"),
         dropout         = saved_args.get("dropout",          0.1),
         freeze_backbone = saved_args.get("freeze_backbone",  False),
         unfreeze_last_n = saved_args.get("unfreeze_last_n",  4),
