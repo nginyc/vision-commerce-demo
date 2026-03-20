@@ -1,4 +1,6 @@
 from pathlib import Path
+import base64
+import io
 from PIL import Image
 from typing import Generator, TypedDict
 
@@ -65,3 +67,16 @@ def make_image_grid(
         grid.paste(img.convert("RGB"), (x, y))
 
     return grid
+
+
+def encode_image_to_base64(
+    image: Image.Image,
+    format: str = "JPEG",
+    quality: int = 92,
+) -> str:
+    buffer = io.BytesIO()
+    save_kwargs: dict[str, object] = {}
+    if format.upper() == "JPEG":
+        save_kwargs["quality"] = quality
+    image.convert("RGB").save(buffer, format=format, **save_kwargs)
+    return base64.b64encode(buffer.getvalue()).decode()

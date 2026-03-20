@@ -3,6 +3,7 @@ from pathlib import Path
 import os
 import tempfile
 from .inpaint import InpaintingModel
+from .types import InpaintConfig
 
 
 class Flux1InpaintingModel(InpaintingModel):
@@ -11,7 +12,7 @@ class Flux1InpaintingModel(InpaintingModel):
         self._pipeline = Flux1Fill(quantize=quantize)
 
     @staticmethod
-    def get_config_defaults() -> dict[str, float | int]:
+    def get_config_defaults() -> InpaintConfig:
         return {
             "guidance": 30.0,
             "num_inference_steps": 28
@@ -19,7 +20,7 @@ class Flux1InpaintingModel(InpaintingModel):
 
     def inpaint(
         self, image: Image.Image, mask: Image.Image, prompt: str, seed: int, 
-        config: dict[str, float | int],
+        config: InpaintConfig,
     ) -> Image.Image:
         from mflux.models.flux.variants.fill.flux_fill import Config  # type: ignore
 

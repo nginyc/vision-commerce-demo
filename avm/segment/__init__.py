@@ -7,11 +7,25 @@ from .segment import (
     get_model_config_defaults,
     normalize_category,
 )
+from .types import (
+    InstanceMasks,
+    InstanceScores,
+    MergedMask,
+    SegmentConfig,
+    SegmentInstances,
+    SegmentModelKey,
+)
 
 __all__ = [
     "DEFAULT_MODEL_ID",
+    "InstanceMasks",
+    "InstanceScores",
     "MODELS",
+    "MergedMask",
     "SegmentationModel",
+    "SegmentConfig",
+    "SegmentInstances",
+    "SegmentModelKey",
     "build_model",
     "create_mask_image",
     "detect_device",
