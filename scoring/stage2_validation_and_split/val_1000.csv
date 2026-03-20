@@ -1,0 +1,1001 @@
+dataset,filename,category_id,category,overall_score,background_cleanliness,text_watermark_score,product_prominence,commercial_appeal,bg_class,needs_bg_replacement,reason
+ecommerce118k,637ef955b9b3c50badecd0c7bfa4dfd5.jpg,4,women jeans,4.75,4,2,8,5,lifestyle,True,The image is heavily cluttered with seller-added text and a distracting lifestyle background.
+ecommerce118k,ccf18d4db2b574f38b689dec40fac66c.jpg,3,women sweaters and hoodies,4.75,3,2,8,6,cluttered,True,The cluttered background and prominent text overlays distract from the product and reduce its commercial appeal.
+ecommerce118k,1a319278133ba32377695a9e1b955b32.jpg,11,phone,3.5,3,1,7,3,cluttered,True,"The image is heavily cluttered with a distracting logo and contact information, and the background is not suitable for e-commerce."
+ecommerce118k,2d39e9e74e36069bf640e567ab1bdde2.jpg,36,household cleaning supplies,3.0,2,1,6,3,cluttered,True,"The image is heavily cluttered with promotional text and irrelevant website elements, significantly detracting from the product."
+bg60k,23360.png,33,disinfectants and sanitizers,8.5,7,10,9,8,lifestyle,False,"The product is set against a tiled wall and wooden cabinetry, suggesting a kitchen environment."
+ecommerce118k,86e809ed6b114bec8040c67384fc047e.jpg,32,personal protective equipment,3.5,3,1,7,3,cluttered,True,"The image is heavily overlaid with distracting text and watermarks, significantly reducing its commercial appeal."
+ecommerce118k,17d703f8eb11b0e459e64df882c208c1.jpg,21,sports,8.25,9,10,8,6,plain,False,"The product is set against a plain, slightly off-white background."
+ecommerce118k,17e2083294a85c6cfc729ec27f82e696.jpg,33,disinfectants and sanitizers,5.75,3,10,7,4,cluttered,True,The cluttered and distracting background reduces the product's visual impact and appears unprofessional.
+ecommerce118k,88466c72fce6e0694ff3a0073b5020a3.jpg,18,home and living,4.5,8,1,6,3,plain,False,"The large, distracting text overlay and poor image quality significantly reduce purchase confidence."
+bg60k,44610.png,18,home and living,8.5,9,10,8,7,plain,False,"The product is set against a dark, textured grey background resembling leather or fabric."
+ecommerce118k,2219cea219a4684fa89f8de80e05cb95.jpg,19,data storage,8.75,10,10,9,7,plain,False,The product is set against a completely white background.
+bg60k,18653.png,27,toy cars,9.25,10,10,9,8,plain,False,"The product is set against a smooth, gradient grey background."
+ecommerce118k,7f3a942812982d5fe2e1ec75ed414c82.jpg,39,home decor,6.0,8,2,9,5,plain,False,The excessive watermarks and text overlays significantly detract from the product's presentation.
+ecommerce118k,9353585d1b3d99d828fcad577b81adc0.jpg,10,phone cover,7.75,6,10,8,7,lifestyle,False,"The product is held in a hand against a blurred, neutral-toned wall and a partially visible person wearing a white top."
+ecommerce118k,919d74cb4acb375db2c708b57bff7f4b.jpg,21,sports,5.75,2,10,7,4,cluttered,True,The cluttered retail background significantly distracts from the product and reduces purchase confidence.
+ecommerce118k,0fac9d1e834c2ad487d709afe21e3a46.jpg,10,phone cover,5.0,7,1,8,4,plain,False,"The large, distracting watermark and additional logo significantly reduce purchase confidence."
+bg60k,31509.png,8,wallet,8.75,10,10,9,7,plain,False,The product is set against a plain white background.
+ecommerce118k,725bb8eae20631662f0b88094b8c2c66.jpg,9,travel,4.25,4,2,7,4,lifestyle,True,The large text overlay and distracting car interior background significantly reduce the image's commercial appeal.
+ecommerce118k,f2ac3aabf61fbd33ee61d63ece3d8934.jpg,7,cap,8.75,10,10,9,7,plain,False,"The background is a completely white, seamless backdrop."
+bg60k,11002.png,8,wallet,8.5,8,10,9,7,plain,False,"The product is displayed on a textured, slate-like surface with a slight diagonal orientation."
+ecommerce118k,175fbc2a6476eddc28788c6005870e67.jpg,28,jacket,6.0,9,2,8,5,plain,False,"The large, distracting watermark significantly reduces the image's professional appeal."
+bg60k,25373.png,41,couch and cushions,8.5,7,10,9,8,lifestyle,False,"The sofa is placed in a modern living room setting with neutral-toned walls, artwork, and a rug."
+bg60k,37854.png,27,toy cars,4.25,2,10,7,4,cluttered,True,The cluttered outdoor background distracts from the product and reduces its commercial appeal.
+ecommerce118k,5e54502aceb3d5fda46610bbe40adc70.jpg,16,shoes,8.75,10,10,9,7,plain,False,"The background is a plain, solid white colour."
+bg60k,3501.png,8,wallet,9.0,9,10,9,8,plain,False,The product is set against a dark blue gradient background with blurred white floral elements in the lower corners.
+bg60k,25974.png,39,home decor,8.5,8,10,9,7,plain,False,"The product is placed on a dark surface with a textured, light beige wall and a shadow of a plant visible in the background."
+bg60k,55442.png,26,audio,7.25,4,10,8,7,lifestyle,True,The busy and distracting background detracts from the product and feels overly staged.
+ecommerce118k,87766edbd09c93545bbe49b8bb353674.jpg,27,toy cars,6.5,10,1,10,5,plain,False,The large text and branding on the product packaging itself detract from the overall commercial appeal.
+ecommerce118k,a44d89b6dc8a12a61dc0f0bfb72aaf64.jpg,8,wallet,8.5,9,10,8,7,plain,False,"The background is a very light, slightly textured off-white surface."
+ecommerce118k,b4ccdcd73fc01b00e1bff967838f98ee.jpg,10,phone cover,8.75,9,10,9,7,plain,False,The product is displayed against a gradient white to light grey background.
+bg60k,43412.png,18,home and living,5.0,6,2,7,5,lifestyle,False,The image is heavily cluttered with text overlays that detract from the product.
+bg60k,2235.png,7,cap,7.5,4,10,9,7,cluttered,True,The busy and distracting background detracts from the product and reduces its visual impact.
+ecommerce118k,020b7676630b9a0228468f2a7291c8af.jpg,32,personal protective equipment,7.25,6,10,8,5,lifestyle,False,"The product is laid on a textured orange surface, resembling fabric or a blanket."
+bg60k,23860.png,24,watches,6.5,10,1,10,5,plain,False,The presence of foreign text on the watch face significantly reduces purchase confidence.
+bg60k,37277.png,39,home decor,9.0,9,10,9,8,plain,False,"The product is set against a solid, neutral beige background with a blurred book visible on the surface below."
+bg60k,11098.png,34,makeup,9.0,9,10,9,8,plain,False,"The background features abstract, flowing shapes resembling water or light, in shades of blue and white."
+ecommerce118k,21695c3599b8673a641ef4b34d3ceab3.jpg,29,men fashion,5.25,7,2,8,4,plain,False,"The image is heavily marred by excessive seller-added text and watermarks, significantly reducing its commercial appeal."
+ecommerce118k,4df69eacb01cd5fc3d5b3a41f82d8ad0.jpg,10,phone cover,3.75,4,1,7,3,cluttered,True,"The image contains significant seller-added text and a distracting background, reducing purchase confidence."
+ecommerce118k,70ce267f5540a8136da24e9fa523ef16.jpg,13,feeding and nursing,5.75,10,1,8,4,plain,False,"The large, repetitive watermarks significantly detract from the product and reduce purchase confidence."
+bg60k,43081.png,30,sneakers,8.0,7,10,9,6,plain,False,The product is set against a textured grey asphalt-like surface.
+bg60k,11449.png,8,wallet,9.0,9,10,9,8,plain,False,The product is set against a gradient blue background with subtle light reflections creating a sense of depth.
+bg60k,8469.png,34,makeup,9.25,10,10,9,8,plain,False,"The product is set against a plain, light grey background with a subtle gradient."
+bg60k,27718.png,22,sports and outdoors,8.25,8,10,9,6,plain,False,"The product is set against a light blue, gradient-style background that appears to be a digitally created sky effect."
+ecommerce118k,08af79bc546cbfccf14b86f54ef3c43e.jpg,12,clock,8.5,7,10,9,8,lifestyle,False,"The product is displayed on a wall above a white sofa with pillows and a throw blanket, suggesting a living room setting."
+bg60k,258.png,8,wallet,7.75,6,10,8,7,lifestyle,False,The product is situated in a living room setting with a large window displaying a nighttime cityscape.
+bg60k,51383.png,9,travel,9.25,10,10,9,8,plain,False,The product is set against a very light beige or off-white seamless background.
+ecommerce118k,cd64c4739684ddd7c8314719275fd841.jpg,41,couch and cushions,3.75,3,1,8,3,plain,True,"The image is heavily cluttered with promotional text and logos, significantly reducing its commercial appeal."
+ecommerce118k,3d29e7093cfb7dbc6e9db47d50dfcc4c.jpg,13,feeding and nursing,8.25,8,10,9,6,plain,False,"The product is placed on a white surface with a subtle, repeating circular pattern."
+bg60k,19321.png,30,sneakers,8.75,8,10,9,8,lifestyle,False,"The product is placed on a textured, brown-toned fabric backdrop that is softly draped."
+ecommerce118k,4792eab11c52a7e775c6f5a3066c1f1a.jpg,36,household cleaning supplies,5.75,3,10,7,4,cluttered,True,The busy and distracting patterned background detracts from the product and lowers the overall commercial appeal.
+ecommerce118k,b8871fd681334662811e77a627c70b55.jpg,13,feeding and nursing,4.5,4,2,8,4,plain,True,The image is heavily cluttered with promotional text and graphics that distract from the product.
+ecommerce118k,489289efff1ff1532d6a3eaa7caee4bd.jpg,23,gloves,7.5,6,10,8,6,plain,False,"The product is displayed against a plain, off-white wall with visible wall texture and a partially visible hanging garment rack."
+bg60k,39827.png,35,perfume,9.0,8,10,9,9,lifestyle,False,"The background features scattered pink flower petals and abstract purple shapes, creating a stylized and artistic effect."
+ecommerce118k,91acce57f2b58b032d6e25cfa9b7449c.jpg,38,food storage and tableware,5.5,10,1,7,4,plain,False,The image is significantly degraded by the large amount of text overlaid on the product packaging.
+bg60k,26965.png,17,heels,9.25,10,10,9,8,plain,False,"The background is a dark, gradient grey, appearing almost black, with subtle reflections."
+bg60k,30585.png,24,watches,9.25,10,10,9,8,plain,False,"The background is a soft, neutral grey gradient."
+ecommerce118k,f86067b4f0e3bb8a9a2363db2b03d7fa.jpg,1,women abaya,5.75,6,3,8,6,lifestyle,False,The image is significantly cluttered with seller-added text overlays that detract from the product.
+bg60k,46874.png,20,chair,7.25,4,10,9,6,lifestyle,YES,The cluttered car interior background distracts from the product and doesn't provide a clean presentation.
+bg60k,6860.png,39,home decor,6.5,8,3,9,6,plain,False,The image is significantly cluttered with seller-added text overlays that detract from the product.
+ecommerce118k,f1327832467b6522e4f1d728095b5d7e.jpg,28,jacket,8.0,6,10,9,7,lifestyle,False,"The background appears to be a blurred, dark grey urban environment with some railing visible."
+bg60k,35363.png,3,women sweaters and hoodies,9.0,9,10,9,8,plain,False,"The product is placed on a white surface against a soft, gradient peach-colored background."
+bg60k,14626.png,8,wallet,8.5,7,10,9,8,lifestyle,False,"The background is a blurred, textured red fabric with repeating golden characters partially visible."
+ecommerce118k,59e0cd69d249e851ba39b47777493e88.jpg,21,sports,5.75,8,2,9,4,plain,False,"The image is significantly degraded by large, distracting seller text and badges."
+bg60k,51612.png,41,couch and cushions,7.75,6,10,8,7,lifestyle,False,The product is set against a light grey wall with framed animal artwork.
+ecommerce118k,e7d3e7640aeca7208abaf9d72bbb6a0a.jpg,21,sports,3.0,2,1,6,3,cluttered,True,The image is severely cluttered with a distracting retail environment and large promotional text overlays.
+ecommerce118k,fe69293ab2a0cf5149ff2e4dd78a3f07.jpg,23,gloves,3.5,3,1,7,3,plain,True,The image is heavily cluttered with distracting seller text and watermarks.
+ecommerce118k,8d94eaa4ff049432a994b252f87ea783.jpg,22,sports and outdoors,8.75,10,10,9,7,plain,False,The product is set against a completely plain white background.
+ecommerce118k,fbddd9dee79b1424a013b9a9906c1b67.jpg,5,rings,6.5,10,1,9,6,plain,False,The large watermark significantly detracts from the product and reduces purchase confidence.
+bg60k,33688.png,25,belt,9.0,9,10,9,8,plain,False,"The product is set against a light beige, slightly textured background."
+ecommerce118k,5b7a65894dbcf116db5c426047ff75ab.jpg,22,sports and outdoors,6.75,10,3,8,6,plain,False,The background is a plain white surface with a grid-like arrangement of the product in various colors.
+bg60k,21108.png,20,chair,8.25,9,10,8,6,plain,False,"The product is set against a softly blurred, light grey gradient background."
+bg60k,41455.png,28,jacket,8.75,10,10,9,7,plain,False,"The product is set against a seamless, light grey background."
+ecommerce118k,26f6cee571e15bb9fe2c71c120969fcd.jpg,2,clothing and t-shirt,6.75,4,10,8,6,lifestyle,True,The wrinkled bedsheet background is distracting and detracts from the product's presentation.
+ecommerce118k,a129733a72bc9c174ca34ba83f4653df.jpg,38,food storage and tableware,5.0,8,1,7,4,plain,False,"The large, distracting watermark significantly reduces purchase confidence."
+bg60k,30247.png,23,gloves,8.0,6,10,9,7,lifestyle,False,"The product is displayed on a dark grey surface surrounded by various ingredients like tomatoes, mushrooms, and herbs, with a blue and white patterned cloth."
+bg60k,29107.png,9,travel,8.75,8,10,9,8,lifestyle,False,The product is set against a pastel blue and pink gradient background with blurred floral elements.
+ecommerce118k,facd825b42300ee158d7a9ad9ae21937.jpg,36,household cleaning supplies,5.75,3,10,7,4,cluttered,True,The distracting tiled floor background detracts from the product and lowers purchase confidence.
+bg60k,62501.png,8,wallet,7.75,6,10,8,7,lifestyle,False,"The background appears to be a textured, dark grey surface with a repeating ornate pattern."
+ecommerce118k,5da261937b5dfcf7e39f693b0b169af3.jpg,26,audio,6.0,8,1,9,6,plain,False,"The image is significantly marred by large, distracting text overlays."
+bg60k,19046.png,12,clock,8.5,8,10,9,7,plain,False,"The product is placed on a light green, slightly textured surface."
+ecommerce118k,fae31bc04b533111bc055d26c4e54594.jpg,19,data storage,8.75,10,10,9,7,plain,False,The product is set against a completely white background.
+bg60k,720.png,25,belt,8.75,9,10,9,7,plain,False,"The product is set against a textured, light brown background with a white surface partially visible on the right."
+bg60k,46083.png,9,travel,8.5,7,10,9,8,lifestyle,False,"The product is set in a softly lit, minimalist room with a cream-colored sofa, a small side table with flowers, and a light-colored rug."
+bg60k,53278.png,24,watches,8.5,8,10,9,7,plain,False,"The product is set against a dark, textured grey surface resembling stone or concrete."
+bg60k,13358.png,39,home decor,9.25,10,10,9,8,plain,False,The products are arranged on a plain white surface.
+ecommerce118k,c4f5083f326032698aefdda01fac3f63.jpg,13,feeding and nursing,7.25,10,5,8,6,plain,False,The background is a plain white surface.
+ecommerce118k,fa4cc2a50898060c90feed963d7a62d6.jpg,3,women sweaters and hoodies,4.0,3,2,7,4,cluttered,True,The cluttered background and excessive text overlays significantly detract from the product and reduce its commercial appeal.
+ecommerce118k,574bb10a9aa4203441f6e105fa1746d9.jpg,35,perfume,8.75,10,10,8,7,plain,False,The product is displayed against a completely white background.
+ecommerce118k,587b00fbb44f3a61349189be3cc65f47.jpg,38,food storage and tableware,4.0,3,2,7,4,cluttered,True,The large watermark and cluttered background significantly detract from the product and reduce purchase confidence.
+bg60k,16539.png,3,women sweaters and hoodies,8.5,7,10,9,8,lifestyle,False,The product is placed on a woven rattan surface with a neutral-toned wall and some blurred magazines and fabric in the background.
+bg60k,51084.png,19,data storage,8.5,8,10,9,7,plain,False,"The product is placed on a dark, reflective surface with a blurred, abstract red and grey pattern in the background."
+bg60k,30635.png,8,wallet,8.5,8,10,9,7,plain,False,"The background appears to be a blurred, textured gold surface, possibly fabric or a reflective material."
+ecommerce118k,682f2db10e86ceb062b1d49ea87dd8e0.jpg,21,sports,5.75,3,8,7,5,cluttered,True,The cluttered background distracts from the product and reduces its visual appeal.
+bg60k,845.png,13,feeding and nursing,8.5,7,10,9,8,lifestyle,False,"The product is set against a light green background with illustrated bubbles, aloe vera leaves, and a cartoon cloud character."
+ecommerce118k,dfea75c93f7d4b242137df8050607777.jpg,40,bathroom accessories,6.75,6,10,7,4,plain,False,"The product is placed on a white surface with a blurry, indistinct blue object visible in the upper right corner."
+bg60k,4265.png,10,phone cover,8.5,7,10,9,8,lifestyle,False,"The background features a blurred, colourful image of a bird's plumage, creating a gradient effect."
+ecommerce118k,439b92e53547fa9137b8e3fe475eeed1.jpg,26,audio,6.5,9,3,8,6,plain,False,The excessive text and branding elements detract from the product's presentation and reduce commercial appeal.
+bg60k,41033.png,16,shoes,9.25,10,10,9,8,plain,False,"The product is set against a solid, light grey background."
+bg60k,62356.png,8,wallet,8.25,7,10,9,7,lifestyle,False,"The product is presented in a light-wood gift box filled with red crinkle paper, set on a dark surface."
+ecommerce118k,c2b60e30509ebdac8a517f0dc338af4c.jpg,15,coffee,5.25,6,2,8,5,lifestyle,False,"The image is heavily overlaid with promotional text and watermarks, significantly reducing its commercial appeal."
+ecommerce118k,e28c3cef24353f5018a8a85b5fb3301c.jpg,13,feeding and nursing,6.5,10,1,9,6,plain,False,The large seller-added text and branding elements significantly detract from the product's presentation.
+bg60k,29871.png,21,sports,8.75,10,10,9,7,plain,False,"The product is set against a solid, light grey gradient background."
+ecommerce118k,d04ac207e6d05e9d5a5016d430b60aa6.jpg,23,gloves,8.75,10,10,9,7,plain,False,The product is displayed against a completely white background.
+bg60k,50117.png,10,phone cover,6.5,10,1,9,6,plain,False,"The large, distracting text overlaid on the product significantly reduces purchase confidence."
+ecommerce118k,1ad1707ce3dc7b2d116cc85f9703bd68.jpg,18,home and living,6.0,9,2,8,5,plain,False,"The image is significantly marred by large, distracting text overlays and watermarks."
+ecommerce118k,f6380866df07ef3dafc8f53febd494a1.jpg,38,food storage and tableware,4.25,3,2,8,4,cluttered,True,The busy and distracting background and large watermark significantly detract from the product's presentation.
+ecommerce118k,5c340ac66c301f8b74cdf7a55094d86a.jpg,28,jacket,5.75,8,2,9,4,plain,False,"The large, distracting watermark significantly reduces purchase confidence."
+ecommerce118k,8b17f4635335b469718479d98e65c21d.jpg,0,women dresses,8.75,8,10,9,8,lifestyle,False,The product is set against a plain white wall with two potted plants flanking the model.
+bg60k,39896.png,38,food storage and tableware,8.0,6,10,9,7,lifestyle,False,The refrigerator is set against a gradient blue and purple background with abstract geometric shapes resembling mountains and a floor.
+ecommerce118k,054b52810043c0e1baaa8aa75c816175.jpg,18,home and living,8.75,10,10,9,7,plain,False,The product is set against a plain white background with a subtle gradient.
+ecommerce118k,0df9db9eb4e871d5823c0627ffce9a7d.jpg,26,audio,5.5,9,1,8,4,plain,False,"The large, distracting text overlay significantly reduces purchase confidence."
+ecommerce118k,af788f27214f0864925fa27a09c5e594.jpg,12,clock,8.75,10,10,9,7,plain,False,The background is a plain white surface.
+ecommerce118k,000c31cf42f917297481f0aeb1e444fa.jpg,25,belt,8.75,10,10,8,7,plain,False,"The background is a solid, dark grey/black colour."
+ecommerce118k,5f943222b8d246cd80eb2674d408d71a.jpg,10,phone cover,7.75,10,5,9,7,plain,False,The product is set against a completely white background.
+bg60k,11977.png,10,phone cover,7.5,9,5,9,7,plain,False,"The product is set against a blurred, gradient blue sky background with wispy clouds."
+bg60k,26820.png,9,travel,7.75,6,10,8,7,lifestyle,False,The product is set against a metal grid backdrop with blurred foliage and a partial view of a person's legs and clothing.
+bg60k,51182.png,43,food,6.0,7,2,9,6,lifestyle,False,"The image is heavily overlaid with Chinese text and branding, which detracts from the product's appeal."
+ecommerce118k,3c748999b6069a50c013825f8e255efa.jpg,30,sneakers,5.75,6,2,9,6,lifestyle,False,"The large, distracting text overlay significantly reduces the image's professional quality."
+ecommerce118k,966a10570571aa78202898f7f1642367.jpg,23,gloves,7.5,6,10,8,6,plain,False,The product is placed on a wood-grain patterned surface with several other gloves blurred in the background.
+bg60k,30136.png,25,belt,7.75,10,5,9,7,plain,False,"The product is displayed against a solid, light green background."
+ecommerce118k,9c7ab66fe64448a951f9eec4ee120256.jpg,1,women abaya,4.75,6,1,8,4,lifestyle,False,"The large, distracting text overlay significantly reduces purchase confidence."
+bg60k,11546.png,30,sneakers,8.5,8,10,9,7,plain,False,The product is placed on a textured grey surface resembling carpet or fabric.
+ecommerce118k,1e925b9bf11346202c756f968a83e4f1.jpg,3,women sweaters and hoodies,8.25,6,10,9,8,lifestyle,False,"The background features a softly lit interior with a doorway, plants, a stack of books, and a glimpse of furniture."
+bg60k,59846.png,5,rings,8.75,10,10,9,7,plain,False,"The product is set against a solid, textured blue background."
+bg60k,50958.png,17,heels,8.75,10,10,9,7,plain,False,The product is placed on a plain white surface.
+ecommerce118k,d32c9f71c3976b2605e9c31d843beb9f.jpg,37,laptop,5.75,3,10,7,4,cluttered,True,The cluttered and dark background detracts from the product and reduces purchase confidence.
+ecommerce118k,6be77e7b53552081f6a2fc9e74a03fb2.jpg,4,women jeans,3.75,3,2,6,4,cluttered,True,"The image is heavily cluttered with text overlays, inset images, and a distracting background, reducing purchase confidence."
+bg60k,18358.png,10,phone cover,7.25,6,8,9,6,plain,False,"The background is a gradient blue with a faint, ornate frame-like design and some Chinese text elements."
+ecommerce118k,5fd358461b26451b0a32755e2beca84e.jpg,27,toy cars,6.5,6,8,7,5,plain,False,"The product is placed on a greyish-white tiled surface with a blurred, indistinct object in the upper right corner."
+ecommerce118k,2dc6043cd1e10ee2f74d76a0595fc443.jpg,22,sports and outdoors,8.75,10,10,9,7,plain,False,The background is a plain white surface with a grid layout displaying the product in multiple colours.
+ecommerce118k,ef08ffa698294ece0e3c8fd93d014397.jpg,31,snacks and sweets,3.25,2,1,7,3,cluttered,True,The image is heavily cluttered with distracting text overlays and a busy retail background.
+ecommerce118k,af6c42ca15d77acca94d1a7f633e56af.jpg,38,food storage and tableware,6.5,8,3,9,6,plain,False,The prominent watermark significantly detracts from the image's professional appearance.
+bg60k,62669.png,34,makeup,8.75,8,10,9,8,lifestyle,False,The product is set against a gradient white to light blue background with abstract geometric shapes and a few scattered cocoa beans and palm leaves.
+ecommerce118k,921239ee41bab9832edae640d04336a0.jpg,38,food storage and tableware,5.5,6,2,8,6,lifestyle,True,"The image is heavily overlaid with promotional text and watermarks, significantly reducing its commercial appeal."
+ecommerce118k,bfba3f2a50471279126451e52d464bf1.jpg,24,watches,8.75,9,10,9,7,plain,False,The product is set against a gradient grey background that fades from light to dark.
+bg60k,57725.png,22,sports and outdoors,5.5,6,2,8,6,lifestyle,True,The distracting graphic overlays and watermark significantly detract from the product's presentation.
+bg60k,28287.png,5,rings,9.0,9,10,9,8,plain,False,"The product is set against a solid, dark brown background with a subtle gradient and a reflective surface underneath."
+bg60k,60963.png,5,rings,5.25,6,2,8,5,lifestyle,False,"The image is significantly detracted by the large, distracting text overlays."
+bg60k,40907.png,29,men fashion,9.25,10,10,9,8,plain,False,The product is set against a gradient grey background that fades from light to dark.
+bg60k,23606.png,5,rings,8.75,9,10,9,7,plain,False,"The product is displayed against a dark grey, textured background."
+bg60k,27630.png,2,clothing and t-shirt,8.5,7,10,9,8,lifestyle,False,"The product is set against a grey wall with subtle architectural details and a glimpse of a room interior including artwork, a stool, and flooring."
+bg60k,22095.png,40,bathroom accessories,8.5,8,10,9,7,lifestyle,False,The product is placed on a digitally created background resembling rippling blue water.
+ecommerce118k,91b9d671413311bff3f01de99cf21507.jpg,30,sneakers,6.25,7,3,9,6,plain,False,"The large, distracting watermark significantly reduces the image's professional appeal."
+bg60k,12638.png,33,disinfectants and sanitizers,8.5,7,10,9,8,lifestyle,False,"The product is placed on a wooden surface against a blurred, light-coloured wall with decorative elements."
+ecommerce118k,317ce48b9614fc4e71941a9ee4e7a427.jpg,24,watches,9.0,9,10,9,8,plain,False,The product is displayed against a gradient grey background that fades from light to dark.
+ecommerce118k,0cdd2c820bd9024af4e9d99561a41a33.jpg,7,cap,6.75,4,10,8,6,lifestyle,True,The cluttered and distracting background detracts from the product and reduces its visual impact.
+ecommerce118k,9a278af20e6c61f648adccf73396da5c.jpg,0,women dresses,7.75,6,10,8,7,lifestyle,False,The background features a beach scene with ocean waves and rocky formations under a blue sky.
+bg60k,56332.png,8,wallet,9.25,10,10,9,8,plain,False,The product is set against a dark grey gradient background.
+ecommerce118k,43265a64ab150f127c515a2ba7f8d52d.jpg,13,feeding and nursing,5.0,6,2,8,4,plain,False,The large watermark significantly detracts from the image's professional appearance and purchase appeal.
+bg60k,20963.png,38,food storage and tableware,8.0,6,10,9,7,lifestyle,False,The product is placed on a dark grey surface with blurred hands and a book visible in the background.
+ecommerce118k,e00695421d4b39a9064d17c47023569c.jpg,10,phone cover,5.25,6,2,8,5,lifestyle,False,The large text overlay significantly detracts from the image's professional appearance.
+bg60k,34870.png,27,toy cars,6.0,6,3,9,6,lifestyle,False,The product is placed on a wooden floor with a blurred grey sofa visible in the background.
+ecommerce118k,1aebb1525602ded630d612daca0a8e0f.jpg,5,rings,6.25,8,2,9,6,plain,False,"The large, distracting watermark significantly reduces the image's professional appeal."
+bg60k,15553.png,43,food,8.5,9,10,8,7,plain,False,"The product is set against a dark grey, slightly textured surface."
+ecommerce118k,34be68c234cff5b99eb0a1fbb499747b.jpg,11,phone,8.75,10,10,9,7,plain,False,"The background is a solid, neutral white colour."
+bg60k,62029.png,4,women jeans,6.25,4,10,8,6,cluttered,True,The cluttered background distracts from the product and reduces its visual impact.
+bg60k,3073.png,21,sports,8.25,6,10,9,8,lifestyle,False,"The product is placed in front of a large window overlooking a city, with a bookshelf and decorative elements visible in the background."
+ecommerce118k,32b7d87b406ccdcd21263b7bf99a3ded.jpg,3,women sweaters and hoodies,6.0,7,2,9,6,plain,False,"The image is heavily overlaid with seller text and watermarks, reducing its professional appearance."
+bg60k,16410.png,14,rice cooker,9.0,9,10,9,8,plain,False,The product is set against a textured grey concrete-like wall.
+ecommerce118k,e35193f396c9c422c99d1e644af3c8cf.jpg,34,makeup,8.75,10,10,9,7,plain,False,The product is presented against a plain white background.
+ecommerce118k,70e6cce067c0f0db63ed8c36bdc76490.jpg,37,laptop,5.75,4,8,7,4,cluttered,True,The cluttered and unappealing background detracts from the product and reduces purchase confidence.
+ecommerce118k,6489a3ddf0307e7667b10265044f3e63.jpg,20,chair,8.0,9,10,8,5,plain,False,"The product is set against a plain, slightly off-white background."
+ecommerce118k,6094eeb3e6563696d0c65ab151221d67.jpg,21,sports,6.25,8,2,9,6,plain,False,"The image is heavily overlaid with promotional text and branding, reducing its visual appeal."
+ecommerce118k,47a2c4629ea46dd0aceb2dd89f78bbb4.jpg,36,household cleaning supplies,8.25,8,10,9,6,plain,False,"The product is set against a slightly textured, off-white or light grey background."
+ecommerce118k,e0af8ec979146067ed3feff053dadd65.jpg,31,snacks and sweets,5.5,9,1,8,4,plain,False,"The large, distracting watermark significantly reduces purchase confidence."
+ecommerce118k,978370f6df4098d98d90ad241b118583.jpg,12,clock,4.25,4,2,8,3,plain,True,The image is heavily cluttered with promotional text and banners that significantly detract from the product.
+bg60k,17908.png,43,food,8.5,8,10,9,7,plain,False,The background is a bright yellow and white radial burst pattern.
+ecommerce118k,69d7d2de371345d11e4e90f0b239d1ca.jpg,16,shoes,7.25,7,10,9,6,plain,False,The product is shown against a grey wire grid background with a textured floor visible below.
+bg60k,2001.png,33,disinfectants and sanitizers,8.25,7,10,9,7,lifestyle,False,"The background features blurred green leaves and stalks, creating a natural, slightly abstract effect."
+bg60k,63206.png,18,home and living,6.25,6,5,8,6,lifestyle,False,The product is displayed against a solid green background with scattered paper and packaging elements around it.
+bg60k,28690.png,37,laptop,9.0,9,10,9,8,plain,False,The product is set on a light grey surface with a gradient background transitioning from light grey to white.
+bg60k,59083.png,4,women jeans,9.0,9,10,9,8,plain,False,The product is set against a gradient beige and grey background with a soft shadow effect.
+bg60k,11944.png,42,laptop,9.25,10,10,9,8,plain,False,The product is set against a completely black background with a subtle reflection underneath.
+ecommerce118k,77561b932860d4d69311abe5b94ff788.jpg,40,bathroom accessories,4.25,6,1,7,3,plain,False,"The image is severely degraded by large, distracting watermarks and text overlays."
+bg60k,2445.png,37,laptop,8.25,6,10,9,8,lifestyle,False,"The product is placed on a white surface with a laptop, phone, and various small objects surrounding it."
+bg60k,22064.png,11,phone,9.25,10,10,9,8,plain,False,"The background is a soft, gradient blend of pastel colours, creating an abstract and ethereal effect."
+bg60k,1083.png,29,men fashion,8.5,8,10,9,7,plain,False,The product is set against a gradient grey abstract background with geometric shapes.
+bg60k,10891.png,3,women sweaters and hoodies,9.25,10,10,9,8,plain,False,"The product is set against a very light grey, almost white, seamless background with a subtle shadow."
+ecommerce118k,1a6ea866cc446096c183716e35287fce.jpg,32,personal protective equipment,8.25,9,10,8,6,plain,False,"The product is displayed against a plain, slightly off-white background."
+ecommerce118k,8f2c1bf69bb0d808312a1adbe70580e5.jpg,15,coffee,8.75,10,10,9,7,plain,False,The product is set against a plain white background.
+bg60k,47659.png,3,women sweaters and hoodies,8.5,7,10,9,8,lifestyle,False,The product is placed on and surrounded by red gift boxes and ribbons against a solid red background.
+ecommerce118k,3e5329329beeb6c79216ea00b37e6eff.jpg,17,heels,7.5,6,10,8,6,plain,False,"The product is set against a blurry, textured white background resembling faux fur or a fluffy blanket."
+bg60k,4320.png,29,men fashion,8.75,9,10,9,7,plain,False,The product is set against a gradient grey background that fades from light to dark.
+ecommerce118k,a62b73675861e26174a93f26e8b7edf8.jpg,14,rice cooker,3.0,3,1,6,2,cluttered,True,"The image suffers from poor quality, distracting text overlays, and an unappealing background."
+ecommerce118k,4bba3772735e04aa7c9db430a305c243.jpg,35,perfume,9.25,10,10,9,8,plain,False,The product is set against a plain white background.
+bg60k,3509.png,29,men fashion,8.75,9,10,9,7,plain,False,The product is set against a gradient grey abstract background resembling an interior hallway or tunnel.
+bg60k,23016.png,41,couch and cushions,8.5,7,10,8,9,lifestyle,False,"The product is staged in a modern living room setting with a sofa, plants, shelving, and natural light coming from a window."
+bg60k,31864.png,2,clothing and t-shirt,8.5,8,10,9,7,lifestyle,False,The product is set against a bright blue sky with fluffy white clouds.
+ecommerce118k,9589e5a5ea1f64e234284f994d4a2b04.jpg,9,travel,5.75,10,1,8,4,plain,False,"The image is heavily cluttered with seller-added text and measurements, significantly reducing its commercial appeal."
+ecommerce118k,40f02d1af1a1a5852dbd3cb67c78fa84.jpg,13,feeding and nursing,6.5,8,3,9,6,plain,False,The multiple graphics and text overlays detract from the product and reduce the image's professional appeal.
+ecommerce118k,a659d25e25f0df56387810c56b811026.jpg,17,heels,5.75,6,3,8,6,lifestyle,False,The large watermark significantly detracts from the product's presentation.
+ecommerce118k,39bbef9edb7f125df0fcb59bb74511f4.jpg,36,household cleaning supplies,5.75,2,10,7,4,cluttered,True,The cluttered retail background significantly distracts from the product and reduces purchase confidence.
+ecommerce118k,b56e4625352d95b6ce76d28093eb7a0d.jpg,4,women jeans,7.5,8,10,7,5,plain,False,"The background appears to be a plain, slightly textured white surface."
+bg60k,56713.png,42,laptop,7.5,6,10,8,6,lifestyle,False,The product is placed on a light-colored surface with various stationary items and geometric shapes surrounding it.
+bg60k,932.png,39,home decor,8.5,7,10,9,8,lifestyle,False,The product is placed on a light-coloured rug in a room with wall art and a plant in the background.
+bg60k,36556.png,27,toy cars,8.25,6,10,9,8,lifestyle,False,The product is shown against a blurred cityscape and racetrack background.
+bg60k,24938.png,33,disinfectants and sanitizers,6.0,10,1,8,5,plain,False,"The image is heavily overlaid with Chinese text and branding, reducing its commercial appeal."
+bg60k,53754.png,29,men fashion,9.25,10,10,9,8,plain,False,"The product is set against a dark, gradient grey background with subtle lighting effects."
+ecommerce118k,7c417a9e17e6368d9dc6c1d95332c861.jpg,33,disinfectants and sanitizers,3.5,3,1,7,3,cluttered,True,The image is heavily overlaid with promotional text and has a distracting background.
+bg60k,2626.png,41,couch and cushions,7.75,6,10,8,7,lifestyle,False,"The product is shown outdoors in a garden setting with foliage, a stone wall, and gravel underfoot."
+bg60k,16131.png,35,perfume,9.0,9,10,9,8,plain,False,"The background is a textured, rose-gold speckled surface."
+ecommerce118k,ff8fc77653c0ee467ee6945e886bd1e7.jpg,20,chair,4.25,2,10,5,3,cluttered,True,The cluttered background overwhelms the product and reduces its visual impact.
+ecommerce118k,5701436e5a83d63beab77ef1902f27c4.jpg,38,food storage and tableware,4.25,4,2,7,4,cluttered,True,"The image suffers from significant text overlays and a distracting, cluttered background, reducing its commercial appeal."
+ecommerce118k,29f748bf3eebccf29be70b3a485ebf30.jpg,7,cap,7.5,8,10,7,5,plain,False,"The background is a plain, off-white surface with some visible shadows and slight texture."
+ecommerce118k,5583d5e1bd6e8843346ad2ea32478329.jpg,1,women abaya,5.0,7,1,8,4,plain,False,"The image is significantly degraded by large, distracting seller-added text overlays."
+ecommerce118k,a4d8da29127855fd33a4fc0f9aab2d6b.jpg,21,sports,3.25,2,1,7,3,cluttered,True,The cluttered background and excessive text significantly detract from the product and reduce purchase confidence.
+bg60k,25355.png,32,personal protective equipment,7.75,7,10,9,6,plain,False,The product is placed on a textured grey surface resembling concrete or stone.
+ecommerce118k,24441ea413142ccc69bb5fcce79c4f80.jpg,33,disinfectants and sanitizers,5.0,6,2,8,4,plain,False,The excessive watermarks and promotional text significantly detract from the product's presentation and reduce purchase confidence.
+bg60k,32392.png,12,clock,8.25,7,10,9,7,lifestyle,False,The product is placed on a white surface with a folded fabric and a small decorative book in the background.
+ecommerce118k,306193779d92cb1620d5da9957c5a64b.jpg,31,snacks and sweets,3.25,2,10,7,4,cluttered,True,The cluttered background distracts from the product and reduces purchase confidence.
+bg60k,48089.png,11,phone,9.0,9,10,9,8,plain,False,"The product is set against a dark, gradient-toned backdrop with subtle geometric shapes suggesting a modern, minimalist studio environment."
+bg60k,8272.png,40,bathroom accessories,8.5,7,10,9,8,lifestyle,False,"The product is suspended against a blurred, light-toned wooden ceiling and a soft, out-of-focus green foliage background."
+ecommerce118k,423640aba85123d52d60a2299c327050.jpg,23,gloves,6.75,4,10,8,5,cluttered,True,The cluttered and distracting background detracts from the product's presentation.
+ecommerce118k,4a48ec363560942c7b031b6721d1b497.jpg,25,belt,5.5,9,1,7,5,plain,False,"The image is significantly degraded by large, distracting text overlays."
+ecommerce118k,be5a95977a400ed0dda6b826dff6d1f0.jpg,7,cap,3.25,2,1,7,3,cluttered,True,The image is overwhelmed with distracting text and promotional banners that significantly detract from the product.
+bg60k,58240.png,32,personal protective equipment,8.5,7,10,9,8,lifestyle,False,"The product is placed on a textured, dark grey and black rocky surface."
+ecommerce118k,5e99bda3eefb8003eb7a8cff9b5f2378.jpg,25,belt,9.25,10,10,9,8,plain,False,The product is displayed on a gradient grey to white background.
+bg60k,16758.png,5,rings,9.0,9,10,9,8,plain,False,"The product is displayed on a draped, textured beige fabric background."
+ecommerce118k,5477601866a1c793346524422eb5b374.jpg,40,bathroom accessories,4.75,7,1,8,3,plain,False,"The image is heavily cluttered with promotional text and watermarks, significantly reducing its commercial appeal."
+ecommerce118k,4ec5bec265587f199713623ba3ace977.jpg,10,phone cover,6.5,10,1,9,6,plain,False,The large text overlay detracts from the product's presentation and reduces purchase confidence.
+bg60k,20919.png,34,makeup,9.25,10,10,9,8,plain,False,The product is set against a gradient background transitioning from light pink to lavender.
+ecommerce118k,7882a3c65c908d1ea8676c9b8e2ee146.jpg,0,women dresses,4.75,6,2,7,4,plain,False,"The image is significantly marred by excessive seller-added text overlays, reducing its commercial appeal."
+ecommerce118k,482637dc3aa6cc3d076a13672f5e8be2.jpg,10,phone cover,4.0,4,2,7,3,lifestyle,True,"The image is heavily cluttered with seller-added text and a distracting background, significantly reducing its commercial appeal."
+bg60k,147.png,8,wallet,8.5,9,10,8,7,plain,False,"The product is set against a gradient grey background with a blurred, abstract shape resembling a cloud or wave."
+ecommerce118k,7dc240e9c3c874ab0b0fcef9bb664fe3.jpg,1,women abaya,6.0,7,2,9,6,plain,False,The large text and watermark overlay significantly detract from the image's professional appearance.
+bg60k,43826.png,26,audio,9.25,10,10,9,8,plain,False,"The background is a gradient of light grey to white, creating a soft and neutral backdrop."
+ecommerce118k,b4293d0be595d1ec47687dee8e578320.jpg,14,rice cooker,7.75,6,10,8,7,lifestyle,False,The background shows a blurred kitchen scene with shelves of dishes and food on a table.
+bg60k,6028.png,12,clock,8.0,8,10,7,7,plain,False,"The product is displayed on a white surface with a slight shadow, and several product packages are scattered around it."
+ecommerce118k,db6778c444115298803691a4e371b707.jpg,15,coffee,7.75,8,10,9,6,plain,False,"The product is set against a light, slightly textured wooden surface."
+ecommerce118k,8ee8751d3ef3facbb27f40a58fb11ac5.jpg,27,toy cars,7.5,6,10,8,6,lifestyle,False,The product is displayed on a wire basket on a light-coloured wooden surface.
+bg60k,16658.png,6,earring,9.25,10,10,9,8,plain,False,"The products are displayed on a solid, light green surface."
+ecommerce118k,ab7f5bc8a3bddac6a24e2f02b2c0c986.jpg,7,cap,4.0,3,1,8,4,cluttered,True,The cluttered background with receipts and a shopping bag distracts from the product and lowers purchase confidence.
+bg60k,36977.png,21,sports,6.0,7,3,8,6,lifestyle,False,The large text overlay significantly detracts from the image's professional appearance and clarity.
+ecommerce118k,aab286d41de41c45c41b6dfc0598d121.jpg,14,rice cooker,5.25,8,2,7,4,plain,False,"The image is heavily overlaid with distracting seller text and watermarks, reducing purchase confidence."
+bg60k,47323.png,36,household cleaning supplies,8.25,7,10,9,7,lifestyle,False,"The product is set against a blurred, abstract background resembling sand dunes and foliage, with a gradient from light blue to white."
+bg60k,59777.png,36,household cleaning supplies,8.75,10,10,9,7,plain,False,"The product is set against a solid, neutral grey gradient background."
+bg60k,38398.png,22,sports and outdoors,8.5,8,10,9,7,plain,False,"The product is displayed on a dark brown wooden surface with a textured pattern, set against a gradient background of dark grey and white highlights."
+ecommerce118k,bb961e6661943cd5b5baa50696150ffb.jpg,8,wallet,3.75,3,2,7,3,cluttered,True,"The image is heavily cluttered with promotional text and a distracting background, reducing purchase confidence."
+bg60k,34410.png,37,laptop,8.75,9,10,9,7,plain,False,The product is placed on a grey surface with a subtle grid pattern.
+bg60k,10540.png,28,jacket,8.75,8,10,9,8,lifestyle,False,"The product is set against a wall with vertical wood panelling and a neutral-toned floor, creating a modern interior setting."
+bg60k,8446.png,9,travel,9.0,9,10,9,8,plain,False,The product is set against a light blue gradient background.
+bg60k,8668.png,15,coffee,7.75,7,10,8,7,lifestyle,False,The product is placed on a white surface with a snowy mountain backdrop and a cardboard box featuring the product's branding.
+ecommerce118k,3c2f51e8f434a16a3b8bec22b2b056b5.jpg,21,sports,5.75,10,1,8,4,plain,False,The image is heavily overlaid with distracting seller-added text and watermarks.
+ecommerce118k,4838cadcfbca2fe125160b3066a7e324.jpg,33,disinfectants and sanitizers,5.75,3,10,7,4,cluttered,True,The cluttered background of identical bottles distracts from the product and reduces its visual impact.
+bg60k,6787.png,12,clock,8.75,9,10,9,7,plain,False,The product is set against a dark grey background featuring a repeating diagonal line pattern and a semi-circular platform beneath it.
+bg60k,36344.png,26,audio,8.5,7,10,9,8,lifestyle,False,"The product is set against a dark, slightly textured surface with a blurred laptop in the background."
+bg60k,19201.png,11,phone,7.75,6,10,8,7,lifestyle,False,"The product is placed on top of a laptop, with books blurred in the background."
+bg60k,37931.png,36,household cleaning supplies,8.0,6,10,9,7,lifestyle,False,"The product is set against a light blue wall with graphic elements showing airflow, a small white cabinet, and a potted plant."
+bg60k,15114.png,26,audio,8.75,9,10,9,7,plain,False,The product is set against a gradient blue background with subtle lighting effects.
+bg60k,36783.png,22,sports and outdoors,8.0,6,10,9,7,lifestyle,False,"The product is placed on a road surface with yellow lane markings, and a blurred car tire is visible in the background."
+bg60k,28204.png,33,disinfectants and sanitizers,7.75,7,10,8,7,lifestyle,False,The product is displayed on a light blue textured surface resembling water with scattered seashells and bubbles.
+ecommerce118k,0afb171e1bc1675c82a83f1fccfc20e8.jpg,11,phone,5.75,3,10,7,4,cluttered,True,The cluttered background distracts from the product and reduces its commercial appeal.
+ecommerce118k,fae2248861ca3d1cc7da0cfbf63e0c7c.jpg,19,data storage,8.25,9,10,8,6,plain,False,The product is displayed against a plain white background with some shadow effects.
+ecommerce118k,e717d984b286ba592a1a8b3e3d7c4c6f.jpg,33,disinfectants and sanitizers,5.75,3,10,7,4,cluttered,True,The cluttered background of identical products overwhelms the main product and reduces its visual impact.
+bg60k,11843.png,32,personal protective equipment,7.25,8,5,9,7,plain,False,The product is presented on a gradient background transitioning from a light beige to black.
+bg60k,21780.png,24,watches,9.0,9,10,9,8,plain,False,"The watch is placed on a slightly textured, light grey surface with a circular pattern resembling a plate or fabric."
+ecommerce118k,8df4b8e9e195508803b5e166a04ecab1.jpg,4,women jeans,6.25,10,1,8,6,plain,False,The large text overlay significantly detracts from the image's professional appearance.
+ecommerce118k,c6eea8928e6e1a710d17e2daa7eba0d8.jpg,13,feeding and nursing,7.75,9,5,10,7,plain,False,The product is set against a plain white background with a small logo and age indicator in the upper left corner.
+ecommerce118k,a2dbadee9f911d4e5f60c0b53b35eb3a.jpg,40,bathroom accessories,5.75,8,2,9,4,plain,False,"The image is heavily cluttered with seller-added text and watermarks, significantly reducing its commercial appeal."
+bg60k,18566.png,29,men fashion,9.25,10,10,9,8,plain,False,"The product is set against a solid, muted peach-coloured background."
+ecommerce118k,a94495de4bb96f8acdac35e3c5f3f4fd.jpg,34,makeup,4.0,3,2,7,4,lifestyle,True,The cluttered lifestyle background and prominent text overlay distract from the product and reduce its commercial appeal.
+bg60k,39994.png,43,food,8.25,8,10,9,6,plain,False,"The product is set against a dark, gradient background with scattered brown seeds at the base."
+bg60k,15065.png,21,sports,9.25,10,10,9,8,plain,False,"The product is set against a soft, gradient white background."
+bg60k,46905.png,33,disinfectants and sanitizers,8.0,7,10,8,7,lifestyle,False,"The product sits on a light wood-grain surface with a blurred, minimalist room setting including chairs and a table with papers in the background."
+bg60k,31465.png,5,rings,8.0,6,10,9,7,lifestyle,False,The product is displayed on a red surface with scattered dried flower petals and leaves in the background.
+ecommerce118k,633affeaf1313bff795516ed52a4a08b.jpg,18,home and living,6.5,8,3,9,6,plain,False,The image is significantly degraded by the presence of multiple watermarks and seller-added text.
+ecommerce118k,9410c55dbf29591f5fd0bc1374109043.jpg,2,clothing and t-shirt,6.25,4,10,8,6,cluttered,True,The cluttered background distracts from the clothing and reduces the image's professional quality.
+bg60k,17939.png,38,food storage and tableware,8.75,10,10,8,7,plain,False,The background is a solid black colour.
+ecommerce118k,f247d7daeeea9343e37db061aaca4458.jpg,25,belt,8.5,10,10,8,6,plain,False,The product is set against a completely white background.
+bg60k,3147.png,38,food storage and tableware,7.75,6,10,8,7,lifestyle,False,"The product is displayed on a textured, dark wood surface with some scattered leaves."
+bg60k,29377.png,30,sneakers,9.0,9,10,9,8,plain,False,The product is set against a gradient blue background with a thin white line at the bottom.
+bg60k,12037.png,4,women jeans,8.75,10,10,9,7,plain,False,The product is set against a light grey gradient background.
+ecommerce118k,ce957c95a7db27e04d667690aae3d2d6.jpg,5,rings,5.5,6,5,7,4,plain,False,The image's low commercial appeal is due to poor lighting and an unappealing background texture.
+bg60k,10263.png,35,perfume,8.75,8,10,9,8,lifestyle,False,"The product is placed on a solid pale yellow background with scattered orange slices, orange blossoms, and mint leaves."
+ecommerce118k,c09f86348458ef94e689fa4d7b31ab0c.jpg,30,sneakers,4.0,3,2,7,4,cluttered,True,The cluttered background and prominent watermarks distract from the product and reduce commercial appeal.
+bg60k,17633.png,28,jacket,9.25,10,10,9,8,plain,False,"The background is a gradient of dark grey to black, creating a shadowed effect."
+bg60k,11618.png,3,women sweaters and hoodies,8.0,10,5,9,8,plain,False,"The product is set against a solid, light grey gradient background."
+ecommerce118k,1f680bb48eae166b9a0c6db7a7adfcf4.jpg,7,cap,5.75,3,10,7,4,cluttered,True,The cluttered background distracts from the product and reduces its commercial appeal.
+bg60k,6063.png,38,food storage and tableware,7.75,6,10,9,6,lifestyle,False,The product is set against a digitally created backdrop of icy mountains and a translucent ice platform.
+ecommerce118k,7a2ef5ed9146dbb51efaf6f5d0cd66d8.jpg,33,disinfectants and sanitizers,8.75,10,10,9,7,plain,False,The product is set against a plain white background.
+ecommerce118k,436be1accaf0fc80aabee98e31d1fddb.jpg,5,rings,4.0,3,2,7,4,cluttered,True,"The image is cluttered with packaging and accessories, and contains significant text overlays that detract from the product."
+ecommerce118k,1685c423cffaa910cdf6804ea5f2b960.jpg,13,feeding and nursing,8.75,10,10,9,7,plain,False,The product is set against a plain white background with a soft shadow.
+bg60k,43031.png,14,rice cooker,8.5,7,10,9,8,lifestyle,False,The product is set against a gradient blue background with decorative seashell and pastry elements around the edges.
+bg60k,51259.png,17,heels,8.5,10,10,9,7,plain,False,"The background is a gradient of light grey to white, providing a neutral and simple backdrop."
+bg60k,24336.png,35,perfume,8.5,8,10,9,7,plain,False,"The product is set on a dark brown, textured surface resembling leather or woodgrain."
+ecommerce118k,b0de54b8dc5aab99ffd55dd8f3cd9a13.jpg,9,travel,6.75,4,10,8,6,lifestyle,True,The cluttered outdoor background distracts from the product and reduces its visual impact.
+bg60k,52705.png,20,chair,7.75,6,10,8,7,lifestyle,False,"The product is set against a blurred cityscape view through a large window, with a countertop and decorative elements visible."
+bg60k,43516.png,8,wallet,9.0,9,10,9,8,plain,False,The product is placed on a light wood-toned surface against a plain white background.
+bg60k,42535.png,5,rings,9.25,10,10,9,8,plain,False,The product is set against a light blue gradient background.
+ecommerce118k,18cfffc6cdc469bda09a749e5f637705.jpg,14,rice cooker,4.25,2,10,7,3,cluttered,True,The cluttered background significantly detracts from the product and reduces purchase confidence.
+ecommerce118k,8696603e7313c709addda230a3952070.jpg,17,heels,7.75,7,10,8,6,plain,False,"The background appears to be a textured grey surface, possibly concrete or stone steps."
+ecommerce118k,35e4825a4b65a490e495d3930e26d5bf.jpg,7,cap,4.25,3,2,8,4,cluttered,True,"The image is heavily cluttered with seller logos and text overlays, significantly reducing its commercial appeal."
+bg60k,18521.png,2,clothing and t-shirt,8.25,8,10,9,6,plain,False,"The product is displayed against a black background with a white, fluffy texture resembling fur or a cloud."
+bg60k,429.png,29,men fashion,8.75,10,10,9,7,plain,False,The product is set against a very light grey gradient background.
+bg60k,3117.png,7,cap,8.25,7,10,9,7,lifestyle,False,The product is set against a light wood-grain surface with blurred tropical leaves in the background.
+bg60k,25106.png,35,perfume,8.5,7,10,9,8,lifestyle,False,The product is placed on a light pink plate with a checkered white and grey cloth background.
+ecommerce118k,45233351b6c11fb24c1c73eb89137795.jpg,2,clothing and t-shirt,3.75,4,1,7,3,cluttered,True,The image is heavily cluttered with distracting text overlays that significantly reduce purchase confidence.
+bg60k,60714.png,43,food,8.0,6,10,9,7,lifestyle,False,The product is placed on a grey checkered surface with a red and white checkered cloth and a bowl of sauce visible in the background.
+bg60k,49239.png,4,women jeans,9.0,9,10,9,8,plain,False,"The product is set against a very light, slightly textured pale pink background."
+bg60k,2438.png,40,bathroom accessories,8.5,9,10,8,7,plain,False,The product is set against a gradient blue background with blurred light streaks suggesting airflow.
+ecommerce118k,5e69120e0de5147129af812693b0040d.jpg,8,wallet,7.75,7,10,8,6,plain,False,"The background is a blurred, white surface with large, partially visible black text."
+bg60k,41878.png,36,household cleaning supplies,8.5,7,10,9,8,lifestyle,False,The product is set against a light grey gradient background with a small stuffed bunny and bear flanking it.
+bg60k,18694.png,36,household cleaning supplies,8.0,6,10,9,7,lifestyle,False,"The background features a dark, space-themed gradient with abstract white line drawings of the product's internal components and a planet."
+bg60k,46712.png,21,sports,6.75,3,10,8,6,lifestyle,True,The busy and distracting background detracts from the product and reduces its visual impact.
+ecommerce118k,a37393f504681f1e9c7f78781ab6b507.jpg,41,couch and cushions,3.0,2,1,6,3,cluttered,True,The image is heavily cluttered with seller text and a distracting outdoor background.
+ecommerce118k,b00ad8358dec2064ac78f8a1f3d69461.jpg,33,disinfectants and sanitizers,5.25,7,2,8,4,lifestyle,False,"The image is heavily overlaid with promotional text and watermarks, significantly reducing its commercial appeal."
+bg60k,26872.png,35,perfume,9.0,8,10,9,9,lifestyle,False,The background is a soft pink gradient with blurred cherry blossom flowers.
+ecommerce118k,1aac65c9f01d53e275a668a3adb21fbc.jpg,20,chair,3.25,2,1,7,3,cluttered,True,"The image is heavily cluttered with distracting text and surrounding product images, significantly reducing its commercial appeal."
+ecommerce118k,d40172595e0f47978d29ebf052edd5c3.jpg,20,chair,6.5,10,1,10,5,plain,False,"The image is significantly detracted by the large, distracting text overlay."
+ecommerce118k,cff51721b56efb86c943034095bcb392.jpg,9,travel,4.5,5,1,8,4,lifestyle,True,"The image is heavily marred by large, distracting text overlays and watermarks."
+ecommerce118k,4d8848a23b48354a14e662a874e7e7c4.jpg,10,phone cover,7.5,6,10,8,6,lifestyle,False,"The product is placed on a dark, wood-grain surface with two partially visible bottles in the background."
+ecommerce118k,ea989e6ca8f00b5375fc8c0ce5d38f53.jpg,18,home and living,8.75,10,10,8,7,plain,False,The background is a plain white gradient.
+ecommerce118k,a98f78a90321355eb3116b350d2990ec.jpg,15,coffee,5.25,8,2,7,4,plain,False,"The image is heavily overlaid with promotional text and watermarks, significantly reducing its commercial appeal."
+ecommerce118k,01e8e2e909061361239b534b204eb374.jpg,31,snacks and sweets,8.75,10,10,9,7,plain,False,The product is set against a plain white background with some abstract light flares.
+bg60k,57182.png,5,rings,8.75,10,10,9,7,plain,False,The product is presented against a completely white background.
+bg60k,4100.png,27,toy cars,6.25,3,10,8,6,cluttered,True,The cluttered and distracting asphalt background detracts from the product's presentation.
+bg60k,30837.png,10,phone cover,9.0,9,10,9,8,plain,False,The product is set against a gradient grey background with a subtle textured pattern resembling concrete or stone.
+bg60k,40390.png,33,disinfectants and sanitizers,8.5,7,10,9,8,lifestyle,False,The dishwasher is shown installed within a modern kitchen cabinet setting with tiled flooring.
+ecommerce118k,215ef15669874125f0ff2750dec1bae0.jpg,35,perfume,8.5,10,10,8,6,plain,False,The product is set against a completely plain white background.
+bg60k,59493.png,37,laptop,6.75,3,10,8,6,lifestyle,True,The busy and distracting background detracts from the product and reduces its visual impact.
+bg60k,30531.png,22,sports and outdoors,7.5,6,10,8,6,lifestyle,False,"The background is a blurred, out-of-focus green foliage, likely trees or bushes."
+bg60k,19863.png,6,earring,7.75,8,10,7,7,lifestyle,False,"The product is presented within a bright red gift box, with a red background extending beyond the box's edges."
+bg60k,15998.png,35,perfume,7.75,6,10,8,7,lifestyle,False,"The product is shown attached to a car dashboard vent, with a black leather interior visible in the background."
+ecommerce118k,cd2b1d9e0807c6d0cd0fa6394d7569f2.jpg,8,wallet,6.25,3,10,8,6,cluttered,True,The busy and repetitive background distracts from the product and reduces its visual impact.
+ecommerce118k,49952f5f0ba2780e6635a982632b5cf0.jpg,21,sports,7.5,8,9,7,6,plain,False,"The product is laid on a slightly textured, off-white surface."
+bg60k,16378.png,41,couch and cushions,8.75,8,10,9,8,lifestyle,False,"The product is set in a styled bedroom scene with neutral walls, bedside tables, and decor."
+bg60k,63102.png,33,disinfectants and sanitizers,5.75,6,3,8,6,lifestyle,False,The image is significantly cluttered with seller-added text and promotional banners.
+bg60k,26758.png,2,clothing and t-shirt,8.5,8,10,9,7,plain,False,The product is set against a gradient background transitioning from a wood-grain texture at the top to a blue grid pattern at the bottom.
+ecommerce118k,ce11ef6243339c01b1d1ccf8812a9574.jpg,22,sports and outdoors,6.25,4,10,7,4,cluttered,True,"The tiled floor background is distracting and unprofessional, reducing purchase confidence."
+bg60k,22131.png,40,bathroom accessories,8.75,8,10,9,8,lifestyle,False,The product is placed on a light pink surface with scattered gold-colored jewelry pieces around it.
+ecommerce118k,3488e630788f8671f8306317ce8e8b28.jpg,33,disinfectants and sanitizers,5.25,7,2,8,4,plain,False,The large text overlays significantly detract from the product's presentation and reduce purchase confidence.
+bg60k,11111.png,10,phone cover,7.75,6,10,8,7,lifestyle,False,The product is placed on a reflective surface with a blurred background featuring a wine bottle and sunflower oil.
+ecommerce118k,f939cd24ed506a71f6e61696889a7836.jpg,8,wallet,7.75,6,10,8,7,lifestyle,False,"The product is placed on a textured, light-coloured wooden surface with a magazine and teacup partially visible in the background."
+ecommerce118k,7adb3ef78b79c83c3b3557690c9a3063.jpg,24,watches,3.5,3,1,7,3,plain,True,The image is heavily cluttered with distracting seller-added text and graphics.
+bg60k,9351.png,23,gloves,8.5,9,10,8,7,plain,False,The product is placed on a white digital kitchen scale against a dark grey gradient background.
+bg60k,3232.png,6,earring,8.5,7,10,9,8,lifestyle,False,The product is placed on a dark wooden surface with a visible wood grain pattern.
+ecommerce118k,62b762bf191ff130dd74b833a06765c1.jpg,17,heels,7.5,6,10,8,6,lifestyle,False,The shoes are presented on a grey tiled floor with a blurred glimpse of legs and a potted plant in the background.
+ecommerce118k,583ff201265fc1b4ac41db3149e57583.jpg,7,cap,5.0,6,2,8,4,plain,False,The excessive text and watermarks significantly detract from the product's presentation and reduce purchase confidence.
+ecommerce118k,ebf74cfeae8795b4b3892c0bb46228de.jpg,13,feeding and nursing,5.25,6,2,8,5,lifestyle,False,"The image is heavily overlaid with promotional text and watermarks, significantly reducing its commercial appeal."
+ecommerce118k,89466faa12fb271190cdaa84fa4d9436.jpg,11,phone,5.0,8,1,7,4,plain,False,"The image is significantly degraded by large, distracting text overlays."
+bg60k,21058.png,10,phone cover,8.25,7,10,9,7,plain,False,The product is set against a light grey gradient background with a potted plant visible in the upper right corner.
+bg60k,21288.png,32,personal protective equipment,8.75,10,10,9,7,plain,False,"The product is set against a plain, gradient grey background that transitions from darker at the top to lighter at the bottom."
+bg60k,20227.png,27,toy cars,7.75,7,10,8,7,lifestyle,False,"The background features a blurred, rocky landscape with a gradient sky transitioning from orange to purple."
+bg60k,4700.png,20,chair,7.75,6,10,8,7,lifestyle,False,The product is set in a room corner with a blurred outdoor view through a window and a light-coloured wooden floor with a patterned rug.
+bg60k,36672.png,15,coffee,8.0,6,10,9,7,lifestyle,False,The product is displayed on a dark grey surface with a partially visible ornate wooden object in the upper left corner.
+bg60k,39923.png,40,bathroom accessories,6.5,9,1,9,7,plain,False,"The image is significantly detracted by the large, distracting text overlaid on the product itself."
+ecommerce118k,9a9de5c65c6d74e122dbbdbb141e126b.jpg,3,women sweaters and hoodies,5.75,6,2,9,6,plain,False,"The image is significantly marred by large, distracting text and watermarks."
+ecommerce118k,de1edb4d730bfdf1870305c2bdec18fa.jpg,26,audio,6.5,10,1,10,5,plain,False,The large watermark significantly detracts from the image's professional appearance.
+bg60k,10776.png,28,jacket,8.75,10,10,8,7,plain,False,"The product is displayed on a plain, light grey background."
+ecommerce118k,aa5f7d432d001c8651760aebaea6d55c.jpg,18,home and living,7.25,5,10,8,6,lifestyle,False,The background features a gradient of blue sky transitioning to a desert landscape with sand dunes.
+bg60k,54297.png,21,sports,5.75,7,1,9,6,plain,False,"The image is significantly detracted by the large, distracting text overlaid on the product."
+bg60k,8260.png,11,phone,7.5,8,5,9,8,lifestyle,False,The product is displayed against a stylized backdrop of a rocky landscape with a large moon and a gradient purple and blue sky.
+ecommerce118k,85f7ada6f521fdb53ba0df86e339b947.jpg,16,shoes,5.75,10,1,8,4,plain,False,"The large, distracting watermarks significantly reduce purchase confidence."
+bg60k,42874.png,2,clothing and t-shirt,8.75,10,10,9,7,plain,False,"The product is displayed against a solid, light grey background."
+bg60k,17786.png,39,home decor,6.0,2,10,7,5,cluttered,True,The cluttered refrigerator background distracts from the product and reduces its visual impact.
+bg60k,41003.png,10,phone cover,9.0,9,10,9,8,plain,False,The product is displayed against a dark grey gradient background with simulated water droplets.
+bg60k,3111.png,27,toy cars,7.5,6,10,8,6,lifestyle,False,The product is sitting on a surface of light brown sand.
+bg60k,23168.png,10,phone cover,8.5,8,10,9,7,plain,False,"The background is a gradient of teal and blue with subtle lines, resembling a metallic or textured surface."
+bg60k,59267.png,25,belt,9.25,10,10,9,8,plain,False,"The background is a gradient of dark grey to black, with a subtle vignette effect."
+bg60k,6515.png,5,rings,8.75,9,10,9,7,plain,False,"The product is displayed on a dark grey, slightly textured surface."
+bg60k,25640.png,5,rings,9.0,9,10,9,8,plain,False,"The background is a soft, blurred gradient of beige and peach tones, creating a warm and diffused effect."
+ecommerce118k,97fdd8133d0269c4f26b1f4fac8d82c4.jpg,17,heels,6.5,6,5,8,7,lifestyle,False,The product is placed on a white marble-like surface surrounded by books and magazines.
+bg60k,41744.png,14,rice cooker,6.75,4,10,7,6,lifestyle,True,The cluttered lifestyle background distracts from the hot pot and makes it difficult to focus on the product itself.
+bg60k,29485.png,40,bathroom accessories,8.75,10,10,9,7,plain,False,"The product is set against a solid, muted blue background."
+bg60k,7423.png,5,rings,8.5,8,10,9,7,plain,False,"The product is displayed on a soft pink surface with scattered, blurred diamond-like shapes."
+bg60k,9200.png,25,belt,8.25,6,10,9,8,lifestyle,False,The background features a red textured surface with blurred gift boxes and shopping bags bearing the brand logo.
+ecommerce118k,e0793c2c9a3ec14e3f973e79651ce698.jpg,5,rings,8.75,10,10,9,6,plain,False,The product is set against a plain white background with a soft shadow underneath.
+bg60k,16156.png,42,laptop,8.5,8,10,9,7,lifestyle,False,The product is placed on a light wood-grain surface against a solid teal background with a blurred green plant visible on the right.
+bg60k,29998.png,5,rings,8.5,9,10,8,7,plain,False,"The product is set against a very light, slightly off-white background."
+ecommerce118k,a22a4ab5be68e7ef645f18003f31b555.jpg,9,travel,8.5,9,10,8,7,plain,False,"The background is a plain, slightly off-white wall."
+bg60k,20081.png,33,disinfectants and sanitizers,7.5,6,10,8,6,lifestyle,False,The product is placed on a wooden surface with scattered coffee beans and a blurred green plant in the background.
+ecommerce118k,d2aafa3229f92a0bea0ce1f30b94b469.jpg,19,data storage,6.5,10,1,10,5,plain,False,"The large, distracting text overlay significantly reduces the image's commercial appeal."
+bg60k,42512.png,3,women sweaters and hoodies,8.75,10,10,9,7,plain,False,"The product is set against a very light grey, almost white, seamless background."
+bg60k,38586.png,22,sports and outdoors,8.75,9,10,9,7,plain,False,The product is set against a dark grey gradient background.
+bg60k,21495.png,40,bathroom accessories,8.25,7,10,9,7,lifestyle,False,"The product is set against a teal wall and a blurred view of greenery through a window, with a light grey tiled floor."
+ecommerce118k,42fd2a11546c293d579a1ae6d2baaf3e.jpg,24,watches,6.0,10,1,9,4,plain,False,"The image is heavily cluttered with seller-added text and watermarks, significantly reducing its commercial appeal."
+bg60k,43896.png,25,belt,8.75,9,10,9,7,plain,False,"The product is set against a vertically ribbed, light grey background."
+bg60k,40086.png,14,rice cooker,6.5,10,1,9,6,plain,False,"The image is significantly marred by multiple text overlays in a foreign language, reducing purchase confidence."
+ecommerce118k,9144d4b43361811cb31149e5494b40eb.jpg,3,women sweaters and hoodies,2.75,1,1,6,3,cluttered,True,"The background is severely cluttered with irrelevant checkout information, significantly detracting from the product."
+ecommerce118k,662a17939aa1f84796ff8c459e8f9585.jpg,14,rice cooker,8.75,10,10,9,7,plain,False,The product is set against a completely white background.
+bg60k,12491.png,38,food storage and tableware,7.25,6,10,8,5,lifestyle,False,The product is placed on a wooden deck with visible deck boards and a railing in the background.
+bg60k,48431.png,3,women sweaters and hoodies,9.0,9,10,9,8,plain,False,"The background is a blurred, neutral grey gradient."
+ecommerce118k,27a13ce54122ea5baec04fc3ec6cabb7.jpg,15,coffee,6.25,9,3,8,5,plain,False,"The image is significantly degraded by the large watermarks and low resolution, reducing purchase confidence."
+bg60k,4557.png,39,home decor,5.5,7,1,8,6,lifestyle,False,The prominent text on the books in the foreground significantly detracts from the product's presentation.
+bg60k,51144.png,18,home and living,7.75,6,10,8,7,lifestyle,False,The pens are arranged on top of lined notebook paper with a yellow sticky note partially visible at the bottom.
+ecommerce118k,c511e2218d88171c008d2465d26230a4.jpg,24,watches,6.25,7,3,9,6,plain,False,The prominent watermark significantly detracts from the image's professional appearance.
+bg60k,904.png,34,makeup,6.0,8,1,9,6,plain,False,"The image is heavily overlaid with text and branding, reducing its commercial appeal."
+bg60k,9730.png,17,heels,7.75,6,10,8,7,lifestyle,False,The product is placed on a dark wood-grain surface with other tea-related items partially visible around it.
+ecommerce118k,0e658d4e96e0db3bda27531735da2087.jpg,41,couch and cushions,3.5,3,1,7,3,cluttered,True,"The image is heavily cluttered with promotional text and graphics, significantly reducing its commercial appeal."
+ecommerce118k,a9cbab9c1be3bfc089e3c1a8da328305.jpg,38,food storage and tableware,6.25,3,10,8,5,cluttered,True,The busy and distracting background detracts from the product and lowers the overall commercial appeal.
+bg60k,61429.png,31,snacks and sweets,8.5,8,10,9,7,plain,False,"The product is placed on a textured brown surface resembling parchment paper, with scattered sesame seeds around it."
+bg60k,55789.png,39,home decor,7.75,6,10,8,7,lifestyle,False,The product is placed on a wooden floor in a living room setting with a couch and plant visible in the background.
+ecommerce118k,9fcb8af900fce169e53086e8be52f530.jpg,27,toy cars,5.75,6,2,9,6,plain,True,The image is significantly marred by seller-added text and watermarks.
+bg60k,1906.png,6,earring,8.0,6,10,9,7,lifestyle,False,The product is set against a pale peach-coloured wall with decorative flower stickers and glimpses of furniture in the periphery.
+ecommerce118k,4b4238876097b835013afb0861cbfe11.jpg,24,watches,6.0,8,1,9,6,plain,False,"The image is significantly degraded by the large 'PLATINUM' text overlay, reducing purchase confidence."
+bg60k,42822.png,26,audio,8.5,7,10,9,8,lifestyle,False,"The background features abstract, swirling lines and shapes in shades of orange and black, creating a dynamic and futuristic effect."
+bg60k,22307.png,9,travel,7.75,7,10,8,7,lifestyle,False,"The products are set on a light-coloured wooden floor with a blurred, neutral-toned wall in the background."
+bg60k,10162.png,6,earring,6.25,3,10,7,5,cluttered,True,The cluttered background distracts from the product and reduces its visual impact.
+ecommerce118k,226c04992da9ed5d7066d84450fcfce9.jpg,17,heels,8.25,9,10,8,6,plain,False,"The background is a plain, off-white surface with a slight gradient."
+ecommerce118k,72952ad56ef0722d299a478e5f57969a.jpg,12,clock,4.25,2,10,7,4,cluttered,True,The cluttered and distracting background significantly reduces the product's appeal and makes it difficult to focus on the clock.
+bg60k,46026.png,17,heels,8.0,6,10,9,7,lifestyle,False,"The product is displayed against a dark, ornate wooden stand with a lattice design."
+bg60k,19982.png,37,laptop,8.5,7,10,9,8,lifestyle,False,"The background appears to be a blurred, dark, and textured surface with red and black lighting effects, suggesting a computer case interior."
+ecommerce118k,1921fb09c8881cfa5804bb1fff813d43.jpg,23,gloves,7.75,6,10,9,6,plain,False,"The product is placed against a textured, mottled grey and white background resembling concrete or stone."
+ecommerce118k,b4fd68f11f0209b2c6197e05b6bcec7c.jpg,41,couch and cushions,3.25,2,1,6,3,cluttered,True,"The image is heavily cluttered with text and product details, making it visually unappealing and distracting from the chairs."
+ecommerce118k,0330d9f282eb167a8c40732398f338cb.jpg,27,toy cars,6.25,7,3,9,6,plain,False,The image is significantly detracted by the large watermark and text on the packaging.
+ecommerce118k,43f60a12596deb4c6d89ec65d4ffdf7a.jpg,22,sports and outdoors,5.75,10,1,8,4,plain,False,"The image is heavily cluttered with seller-added text and feature callouts, significantly reducing its commercial appeal."
+ecommerce118k,d20644f17f5176a5d3be8ce8e7f7f83a.jpg,30,sneakers,4.0,3,2,7,4,cluttered,True,The cluttered background and prominent text overlays significantly detract from the product's presentation.
+bg60k,7737.png,37,laptop,8.25,7,10,9,7,plain,False,The product is set against a gradient pastel background of light green and yellow with blurred floral shapes.
+bg60k,58199.png,35,perfume,7.5,6,9,8,7,lifestyle,False,"The product is shown mounted inside a car, with a blurred dashboard and windshield visible behind it."
+bg60k,7623.png,22,sports and outdoors,8.5,8,10,9,7,plain,False,The product is set against a dark background with radiating blue light streaks.
+ecommerce118k,e3244663a7af05483515787de3e4dfed.jpg,40,bathroom accessories,6.5,10,1,10,5,plain,False,The background is a plain white surface with technical drawings and measurements surrounding the showerhead.
+ecommerce118k,850df6da1aa6be201a66b3fd0ae39d92.jpg,19,data storage,5.5,7,2,9,4,plain,False,"The image is significantly degraded by large, distracting watermarks and appears unprofessional."
+ecommerce118k,427c74bfb8acb2b351c2b9fc6162d989.jpg,38,food storage and tableware,2.25,1,1,5,2,cluttered,True,The cluttered background and excessive text completely overwhelm the product and make it unappealing.
+bg60k,23640.png,42,laptop,7.75,6,10,8,7,lifestyle,False,The product is set against a solid light blue background with some decorative foliage and small props like a picture frame and toy car.
+ecommerce118k,b932357286035a4dda2d0be9c1943d75.jpg,18,home and living,4.25,2,10,7,3,cluttered,True,The cluttered background of cardboard boxes significantly detracts from the product and reduces purchase confidence.
+ecommerce118k,8b431145ac4ac00c046773e88e07a7b2.jpg,10,phone cover,5.5,7,2,8,5,plain,False,"The large, distracting watermark significantly reduces the image's professional quality."
+ecommerce118k,1987c4b589da61620d385e9818d08f2c.jpg,16,shoes,5.25,6,2,8,5,lifestyle,True,The large text overlay significantly detracts from the image's professional appearance.
+ecommerce118k,8b51e8600b3137332ef88b48ceac8cbc.jpg,36,household cleaning supplies,8.25,10,10,8,5,plain,False,The product is displayed on a plain white background.
+ecommerce118k,1f2ebda36941990afcb7542b95132a29.jpg,8,wallet,7.5,6,10,8,6,plain,False,"The background is a blurry, off-white surface with a partial view of a white object, likely a cup or dish."
+bg60k,20324.png,16,shoes,8.5,8,10,9,7,plain,False,"The product is set against a gradient grey background with a blurred, indistinct brown surface below."
+bg60k,45033.png,15,coffee,7.5,6,10,8,6,lifestyle,False,"The product is placed on a light-coloured marble or tile surface, with a blurred background showing what appears to be a bathroom setting."
+ecommerce118k,18ff604bb729126be0313859843c774b.jpg,41,couch and cushions,6.75,10,3,8,6,plain,False,"The background is a solid, light blue colour."
+bg60k,46853.png,16,shoes,8.5,9,10,8,7,plain,False,The product is set against a gradient grey background that transitions from dark to light.
+ecommerce118k,d33240b4cc1d6f46ba7e75655be30270.jpg,30,sneakers,8.25,9,10,8,6,plain,False,"The background is a plain, slightly off-white surface with some subtle shadows."
+bg60k,47147.png,26,audio,7.75,7,10,8,7,lifestyle,False,The product is placed on a white shelf in front of a blurred window view.
+bg60k,30029.png,25,belt,7.5,6,10,8,6,lifestyle,False,The product is placed on a dark blue surface surrounded by red and yellow crinkled paper.
+bg60k,11663.png,34,makeup,7.75,6,10,8,7,lifestyle,False,"The product is placed on a textured white surface with blurred, out-of-focus decorative elements and flowers in the background."
+bg60k,33027.png,6,earring,8.25,9,10,8,6,plain,False,"The product is set against a dark, textured black background resembling fabric."
+ecommerce118k,3672f0ff107d4a0adc4372dc36b55972.jpg,17,heels,4.25,4,2,8,3,plain,True,The image is severely marred by distracting and unprofessional watermarks.
+bg60k,28796.png,27,toy cars,8.5,9,8,9,8,plain,False,The products are displayed on a solid light green background with a textured white fabric draped in the upper left corner.
+bg60k,11938.png,24,watches,7.0,10,1,10,7,plain,False,The product is set against a gradient grey background that fades from light to dark.
+bg60k,27232.png,27,toy cars,8.25,8,10,7,8,lifestyle,False,The products are arranged on a series of pastel-colored cylindrical platforms against a gradient background of peach and light pink.
+bg60k,33907.png,20,chair,6.25,4,10,6,5,lifestyle,True,"The background is distracting and detracts from the product, making it difficult to focus on the item being sold."
+bg60k,7116.png,39,home decor,8.75,10,10,9,7,plain,False,"The background is a gradient of white to light grey, appearing clean and seamless."
+bg60k,39328.png,28,jacket,8.5,9,10,8,7,plain,False,"The product is set against a blurred, neutral grey background."
+bg60k,31231.png,22,sports and outdoors,9.0,9,10,9,8,plain,False,"The background is a gradient from dark grey to black, creating a shadowed effect."
+bg60k,37617.png,4,women jeans,9.25,10,10,9,8,plain,False,"The product is set against a very light grey, almost white, seamless background."
+bg60k,52579.png,13,feeding and nursing,9.25,10,10,9,8,plain,False,The product is set against a gradient blue background with a white cylindrical pedestal.
+ecommerce118k,d3f40ee04005bebabb1f8206d9956884.jpg,10,phone cover,3.5,2,3,6,3,cluttered,True,The cluttered background with phone status bars and text significantly detracts from the product and appears unprofessional.
+ecommerce118k,3ff988c21560de19ef262c9103e1ed81.jpg,21,sports,5.5,3,8,7,4,cluttered,True,The cluttered and distracting background significantly reduces the image's commercial appeal and purchase confidence.
+bg60k,33650.png,18,home and living,8.5,8,10,9,7,plain,False,"The product is displayed on a clear acrylic stand against a blurred, neutral grey background."
+ecommerce118k,3481a2027bf4d615bc129e2d45b56272.jpg,27,toy cars,5.75,3,10,7,4,cluttered,True,The cluttered background of Hot Wheels packaging distracts from the featured Corvette model and reduces its visual impact.
+ecommerce118k,b672360b078675df451d07299f69d8d2.jpg,32,personal protective equipment,4.25,4,2,7,4,lifestyle,True,The image contains significant seller-added text and a distracting background.
+ecommerce118k,ea34388220d85463a73e78fb69b2b213.jpg,31,snacks and sweets,7.75,6,10,8,7,lifestyle,False,The background appears to be a kitchen countertop with stainless steel appliances and blurred details.
+ecommerce118k,2bfa5a09ad160e2d3d8b15fc0c64bfbe.jpg,8,wallet,7.75,7,10,8,6,plain,False,The background is a plain white surface with blurred images of models and floral arrangements.
+ecommerce118k,c1643c34019d6a3684b05eab54af5d8c.jpg,37,laptop,5.5,2,10,7,3,cluttered,True,The cluttered background distracts from the product and reduces purchase confidence.
+ecommerce118k,f368f23c2304cf7b4b8e777a6350f4c8.jpg,22,sports and outdoors,4.0,3,2,7,4,cluttered,True,The cluttered background and large watermark significantly detract from the product and reduce purchase confidence.
+bg60k,43626.png,5,rings,8.75,8,10,9,8,lifestyle,False,"The background consists of a soft, textured white surface with blurred floral elements."
+ecommerce118k,5f7ee708a5d23c8eb1250042e3c4e65d.jpg,7,cap,3.0,2,1,7,2,cluttered,True,"The image is overwhelmed with distracting text and logos, severely reducing its commercial appeal."
+ecommerce118k,a1ed1ab5c574afa3a3f52194a375013c.jpg,39,home decor,6.0,9,1,8,6,plain,False,"The large, distracting text overlay significantly reduces the image's commercial appeal."
+ecommerce118k,82aef2e3c4f66ffcae514a9846dac507.jpg,23,gloves,3.25,2,1,7,3,cluttered,True,"The image is severely hampered by a large, distracting watermark and promotional text."
+ecommerce118k,ce81da40e484d696b714f79c515d5f35.jpg,21,sports,5.0,7,1,8,4,plain,False,The large price tag and promotional text overlaid on the product significantly reduce purchase confidence.
+bg60k,19679.png,38,food storage and tableware,8.5,7,10,9,8,lifestyle,False,"The background features a stylized kitchen scene with dark cabinetry and a blurred, atmospheric landscape backdrop."
+bg60k,47101.png,22,sports and outdoors,9.0,9,10,9,8,plain,False,"The background is a gradient from dark grey to black, creating a shadowed effect."
+bg60k,45190.png,6,earring,8.5,9,10,8,7,plain,False,"The background is a gradient of light grey tones, transitioning from brighter at the top to darker at the bottom."
+ecommerce118k,a867a7c39fde39b85f4fd174362aaef2.jpg,2,clothing and t-shirt,5.75,3,8,7,5,cluttered,True,The cluttered background distracts from the clothing and reduces the image's commercial appeal.
+ecommerce118k,5684a5592de75257329eb44657e74bcb.jpg,11,phone,7.5,6,10,8,6,lifestyle,False,"The product is placed on a wooden surface with a blurred, textured wall in the background."
+ecommerce118k,03e585091dc8ef9820c6940f5ea2e09e.jpg,32,personal protective equipment,5.5,3,8,7,4,cluttered,True,The distracting and busy background detracts from the product and lowers purchase confidence.
+bg60k,57762.png,24,watches,9.0,9,10,9,8,plain,False,"The watch is presented on a light grey, slightly textured surface, with a blurred, darker grey background."
+bg60k,58169.png,38,food storage and tableware,7.75,7,10,8,7,lifestyle,False,The product is presented on a white cloth napkin atop a light brown wooden surface.
+bg60k,8435.png,6,earring,9.0,9,10,9,8,plain,False,The product is set against a gradient grey background with subtle light flares.
+bg60k,5863.png,31,snacks and sweets,7.25,6,8,8,7,lifestyle,False,"The product is set on a textured burlap surface with scattered coffee beans and cookies, and a decorative tin in the background."
+ecommerce118k,f49ef52a32750ea9878258a0002ce9a4.jpg,19,data storage,8.25,8,10,9,6,plain,False,"The product is set against a plain white wall and a light-coloured wooden floor, with a blurred window and some flowers in a vase visible on the left."
+ecommerce118k,3fcaf2cfd24e9038bbcc079209f5b4ad.jpg,40,bathroom accessories,6.5,10,1,9,6,plain,False,The large watermark significantly detracts from the image's professional appearance.
+bg60k,1965.png,35,perfume,8.5,7,10,9,8,lifestyle,False,"The product is presented inside an open gift box on a light beige surface, with blurred floral elements and a glimpse of packaging visible in the lower corners."
+bg60k,28543.png,27,toy cars,8.75,8,10,9,8,lifestyle,False,The product is set against a soft pastel purple background with blurred shapes resembling ice cream cones and other sweets.
+bg60k,39815.png,35,perfume,7.75,6,10,8,7,lifestyle,False,"The product is placed on a black tray with a blurred, dark interior car dashboard visible in the background."
+bg60k,1374.png,3,women sweaters and hoodies,8.5,7,10,9,8,lifestyle,False,The product is placed on a textured wooden surface with draped fabric in the background.
+ecommerce118k,be7151365fb2d932bfa7a0d2bbd92412.jpg,3,women sweaters and hoodies,5.0,5,1,8,6,lifestyle,True,"The large, distracting watermarks significantly reduce the image's professional quality and purchase appeal."
+bg60k,15186.png,37,laptop,8.5,9,10,8,7,plain,False,The product is placed on a pale pink surface with subtle gradient shading.
+bg60k,12153.png,23,gloves,5.75,7,1,9,6,plain,False,"The image is significantly degraded by large, intrusive text overlays."
+bg60k,54687.png,32,personal protective equipment,7.5,4,10,9,7,cluttered,True,The textured background distracts from the product and doesn't enhance its presentation.
+ecommerce118k,dfc084d9d69ab93f6546f916985cdbf0.jpg,18,home and living,4.75,10,1,5,3,plain,False,"The image is heavily overlaid with promotional text and product details, significantly reducing its commercial appeal."
+bg60k,35608.png,31,snacks and sweets,8.5,8,10,9,7,lifestyle,False,"The product is presented on a decorative plate against a textured, light beige surface."
+bg60k,1795.png,42,laptop,8.25,7,10,9,7,lifestyle,False,"The product is set against a digitally created backdrop of icy mountains, water, and icebergs, suggesting a cold environment."
+ecommerce118k,a754d3027e1a71124f8dcef5c63696a8.jpg,20,chair,6.25,8,2,9,6,plain,False,The large text overlay significantly detracts from the image's professional appearance.
+ecommerce118k,e2c22faf47e3c05725be8877c7f818a8.jpg,0,women dresses,5.75,6,2,8,7,lifestyle,True,"The large, intrusive watermark significantly detracts from the image's professional appearance and purchase appeal."
+ecommerce118k,4e689c6649286bcc8062bf580bfe5b63.jpg,40,bathroom accessories,6.75,4,10,8,6,lifestyle,True,The cluttered bathroom background distracts from the shower curtain and doesn't highlight the product effectively.
+ecommerce118k,c43e99128328b11704291f1d481bb0f6.jpg,6,earring,5.75,10,1,8,4,plain,False,The image is significantly degraded by excessive seller-added text and watermarks.
+ecommerce118k,ecaba028f0ee244cd11c9980e3467538.jpg,21,sports,4.25,2,10,6,3,cluttered,True,The cluttered retail background distracts from the product and reduces purchase confidence.
+ecommerce118k,99340452c55e559958a28a52bc13af9c.jpg,35,perfume,9.25,10,10,9,9,plain,False,"The product is set against a seamless, bright white background."
+bg60k,32671.png,18,home and living,8.75,10,10,9,7,plain,False,"The product is placed on a seamless white surface with a subtle reflection underneath, creating a clean and minimalist backdrop."
+bg60k,35808.png,31,snacks and sweets,9.0,9,10,9,8,plain,False,The background is a gradient of beige and gold with bokeh-style sparkles.
+bg60k,14957.png,25,belt,8.5,9,10,8,7,plain,False,"The product is set against a gradient beige background with a white, stepped platform beneath it."
+ecommerce118k,c2197844108d768758fa9f18194e9809.jpg,38,food storage and tableware,5.75,4,8,6,5,lifestyle,True,The cluttered lifestyle background distracts from the product and appears unprofessional.
+bg60k,58464.png,43,food,7.75,6,10,8,7,lifestyle,False,"The background is a blurred, out-of-focus continuation of the same food items as on the spoon, creating a slightly busy but consistent backdrop."
+bg60k,185.png,7,cap,7.75,6,10,8,7,lifestyle,False,The product is presented on a woven mat with scattered spices like star anise and dried red chillies surrounding it.
+bg60k,39162.png,17,heels,7.75,7,10,8,7,lifestyle,False,"The product is set in a modern living room scene with a chair, side table, and textured wall behind it."
+bg60k,29983.png,22,sports and outdoors,8.5,7,10,9,8,lifestyle,False,"The background features a blurred, abstract architectural scene with a reflective floor, creating a sense of a showroom or studio environment."
+bg60k,3512.png,9,travel,9.0,9,10,9,8,plain,False,The product is set against a gradient teal and white background with a subtle light streak effect.
+ecommerce118k,439ae1d0c3a2195ed69f136766931db1.jpg,5,rings,8.5,8,10,9,7,plain,False,"The product is displayed on a clear acrylic stand and a hand, against a dark grey background."
+ecommerce118k,489893d6d9417df508b71b23b57e5347.jpg,9,travel,6.75,4,10,7,6,lifestyle,True,The cluttered and distracting background detracts from the product and reduces its visual impact.
+ecommerce118k,3dc9fe3d89ebe658cc8553930d3f6944.jpg,15,coffee,6.75,4,10,7,6,lifestyle,True,"The cluttered background distracts from the product and doesn't provide a clean, focused view."
+bg60k,47126.png,32,personal protective equipment,8.0,6,10,9,7,lifestyle,False,The product is shown in a studio setting with other lighting equipment and a person partially visible in the background.
+bg60k,32202.png,20,chair,6.75,3,10,8,6,cluttered,True,The cluttered office background distracts from the product and doesn't enhance its appeal.
+bg60k,52240.png,37,laptop,8.5,8,10,9,7,plain,False,The product is placed on a solid pale yellow surface with a few office supplies scattered around.
+bg60k,26771.png,11,phone,7.75,7,8,9,7,lifestyle,False,The product is placed on a dark surface with a blurred background featuring green leaves and a white textured wall.
+bg60k,35654.png,41,couch and cushions,7.75,6,10,8,7,lifestyle,False,"The product is set against a blurred indoor background featuring a desk, chair, and glimpses of other furniture and a magazine."
+ecommerce118k,a9b3d6d0ee63585e2dc0c6cd708ee0ed.jpg,33,disinfectants and sanitizers,8.25,8,10,9,6,plain,False,"The products are lined up on a reflective, light-coloured surface with a plain, light blue wall behind them."
+ecommerce118k,81cd1ed942b1fbf598cca24a837808fe.jpg,17,heels,5.5,6,2,8,6,lifestyle,True,"The large, distracting watermark significantly reduces purchase confidence."
+ecommerce118k,ba52f7a23f026c872b5704cbfb59c91b.jpg,10,phone cover,7.75,7,10,8,6,lifestyle,False,"The product is placed on a textured, light-brown wooden surface."
+bg60k,24511.png,43,food,8.5,7,10,9,8,lifestyle,False,"The product is displayed on a black metal cooling rack, with a blurred pastry visible in the background."
+bg60k,34605.png,26,audio,9.0,9,10,9,8,plain,False,The product is set against a dark grey textured background resembling fabric or a stylized surface.
+ecommerce118k,9b9c17aef2b707c7d9660302f13370c5.jpg,25,belt,7.75,6,10,9,6,lifestyle,False,"The product is placed on a textured wooden surface, appearing to be a tabletop or similar."
+ecommerce118k,01b95104c2fb21777834516ae3764e75.jpg,40,bathroom accessories,4.75,6,2,8,3,plain,False,"The image is significantly hampered by large, distracting text overlays and poor lighting."
+ecommerce118k,a6f3672cf499b9b3b6b0c43e868320e1.jpg,25,belt,8.5,9,10,8,7,plain,False,"The product is displayed on a slightly textured, off-white surface that appears to be fabric."
+ecommerce118k,27c62654670f60080432c512977f4aa8.jpg,34,makeup,5.75,9,2,8,4,plain,False,"The large, distracting text overlay significantly reduces the image's professional appeal and purchase confidence."
+bg60k,22674.png,40,bathroom accessories,8.0,6,10,9,7,lifestyle,False,"The product is set against a blurred, warm-toned background with hints of wood panelling and a partially visible glass of water with lemon."
+ecommerce118k,ceba973c0c6503a97ef7fac6d2ae15f2.jpg,3,women sweaters and hoodies,7.75,7,10,8,6,plain,False,"The background is a blurry, indistinct purple surface."
+ecommerce118k,66ed0eb60a69a2eead824d22feda075b.jpg,7,cap,8.5,9,10,8,7,plain,False,"The background is a gradient from light grey to white, appearing mostly plain."
+bg60k,20842.png,19,data storage,9.0,9,10,9,8,plain,False,"The product is set against a dark, gradient background with subtle light reflections resembling a metallic or textured surface."
+ecommerce118k,f2eb897596018ccfa9063959895bb6b3.jpg,39,home decor,8.75,10,10,9,7,plain,False,"The product is placed on a plain, light grey surface."
+bg60k,42332.png,4,women jeans,8.25,9,10,8,6,plain,False,"The product is hanging against a plain, off-white wall with a visible hanging rod."
+bg60k,54739.png,16,shoes,8.5,9,10,8,7,plain,False,The product is displayed against a gradient blue and white background with a white cubic prop.
+bg60k,45038.png,31,snacks and sweets,7.25,8,5,9,7,plain,false,The product is displayed against a bright orange gradient background with scattered biscuit shapes.
+ecommerce118k,cfe9be4c0ce1091f4643b04f90e3dfc7.jpg,29,men fashion,7.25,7,10,8,4,plain,False,"The product is displayed against a plain, off-white wall with a brown strip at the bottom."
+bg60k,23879.png,27,toy cars,7.75,6,10,8,7,lifestyle,False,"The product is placed on a wooden table in what appears to be a cafe or home office setting, with blurred bookshelves and other objects in the background."
+bg60k,6640.png,25,belt,8.25,7,10,9,7,plain,False,"The background is a light blue gradient with faint, abstract white shapes resembling cartoon characters."
+ecommerce118k,f0933d5fc2228aa31e21b782bbb3f65c.jpg,28,jacket,3.5,3,1,7,3,cluttered,True,"The large, distracting text overlay and cluttered background significantly reduce purchase confidence."
+bg60k,11501.png,16,shoes,5.75,7,1,9,6,plain,False,"The large, distracting text overlays significantly reduce the image's commercial appeal."
+bg60k,49442.png,28,jacket,6.75,4,8,9,6,cluttered,True,The cluttered background distracts from the product and reduces its visual impact.
+ecommerce118k,9c3b4cf079b92cc5a6d945087f9a02c1.jpg,20,chair,7.75,7,10,8,6,plain,False,"The background is a blurred, mottled mix of green and brown, resembling camouflage fabric."
+ecommerce118k,475bd431ad11fe2cc0055f440da315b2.jpg,41,couch and cushions,5.75,2,10,7,3,cluttered,True,The cluttered and distracting outdoor background significantly detracts from the product and reduces purchase confidence.
+bg60k,26565.png,13,feeding and nursing,9.0,9,10,9,8,plain,False,The product is set against a pastel-colored background featuring abstract geometric shapes and gradients.
+bg60k,736.png,9,travel,9.25,10,10,9,8,plain,False,"The product is set against a seamless, light grey gradient background."
+ecommerce118k,54a4e1abd45b893b7fbcf93362522ce1.jpg,33,disinfectants and sanitizers,4.75,3,5,7,4,cluttered,True,The cluttered background and low commercial appeal significantly detract from the product's presentation.
+ecommerce118k,04dd768a6cafd2d8968d5d489606d15d.jpg,37,laptop,8.25,9,10,8,6,plain,False,The background is a gradient from white to light grey.
+bg60k,22077.png,43,food,7.5,6,10,8,6,lifestyle,False,"The product is displayed on a textured, light-yellow surface with some blurred objects in the background, including a teapot and teacup."
+ecommerce118k,30dc3db9dcb415018c07baa41861f2d2.jpg,28,jacket,5.5,6,1,9,6,plain,False,"The large, distracting text overlay significantly reduces purchase confidence."
+bg60k,33742.png,28,jacket,8.75,10,10,9,7,plain,False,"The product is displayed against a seamless, bright white background."
+ecommerce118k,7d22a53c381c4e4f68dd586ba79d90d3.jpg,25,belt,6.0,9,2,8,5,plain,False,"The large, distracting watermarks and product labels significantly reduce the image's commercial appeal."
+bg60k,40519.png,5,rings,8.5,8,10,9,7,plain,False,"The product is set against a textured, teal-green surface that appears to be fabric or a similar material."
+ecommerce118k,110df065aa6c4c22fb8f66b502b695e2.jpg,3,women sweaters and hoodies,4.75,4,2,7,6,lifestyle,True,"The image contains large, distracting watermarks and a cluttered background that detracts from the product."
+bg60k,55938.png,31,snacks and sweets,7.75,7,10,8,6,lifestyle,False,The product is placed on a white plastic strainer with a hole pattern.
+ecommerce118k,001423ae3c98cbe0bb51522748381c84.jpg,7,cap,3.75,3,1,7,4,cluttered,True,"The image is heavily cluttered with irrelevant text and descriptions, significantly detracting from the product."
+bg60k,43952.png,21,sports,8.5,7,10,9,8,lifestyle,False,"The product is set against a stylized, futuristic room with a city skyline visible through a window and neon lighting."
+bg60k,1841.png,13,feeding and nursing,8.5,8,10,9,7,lifestyle,False,The product is placed on a light peach surface with a few scattered rose petals and green leaves.
+bg60k,35120.png,4,women jeans,8.75,10,10,9,7,plain,False,"The background is a seamless, light grey colour."
+ecommerce118k,52e47b8ff810e91f0793f0ecc2829570.jpg,7,cap,4.5,4,2,8,4,cluttered,True,The large watermark and cluttered background significantly detract from the product and reduce purchase confidence.
+bg60k,33801.png,36,household cleaning supplies,5.25,6,1,8,6,lifestyle,True,The image contains significant seller-added text overlays that detract from the product.
+bg60k,5196.png,12,clock,8.0,6,10,9,7,lifestyle,False,The background features a textured grey wall flanked by wooden paneling on the left and a partial view of a room with a mirror and sculpture on the right.
+bg60k,36300.png,23,gloves,7.75,7,10,9,6,lifestyle,False,The product is displayed on a light brown wood-grain surface.
+bg60k,22596.png,35,perfume,9.0,9,10,9,8,plain,False,"The background is a blurred, shimmering red and gold gradient, resembling a metallic or iridescent surface."
+bg60k,62795.png,25,belt,7.75,6,10,8,7,lifestyle,False,"The product is displayed on a textured red background shaped like a heart, resembling woven fabric."
+bg60k,56240.png,21,sports,7.5,6,8,9,7,lifestyle,False,The treadmill is placed in front of a blurred cityscape visible through large windows.
+ecommerce118k,7b1a7eb7e0963d847d9e714eb12c0de6.jpg,19,data storage,3.25,2,1,7,3,cluttered,True,The image is heavily cluttered with promotional text and banners that significantly detract from the product.
+bg60k,45920.png,7,cap,8.5,8,10,9,7,plain,False,"The product is set against a blurred, neutral brown background resembling a wooden surface."
+ecommerce118k,f5ab24bf72b651e0768937646f5f3ffd.jpg,31,snacks and sweets,8.5,8,10,9,7,plain,False,"The background is a gradient of light blue to white, resembling a slightly blurred, indistinct surface."
+ecommerce118k,ae84cc64fbbd2affb3bbcceda5250b79.jpg,9,travel,7.75,7,10,8,6,plain,False,"The product is placed on a light grey surface with some blurred accessories like a sponge, a cup, and a fluffy ball visible in the background."
+bg60k,10220.png,10,phone cover,8.5,9,10,8,7,plain,False,The product is set against a gradient blue background with abstract light streaks and bokeh effects.
+bg60k,46368.png,41,couch and cushions,8.5,8,10,9,7,lifestyle,False,"The product is set against a softly textured, light grey gradient background with blurred bedroom elements visible in the distance."
+bg60k,20695.png,9,travel,8.5,9,10,8,7,plain,False,"The background is a gradient of pink and brown, with each suitcase positioned against a corresponding shade."
+ecommerce118k,51fba54fe1e5fd026e321bd387242ff6.jpg,32,personal protective equipment,5.0,6,2,8,4,plain,False,"The image is heavily cluttered with promotional text and graphics, significantly reducing its commercial appeal."
+bg60k,56682.png,42,laptop,9.0,9,10,9,8,plain,False,"The background features a blurred, abstract cityscape with a gradient from light grey to white, and the product is placed on a white cube."
+ecommerce118k,a7c26f37add320ad01607fa34787acd5.jpg,39,home decor,7.75,7,10,8,7,lifestyle,False,"The product is placed on a white table in front of a grey sofa with pillows, creating a lifestyle setting."
+ecommerce118k,d45d0ba6792d8c35176ebbb3732ab7db.jpg,12,clock,8.75,8,10,10,7,plain,False,The product is set against a brick wall background.
+bg60k,18780.png,41,couch and cushions,9.0,8,10,9,9,lifestyle,False,"The product is set in a styled bedroom scene with grey walls, wooden flooring, and hanging pendant lights."
+bg60k,2699.png,8,wallet,7.75,6,10,8,7,lifestyle,False,"The product is placed on a dark, textured surface with a laptop and car key fob also present."
+bg60k,19735.png,41,couch and cushions,8.5,7,10,9,8,lifestyle,False,"The product is staged on a light-colored rug with a blurred, neutral-toned room featuring furniture and decor in the background."
+bg60k,346.png,36,household cleaning supplies,6.0,7,2,9,6,lifestyle,False,The prominent watermarks significantly detract from the image's professional appearance.
+bg60k,49212.png,14,rice cooker,8.25,7,10,8,8,lifestyle,False,The product is set on a light-toned wooden surface with blurred elements suggesting a kitchen or cafe setting.
+ecommerce118k,e33607f4e2c8f05b111ca65157617e1f.jpg,32,personal protective equipment,5.25,2,8,7,4,cluttered,True,The cluttered background distracts from the product and reduces its commercial appeal.
+ecommerce118k,a92a2dfcd619790038e50ed3abfc5bab.jpg,4,women jeans,5.0,6,2,8,4,plain,False,"The image is heavily cluttered with seller-added text and promotional banners, significantly reducing its commercial appeal."
+ecommerce118k,78bcf5d75008012ca8df715001072678.jpg,16,shoes,5.25,7,2,8,4,plain,False,The large text overlays significantly detract from the product and reduce purchase confidence.
+bg60k,34875.png,11,phone,9.25,10,10,10,8,plain,False,The product is displayed against a solid black background with a subtle grey outline.
+bg60k,44263.png,20,chair,8.5,7,10,9,8,lifestyle,False,"The product is set against a softly blurred, pastel-toned wall and wooden floor with styled desk accessories in the background."
+ecommerce118k,3f24892de9131fa3352301a2b0014100.jpg,33,disinfectants and sanitizers,6.5,4,10,7,5,cluttered,True,The cluttered and distracting background detracts from the product and lowers overall visual appeal.
+bg60k,57049.png,23,gloves,9.0,9,10,9,8,plain,False,"The background is a dark, gradient grey with subtle blurred shapes suggesting a studio or controlled environment."
+bg60k,36531.png,28,jacket,8.75,10,10,9,7,plain,False,"The background is a gradient of light grey to white, creating a seamless and neutral backdrop."
+ecommerce118k,b26c5fe345bfe52daf282c084e642d8e.jpg,27,toy cars,5.75,8,3,7,5,plain,False,The large watermark significantly detracts from the product's presentation and reduces purchase confidence.
+bg60k,55973.png,29,men fashion,9.0,9,10,9,8,plain,False,"The background is a gradient of dark grey to black, creating a shadowed effect."
+bg60k,37497.png,42,laptop,5.5,6,2,8,6,lifestyle,False,The large text overlay on the cooler significantly detracts from the image's professional appearance.
+ecommerce118k,5269414b7cf4dd8404ec9a18939a15d0.jpg,20,chair,5.5,6,2,9,5,plain,False,The excessive watermarks significantly detract from the image's professional appearance and reduce purchase confidence.
+bg60k,44593.png,7,cap,7.75,6,10,8,7,lifestyle,False,"The product is placed in front of a wooden cabinet and a tiled floor, with a green plant visible on the right."
+bg60k,62050.png,9,travel,8.75,10,10,9,7,plain,False,"The product is set against a very light grey, seamless background."
+ecommerce118k,064ed3862cda65ea2808dc18aeb87431.jpg,13,feeding and nursing,4.0,3,2,7,4,cluttered,True,The cluttered background and prominent watermark significantly detract from the product and reduce purchase confidence.
+bg60k,30210.png,25,belt,8.5,7,10,9,8,lifestyle,False,"The product is presented on a dark surface with red gift wrapping and accessories, suggesting a gift-giving theme."
+bg60k,37831.png,42,laptop,7.75,7,8,9,7,plain,False,The background is a dark gradient with radial light bursts emanating from behind the monitor.
+bg60k,11867.png,28,jacket,8.75,10,10,9,7,plain,False,"The product is set against a smooth, gradient grey background."
+ecommerce118k,9c4784bf5e6383efce80c3ca300a7146.jpg,28,jacket,8.5,9,10,8,7,plain,False,"The background is a gradient grey, transitioning from lighter to darker shades."
+bg60k,57162.png,21,sports,8.5,7,10,9,8,lifestyle,False,"The product is placed on a white surface with scattered props including a shaker bottle, limes, and tropical leaves."
+bg60k,17749.png,29,men fashion,8.5,8,10,9,7,plain,False,"The background is a mottled grey, resembling a concrete or textured wall."
+ecommerce118k,c68919fc8f7f9209f570a484b1cb0681.jpg,18,home and living,5.75,8,2,9,4,plain,False,The image is heavily overlaid with distracting seller-added text and watermarks.
+ecommerce118k,be667f15bf041b2559a1cfed955e33aa.jpg,15,coffee,5.75,3,10,7,4,cluttered,True,The cluttered and distracting background significantly reduces the image's commercial appeal.
+ecommerce118k,10bbb27f32a24c41525dc0260594f3e4.jpg,38,food storage and tableware,4.75,8,1,7,3,plain,False,"The image is heavily overlaid with distracting text and watermarks, significantly reducing its commercial appeal."
+bg60k,18807.png,16,shoes,9.25,10,10,9,8,plain,False,"The product is set against a solid, light grey gradient background."
+ecommerce118k,b0942c9c8ec1c1e744b2ea690cb41866.jpg,16,shoes,7.5,10,5,9,6,plain,False,The product is set against a completely white background.
+ecommerce118k,5f7c393ac2ae9b136d57451942b747c6.jpg,22,sports and outdoors,8.25,8,10,9,6,plain,False,"The background is a blurry, indistinct white surface."
+bg60k,28089.png,22,sports and outdoors,8.5,10,10,9,7,plain,False,"The product is set against a solid, light blue gradient background."
+bg60k,8327.png,9,travel,8.75,10,10,9,7,plain,False,"The product is set against a seamless, light grey background."
+bg60k,27861.png,31,snacks and sweets,8.5,9,10,8,7,plain,False,"The product is set against a gradient orange background, transitioning from a lighter shade at the top to a deeper orange at the bottom."
+ecommerce118k,9390d0fa461fb9f7c1e23e1bb9a43d19.jpg,18,home and living,8.75,10,10,9,6,plain,False,The product is set against a plain white background.
+ecommerce118k,562193390d78b01502d9c2ad6a931bb1.jpg,31,snacks and sweets,7.75,6,10,8,7,lifestyle,False,"The background is a blurred, light-toned surface with indistinct shapes, appearing to be other product containers or a similar setting."
+ecommerce118k,569d6566f7757b44adf445bdcb607e88.jpg,4,women jeans,8.75,10,10,8,7,plain,False,"The background is a plain, off-white or light grey colour."
+ecommerce118k,55e21b64eea56b81ae0c20bd0ce1b0e3.jpg,36,household cleaning supplies,4.75,6,2,8,3,lifestyle,False,"The image is heavily marred by distracting promotional text and watermarks, significantly reducing its commercial appeal."
+bg60k,18319.png,37,laptop,8.5,7,10,9,8,lifestyle,False,"The product is set against a dark, textured surface with blurred lighting effects suggesting a gaming setup."
+bg60k,25237.png,42,laptop,7.75,10,5,9,7,plain,False,"The product is set against a plain, light grey background."
+ecommerce118k,a42613f215a63d794767332749f20f74.jpg,14,rice cooker,8.75,10,10,9,6,plain,False,The product is set against a plain white background with a subtle gradient and a black border.
+ecommerce118k,e39dba69b2206e35ec78525dfe6a3ec2.jpg,31,snacks and sweets,5.75,3,10,7,4,cluttered,True,The cluttered background distracts from the product and reduces its commercial appeal.
+ecommerce118k,7ba7151c79bb7070c6c3f728d47dd2e0.jpg,27,toy cars,6.0,9,1,8,6,plain,False,"The large, distracting text overlaid on the product significantly reduces its commercial appeal."
+bg60k,63122.png,42,laptop,5.5,6,2,8,6,lifestyle,False,The large watermark significantly detracts from the product's presentation.
+bg60k,58288.png,6,earring,8.25,9,10,8,6,plain,False,"The background is a dark, slightly textured surface, appearing black or very dark red."
+bg60k,22873.png,39,home decor,7.75,6,10,9,7,lifestyle,False,"The product is displayed on a diamond plate surface with blurred, indistinct objects and lighting fixtures in the background, creating a somewhat industrial or workshop-like setting."
+bg60k,59444.png,18,home and living,4.25,2,10,7,4,cluttered,True,The cluttered background of books significantly distracts from the product and reduces its commercial appeal.
+ecommerce118k,33752a3153840a7a7ebd185aa6e0be02.jpg,33,disinfectants and sanitizers,5.75,10,1,8,4,plain,False,"The image is heavily overlaid with promotional text and watermarks, significantly reducing its commercial appeal."
+ecommerce118k,eeeed6228c7210838f3e07c41dc5b64e.jpg,22,sports and outdoors,6.5,8,3,9,6,plain,False,The image is significantly degraded by the large watermark and the collage of lower-quality images.
+bg60k,35715.png,13,feeding and nursing,8.75,10,10,9,7,plain,False,The product is placed on a plain white surface with a subtle gradient and a shadow to create depth.
+bg60k,32011.png,16,shoes,8.5,8,10,9,7,plain,False,"The product is set against a gradient green background, transitioning from a darker shade at the top to a lighter shade at the bottom."
+ecommerce118k,221c0b17a0a3a4fb15b2a11f80daa189.jpg,13,feeding and nursing,8.25,8,10,9,6,plain,False,"The background appears to be a slightly textured, off-white or light grey surface, possibly a wall or tabletop."
+ecommerce118k,5937c820abcab23fac7099bae3f0c487.jpg,29,men fashion,6.75,7,10,6,4,plain,False,"The background appears to be a plain, light-coloured wall with some visible vertical lines, possibly from panelling or a doorframe."
+bg60k,55944.png,25,belt,9.0,9,10,9,8,plain,False,"The background is a gradient of orange and blue, creating a soft, diffused effect."
+bg60k,5106.png,5,rings,9.25,10,10,9,8,plain,False,"The product is set against a solid, vibrant red background."
+ecommerce118k,9af91c2abb96cd03b4add18ff60f0102.jpg,1,women abaya,4.5,4,3,7,4,cluttered,True,The cluttered background and excessive text overlays detract from the product and reduce purchase confidence.
+ecommerce118k,ae45eb735f4fe96d0f39af0868dad0b5.jpg,39,home decor,7.75,6,10,8,7,lifestyle,False,"The vases are displayed on a white wooden surface with a rustic wooden crate, a framed picture, and some floral sprigs visible in the background."
+ecommerce118k,faaec99eb51307306c22dc97ddb24c4b.jpg,3,women sweaters and hoodies,8.5,8,10,9,7,plain,False,"The product is displayed against a vertically paneled, light grey wall resembling a store display or studio backdrop."
+ecommerce118k,e059565da14147688d2f09a2204fa328.jpg,13,feeding and nursing,7.75,10,5,9,7,plain,False,The product is set against a gradient white to light grey background.
+ecommerce118k,5521d8ae7223dd543978a34008a11e54.jpg,25,belt,8.75,10,10,9,7,plain,False,The product is displayed against a plain white background.
+ecommerce118k,8473f59d706f007b7b0b0700f4e13225.jpg,20,chair,8.75,10,10,9,7,plain,False,"The background is a solid, bright white colour."
+ecommerce118k,16058979a6571822c37ed1298d4355a3.jpg,5,rings,8.25,9,10,8,6,plain,False,"The product is set against a very pale, slightly off-white background."
+bg60k,22214.png,25,belt,8.0,6,10,9,7,lifestyle,False,"The product is presented in a gift box with red shred filling, and a blurred image of people is visible in the background."
+ecommerce118k,b8bc3b52ff214f9b6ece6d28daf9b5df.jpg,21,sports,6.0,7,3,8,6,plain,False,The image contains significant seller-added text overlays that detract from the product.
+bg60k,38139.png,37,laptop,6.5,8,2,9,7,plain,False,"The large, overlaid text significantly detracts from the product's presentation and appears unprofessional."
+ecommerce118k,e81af8aee30290a2eaafea531eb6f8e0.jpg,6,earring,7.75,7,10,8,7,lifestyle,False,The product is placed on a white marble-like surface with sprigs of white baby's breath flowers scattered around it.
+bg60k,43088.png,36,household cleaning supplies,6.25,7,3,9,6,lifestyle,False,The significant text overlays in a foreign language detract from the product's presentation.
+bg60k,8584.png,14,rice cooker,6.25,7,3,9,6,lifestyle,False,The image is significantly marred by the presence of multiple text overlays and watermarks.
+bg60k,53481.png,34,makeup,8.5,7,10,9,8,lifestyle,False,The product is placed on a white surface with scattered decorative elements like flowers and reeds.
+bg60k,6610.png,15,coffee,8.5,7,10,9,8,lifestyle,False,"The product is placed against a bright, abstract background of blurred green leaves and white shapes."
+ecommerce118k,b4bc25516b73c001f30b3143311e90fa.jpg,24,watches,6.5,7,5,8,6,plain,False,"The product is placed on a bright pink surface with a black box and a small, clear plastic stand."
+ecommerce118k,3ef1baee39ca7b60f08b496dfae809d6.jpg,3,women sweaters and hoodies,6.5,10,1,9,6,plain,False,The large text overlay significantly detracts from the image's professional appearance.
+ecommerce118k,259fec09ba1296b325fa3cff4353f946.jpg,10,phone cover,5.5,6,2,9,5,plain,False,The prominent watermark and border significantly detract from the product's presentation.
+ecommerce118k,d0230d6b1e48d21b671a9d26f03d434a.jpg,14,rice cooker,8.75,10,10,9,7,plain,False,The product is set against a plain white background with a subtle shadow.
+bg60k,29365.png,29,men fashion,8.5,8,10,9,7,plain,False,The product is placed against a plain white surface with a framed artwork partially visible in the background.
+bg60k,27664.png,29,men fashion,8.5,8,10,9,7,plain,False,The product is set against a light grey gradient background with a blurred bookshelf and framed picture visible in the distance.
+ecommerce118k,b3b82fd6f8ecb3787a01c57b43792db0.jpg,4,women jeans,4.5,4,2,7,5,lifestyle,True,The image is significantly detracted from by the large text overlay and cluttered background.
+ecommerce118k,a3c6dbd1959bc47c69d9162935bc9227.jpg,27,toy cars,6.75,6,8,8,5,plain,False,The background is a plain white surface with a partially visible box and some text on the left side.
+bg60k,37868.png,18,home and living,8.5,10,10,8,6,plain,False,"The product is set against a seamless, light grey background."
+bg60k,22922.png,35,perfume,8.75,7,10,9,9,lifestyle,False,"The product is surrounded by a dynamic, blurred background of oranges and water droplets, creating a splash effect."
+ecommerce118k,ff6f2b45720c2bee968618bce1825f4c.jpg,33,disinfectants and sanitizers,5.75,6,3,8,6,lifestyle,False,The image is significantly cluttered with seller-added text overlays.
+bg60k,39801.png,15,coffee,7.75,7,10,8,7,lifestyle,False,The product is surrounded by sliced grapefruit segments on a light blue surface.
+ecommerce118k,a5208f08fda5bde5a3aafa81e032f2b8.jpg,40,bathroom accessories,8.5,10,10,8,6,plain,False,"The product is set against a solid, light beige background."
+bg60k,36925.png,14,rice cooker,8.5,7,10,9,8,lifestyle,False,"The product is shown mounted on a bathroom wall with a partial view of a modern bathroom interior including plants, a mirror, and fixtures."
+bg60k,38337.png,16,shoes,8.5,8,10,9,7,plain,False,The product is set against a gradient grey background with a small wooden block prop.
+bg60k,44809.png,38,food storage and tableware,7.75,6,10,8,7,lifestyle,False,"The product is shown on a marble-top dining table with chairs, placemats, and food styling, set on a grey carpet."
+ecommerce118k,bb2f8666e831cb9d111f32c737f4e2ea.jpg,8,wallet,3.75,3,1,7,4,cluttered,True,"The image is heavily cluttered with promotional text and numbered callouts, significantly detracting from the product."
+bg60k,6374.png,19,data storage,8.75,10,10,9,7,plain,False,"The product is displayed on a clean, bright white surface with subtle shadow effects."
+bg60k,21359.png,43,food,7.25,7,5,9,8,lifestyle,False,"The product is set on a dark, textured wooden surface with props including grapes, prosciutto, walnuts, and glassware."
+ecommerce118k,181d79b5bdfd344dff39446f0becf49f.jpg,3,women sweaters and hoodies,4.0,3,2,7,4,cluttered,True,The cluttered background and excessive text overlays significantly detract from the product and reduce purchase confidence.
+ecommerce118k,2faa8e21f84b774a0ccef3f19780d339.jpg,7,cap,6.0,9,2,8,5,plain,False,"The large, distracting watermark significantly reduces the image's professional appeal."
+ecommerce118k,3eb64149da353e7f5ce55c3bbd5ce354.jpg,18,home and living,7.75,10,5,9,7,plain,False,The product is set against a plain white background.
+ecommerce118k,bc1a7935d37de97a2d9c250469df3e96.jpg,38,food storage and tableware,7.5,10,5,9,6,plain,False,The product is set against a plain white background with a subtle shadow.
+bg60k,59576.png,26,audio,9.0,9,10,9,8,plain,False,The product is set against a gradient blue background with a circuit board pattern overlay.
+ecommerce118k,ab4f383d8d38a84b1c5eed0a6719d33a.jpg,7,cap,7.5,6,10,8,6,lifestyle,False,The product is placed on a fluffy white faux fur surface.
+ecommerce118k,3fb51c54a40c853e101a244ab5283b4f.jpg,22,sports and outdoors,8.75,10,10,9,7,plain,False,The background is a gradient of white to light grey.
+bg60k,44167.png,11,phone,9.25,10,10,9,8,plain,False,"The background is solid black, creating a stark contrast with the devices."
+ecommerce118k,d796b84fc8991973d91675d4897ed73b.jpg,3,women sweaters and hoodies,4.75,7,1,8,3,plain,False,"The image is heavily overlaid with distracting and unprofessional text watermarks, significantly reducing purchase confidence."
+ecommerce118k,27610e808630d4c6000ada0dea2724a0.jpg,15,coffee,3.75,3,1,8,3,plain,True,The image is overwhelmed with excessive promotional text and banners that significantly detract from the product.
+ecommerce118k,3481da60fe7a23245f61eb6e4d12352b.jpg,31,snacks and sweets,7.25,7,10,9,6,plain,False,"The product is placed on a textured, light-coloured surface that appears to be tile or concrete."
+ecommerce118k,5d9c7072d23d9469337a3149f50ffbe6.jpg,4,women jeans,5.5,6,2,8,6,lifestyle,True,The image contains significant seller-added text overlays that detract from the product.
+bg60k,47476.png,21,sports,8.5,7,10,9,8,lifestyle,False,"The product is set within a modern interior featuring grey curtains, wood panelling, and tiled flooring."
+ecommerce118k,d6f6b0cf5b1bd0a26257fb2550667fca.jpg,40,bathroom accessories,3.5,3,2,6,3,cluttered,True,"The image is heavily cluttered with distracting text overlays and a busy background, reducing purchase confidence."
+bg60k,5557.png,39,home decor,8.5,8,10,9,7,plain,False,"The plants are displayed on a white, slatted shelf against a blurred white background."
+ecommerce118k,ba4461d04519092b52bd8652d24dfaf4.jpg,32,personal protective equipment,6.75,7,5,9,6,plain,False,"The product is placed on a textured, light brown surface that appears to be a table or countertop."
+ecommerce118k,a809444a8eaa2448c2806707cda220d7.jpg,3,women sweaters and hoodies,4.75,6,2,7,4,plain,False,The large promotional text overlay significantly detracts from the product presentation and reduces purchase confidence.
+ecommerce118k,b02f40dac06914c1d79bda91691eee74.jpg,17,heels,5.25,6,2,8,5,lifestyle,False,"The large, distracting text overlay significantly reduces purchase confidence."
+bg60k,19277.png,43,food,8.5,7,10,9,8,lifestyle,False,The product is set against a woven bamboo mat background.
+bg60k,63163.png,36,household cleaning supplies,8.0,7,10,9,6,plain,False,The product is placed on a light wood surface with a patterned plate partially visible in the lower left corner.
+ecommerce118k,9701ae090f0cf02e9fdc331efc2b265b.jpg,15,coffee,3.25,4,1,6,2,lifestyle,True,The image is heavily overlaid with distracting and inappropriate promotional text.
+bg60k,16342.png,35,perfume,9.0,9,10,9,8,plain,False,"The product is set against a soft, gradient pastel green and beige background with abstract wavy lines."
+bg60k,35046.png,21,sports,8.0,6,10,9,7,lifestyle,False,The pool table is set in a room with hardwood flooring and a window showing trees outside.
+bg60k,913.png,34,makeup,9.75,10,10,10,9,plain,False,"The product is set against a solid, vibrant red background."
+ecommerce118k,15ec30fae59962b7a8bf14d2890bc3a9.jpg,14,rice cooker,8.75,10,10,9,7,plain,False,The product is set against a completely white background.
+ecommerce118k,d1150e0c28a454f79242766efb723324.jpg,26,audio,3.5,3,1,7,3,cluttered,True,"The image is overwhelmed with excessive seller-added text and a distracting background, significantly reducing its commercial appeal."
+ecommerce118k,b3e36624118c542f51a9ed6a8107cc67.jpg,36,household cleaning supplies,5.25,3,8,6,4,cluttered,True,The cluttered and distracting background detracts from the product and lowers overall commercial appeal.
+ecommerce118k,c00fe3ee244df9cb3781e73c11cba4a8.jpg,31,snacks and sweets,6.0,8,1,9,6,plain,False,"The large ""Happy Birthday"" text overlay significantly detracts from the product's commercial appeal."
+bg60k,25230.png,19,data storage,8.75,8,10,9,8,lifestyle,False,The product is displayed on a white cylindrical pedestal against a gradient purple and blue abstract background.
+bg60k,3702.png,34,makeup,6.5,10,1,10,5,plain,False,The image is significantly detracted by the large amount of text overlaid on the product label.
+bg60k,22154.png,28,jacket,5.25,6,2,8,5,lifestyle,True,"The image is heavily overlaid with Japanese text, significantly reducing its commercial appeal."
+bg60k,57581.png,5,rings,8.5,8,10,9,7,plain,False,"The product is set against a dark grey, textured background resembling a pot or container."
+ecommerce118k,0261450c439467bb7dbd3a0305c725c0.jpg,28,jacket,8.25,9,10,8,6,plain,False,The product is displayed against a gradient grey background.
+bg60k,39673.png,24,watches,9.0,9,10,9,8,plain,False,"The product is displayed against a dark, textured grey background that appears to be a fabric or stone surface."
+ecommerce118k,cfd31db7eb9a136218a1e4dc3b01229e.jpg,17,heels,5.5,3,8,7,4,cluttered,True,The cluttered retail store background distracts from the product and reduces its commercial appeal.
+ecommerce118k,5154c73aa8dad14b64d0be47fd625d20.jpg,7,cap,5.5,8,1,9,4,plain,False,"The large, distracting text overlays significantly reduce the image's commercial appeal and professionalism."
+ecommerce118k,aabd36c91493c00ab01a1521fbd4949a.jpg,11,phone,3.25,2,1,7,3,cluttered,True,"The image is overwhelmed by distracting logos and text overlays, significantly reducing its commercial appeal."
+bg60k,60132.png,20,chair,8.0,6,10,9,7,lifestyle,False,"The product is displayed against a textured, wood-like surface resembling a tree root or burl, with a dark grey surface below."
+ecommerce118k,888c5e50adc7da2d5597488c7735b298.jpg,1,women abaya,4.75,4,2,8,5,lifestyle,True,The image is heavily cluttered with seller-added text and watermarks that detract from the product.
+bg60k,10808.png,4,women jeans,7.75,7,10,8,6,plain,False,"The background is a slightly off-white, textured surface with a blurred stack of books and a magazine visible on the left."
+bg60k,43642.png,2,clothing and t-shirt,8.75,10,10,9,7,plain,False,"The background is a solid, muted brown colour with subtle shadow effects to create a sense of depth."
+ecommerce118k,3926fc65f193c572741de5a98dbc260b.jpg,37,laptop,8.75,10,10,9,7,plain,False,The product is displayed on a plain white background.
+bg60k,38657.png,2,clothing and t-shirt,9.0,9,10,9,8,plain,False,"The product is set against a geometric background of layered, muted green and grey shapes."
+bg60k,42585.png,22,sports and outdoors,6.75,4,10,8,6,cluttered,True,The cluttered gravel background distracts from the product and reduces its commercial appeal.
+ecommerce118k,613b27ebd67c27abc094f410c8ad7471.jpg,22,sports and outdoors,4.0,3,2,7,4,cluttered,True,The cluttered background and prominent text overlays significantly detract from the product's presentation.
+ecommerce118k,03ad087fa8e5ea715ebb4bbcd30ed722.jpg,34,makeup,5.5,6,3,8,5,lifestyle,False,"The image is significantly degraded by a large, distracting watermark."
+ecommerce118k,e26410aaf4e74064cf464dc19a5a48c4.jpg,35,perfume,3.75,3,1,7,4,cluttered,True,"The image is heavily cluttered with promotional text and distracting elements, significantly reducing its commercial appeal."
+ecommerce118k,6ffbe9922fdd8f1c3139650e810fdd30.jpg,36,household cleaning supplies,8.0,8,10,7,7,lifestyle,False,The background consists of a wooden surface with a circular grain pattern.
+ecommerce118k,bdf2dc7edb0f13a60d90afb448da7732.jpg,9,travel,5.25,9,1,7,4,plain,False,"The image is significantly degraded by large, distracting text overlays."
+bg60k,53909.png,39,home decor,7.75,7,8,9,7,lifestyle,False,The product is placed on a light-coloured rug in front of a wooden bookshelf with books and decorative items.
+ecommerce118k,25f1097a01ea154db477f30c2d0828d6.jpg,27,toy cars,5.0,7,1,8,4,plain,False,"The large, distracting watermark significantly reduces purchase confidence."
+bg60k,17899.png,42,laptop,9.0,9,10,9,8,plain,False,The product is set against a gradient purple and black background with blurred RGB lighting effects.
+bg60k,28776.png,2,clothing and t-shirt,8.5,9,10,8,7,plain,False,"The background is a soft, slightly textured off-white surface."
+bg60k,39935.png,4,women jeans,8.5,9,10,8,7,plain,False,The product is displayed against a gradient background of light blue and peach tones.
+ecommerce118k,04f0bf451288ea512a155cb1a02731f4.jpg,2,clothing and t-shirt,6.25,10,1,8,6,plain,False,The large seller text overlay significantly detracts from the image's professional appearance.
+ecommerce118k,896ed491ed28b7d6b0a544a0d50fd9b5.jpg,24,watches,9.0,9,10,9,8,plain,False,"The background is a blurred, neutral grey surface with subtle variations in tone."
+ecommerce118k,1feb7d9aca6dff66dd93fda06e406eee.jpg,40,bathroom accessories,8.0,9,10,8,5,plain,False,"The product is set against a plain, off-white background with a dark border around the image."
+ecommerce118k,042ff06922aec56654fb5ce10d46fb23.jpg,41,couch and cushions,4.0,3,2,7,4,cluttered,True,The cluttered background and large watermark significantly detract from the product and reduce purchase confidence.
+ecommerce118k,ff318cc32f10b69c33c4cac2e8107626.jpg,18,home and living,5.25,6,2,9,4,plain,False,"The image is heavily cluttered with seller-added text and promotional banners, significantly reducing its commercial appeal."
+bg60k,56316.png,20,chair,7.75,6,10,8,7,lifestyle,False,"The product is set in a softly lit room with a dresser, framed picture, and wooden ladder visible in the background."
+bg60k,18347.png,32,personal protective equipment,8.75,10,10,9,7,plain,False,The product is set against a solid black background.
+bg60k,243.png,40,bathroom accessories,8.5,8,10,9,7,lifestyle,False,The product is displayed on and around translucent white cubes with a blurred blue water-like background.
+ecommerce118k,82dc06efa44c3b425b9551efe2314a17.jpg,0,women dresses,5.25,6,2,8,5,lifestyle,True,"The image is significantly marred by large, distracting text overlays."
+ecommerce118k,37aad833c79082690410b272be44ae9a.jpg,11,phone,5.75,3,10,7,4,cluttered,True,The cluttered and distracting background significantly reduces the image's commercial appeal and focus on the products.
+ecommerce118k,fac2576afdd9fde22f8192074d51dd39.jpg,25,belt,2.75,2,1,6,2,cluttered,True,The cluttered background and large watermark significantly detract from the product and reduce purchase confidence.
+ecommerce118k,bf6c40ac4b4fb07d325acb793a79c4ac.jpg,1,women abaya,5.75,7,2,8,6,lifestyle,False,The prominent watermarks significantly detract from the image's professional appearance and purchase appeal.
+bg60k,44364.png,31,snacks and sweets,9.0,9,10,9,8,plain,False,"The product is set against a solid, bright yellow background with scattered nuts and berries around the plate."
+bg60k,15920.png,41,couch and cushions,7.75,6,10,8,7,lifestyle,False,"The product is displayed on a bed in a styled bedroom setting with wall decor, bedside tables, and lamps visible in the background."
+bg60k,1395.png,34,makeup,8.5,9,10,8,7,plain,False,The product is set against a light blue gradient background.
+bg60k,57863.png,33,disinfectants and sanitizers,6.75,4,8,9,6,cluttered,True,The background is distracting and doesn't focus attention on the product.
+bg60k,22186.png,37,laptop,9.0,9,10,9,8,plain,False,The product is set against a gradient background transitioning from purple to blue.
+ecommerce118k,d6565345c068e52f06789300fd74c1d6.jpg,17,heels,8.5,9,10,8,7,plain,False,The product is displayed on a solid grey background.
+ecommerce118k,64ce6637a34d76cf8fd66225877a6668.jpg,39,home decor,4.0,2,3,7,4,cluttered,True,The cluttered background and watermarks significantly detract from the product and reduce purchase confidence.
+bg60k,37074.png,32,personal protective equipment,9.25,10,10,9,8,plain,False,The product is set against a gradient grey background that fades from light to dark.
+ecommerce118k,3c0b359d3329f647d09597b86c12cea6.jpg,2,clothing and t-shirt,3.25,2,1,7,3,cluttered,True,The cluttered anime background and extensive text overlays severely detract from the product and reduce purchase confidence.
+bg60k,22586.png,16,shoes,8.75,10,10,9,7,plain,False,"The background is a solid, uniform yellow colour."
+ecommerce118k,b5d448140d419750a558b6002609403f.jpg,8,wallet,6.5,10,1,9,6,plain,False,"The large, distracting seller watermark significantly reduces the image's professional appeal."
+bg60k,44721.png,37,laptop,9.0,9,10,9,8,plain,False,"The product is set against a gradient background transitioning from dark blue to red, with soft lighting effects."
+bg60k,3723.png,10,phone cover,6.0,8,1,9,6,plain,False,"The large, distracting text overlay significantly reduces the image's professional quality."
+bg60k,34718.png,30,sneakers,8.75,10,10,9,7,plain,False,"The product is set against a solid, neutral grey gradient background."
+bg60k,60077.png,43,food,5.0,7,1,8,4,plain,False,The image is heavily overlaid with text and branding that detracts from the product's visual appeal.
+bg60k,8251.png,21,sports,8.5,8,10,9,7,plain,False,The product is set against a light blue wall with a red surface visible at the bottom edge.
+bg60k,9014.png,26,audio,8.5,7,10,9,8,lifestyle,False,The product is displayed against a blurred background featuring a gaming scene on a monitor and illuminated keyboard.
+bg60k,35117.png,9,travel,9.25,10,10,9,8,plain,False,"The product is set against a seamless, light grey background."
+bg60k,27587.png,13,feeding and nursing,9.25,10,10,9,8,plain,False,"The background is a seamless, very light grey or off-white colour."
+bg60k,5486.png,15,coffee,7.0,10,1,10,7,plain,False,The product is isolated on a completely white background.
+ecommerce118k,4de30e815d4edb869535a3e9de915f21.jpg,38,food storage and tableware,4.5,4,2,8,4,lifestyle,True,"The image is heavily cluttered with seller-added text and a distracting background, reducing purchase confidence."
+ecommerce118k,6eee2be9ab17710be8064fc26bae668c.jpg,14,rice cooker,8.75,10,10,9,7,plain,False,The product is set against a plain white background with a subtle drop shadow.
+ecommerce118k,427b34771cda2de27840f2e5fcde9203.jpg,41,couch and cushions,8.75,10,10,9,7,plain,False,The product is displayed on a plain white background.
+ecommerce118k,1e91d20d4f4cb6ce8638e81cd900c6c6.jpg,10,phone cover,8.75,10,10,9,7,plain,False,The product is displayed against a plain white background.
+ecommerce118k,fba63a7fc037a7504d39d63558c87b52.jpg,3,women sweaters and hoodies,8.5,8,10,9,7,plain,False,The background is a plain white or off-white wall with a doorway visible on the right side.
+bg60k,2544.png,39,home decor,6.75,4,10,8,6,cluttered,True,The cluttered and distracting background detracts from the product and reduces its visual impact.
+ecommerce118k,34d5a20cd160294d13fd39774e0a6dad.jpg,9,travel,9.25,10,10,9,8,plain,False,"The background is a solid, bright white colour with a subtle shadow beneath the bag."
+bg60k,32540.png,4,women jeans,9.25,10,10,9,8,plain,False,"The product is set against a seamless, light grey background."
+ecommerce118k,9fa082ad1c99466761c0928e93cf6303.jpg,33,disinfectants and sanitizers,7.5,8,10,7,5,plain,False,"The product is displayed on a plain, light yellow surface."
+ecommerce118k,dce972dfb4f93bc4a185ddd91ae5b1c4.jpg,35,perfume,4.0,3,2,7,4,cluttered,True,The large watermark and cluttered retail background significantly detract from the product and reduce purchase confidence.
+ecommerce118k,f1171f9aaaa94307755fccb61744bb54.jpg,26,audio,6.0,10,1,8,5,plain,False,The large text overlay significantly detracts from the product's presentation and reduces purchase confidence.
+ecommerce118k,992dfe9cb646274e94b3221b52aba784.jpg,29,men fashion,5.5,10,1,7,4,plain,False,The image is heavily overlaid with distracting promotional text and watermarks.
+bg60k,53289.png,36,household cleaning supplies,6.25,3,10,7,5,lifestyle,True,The cluttered car interior background distracts from the product and doesn't enhance its appeal.
+ecommerce118k,d862d6abf3edebbc84759e7a08185eb5.jpg,24,watches,4.25,3,2,8,4,cluttered,True,"The image is heavily cluttered with promotional text and logos, significantly detracting from the product."
+ecommerce118k,b4f46eb4a1092fc71aabcf3fa4a439a2.jpg,41,couch and cushions,8.75,10,10,9,6,plain,False,"The background is a solid, bright white colour."
+ecommerce118k,98322c5f5f6aeee2de3c77ff8deaa8d3.jpg,1,women abaya,4.25,4,2,7,4,cluttered,True,The large numerical text overlay and distracting background significantly reduce the image's commercial appeal.
+ecommerce118k,f1b97156d60b0943b76914aee96bab7b.jpg,0,women dresses,4.25,4,2,7,4,cluttered,True,The large text overlay and distracting background significantly reduce the image's commercial appeal.
+ecommerce118k,278d0f3f3b3135635e4cf63f50466c51.jpg,14,rice cooker,9.0,9,10,9,8,plain,False,The product is set against a gradient grey background that fades from light to dark.
+ecommerce118k,84cfcc601f539ec73c7ae05cf71140a9.jpg,33,disinfectants and sanitizers,5.25,6,3,7,5,plain,False,The image is cluttered with multiple product variations and contains distracting seller-added text overlays.
+ecommerce118k,e822b7e8dbde84b7f80374e78c831ace.jpg,7,cap,4.25,3,1,8,5,cluttered,True,The busy and repetitive background distracts from the product and reduces its visual impact.
+ecommerce118k,d176392fc34f5c1a9a23804fef95a0d5.jpg,11,phone,3.75,3,1,8,3,plain,True,"The image is heavily marred by large, intrusive text overlays that significantly detract from the product."
+bg60k,43948.png,7,cap,8.75,10,10,9,7,plain,False,"The product is set against a solid, neutral tan background."
+ecommerce118k,05627731d9435717d9ec90b3534244b3.jpg,30,sneakers,6.0,7,3,8,6,plain,False,"The image is cluttered with text overlays and multiple inset images, reducing its overall commercial appeal."
+bg60k,21302.png,17,heels,5.75,6,2,9,6,lifestyle,False,The image is significantly marred by excessive text overlaid on the product packaging.
+bg60k,25273.png,30,sneakers,8.25,7,10,9,7,lifestyle,False,The product is set against a solid lavender background with a few scattered flowers and a blurred basketball player graphic.
+ecommerce118k,7177e218092050fee42aeca12af60a57.jpg,34,makeup,6.5,6,8,8,4,plain,False,"The products are placed on a textured, mottled grey surface that appears to be fabric or a similar material."
+bg60k,33325.png,22,sports and outdoors,6.0,8,1,9,6,plain,False,The large text overlay on the product significantly reduces purchase confidence.
+bg60k,25363.png,16,shoes,9.25,10,10,9,8,plain,False,The product is set against a gradient grey background that transitions from light to dark.
+bg60k,37564.png,10,phone cover,6.0,8,1,9,6,plain,False,"The large, distracting text overlay significantly reduces the image's professional quality."
+ecommerce118k,e4752cd728900c5b4c149d1b298b851d.jpg,23,gloves,3.75,4,1,7,3,cluttered,True,"The image is heavily marred by large, distracting text overlays and a cluttered background, significantly reducing its commercial appeal."
+bg60k,8587.png,43,food,5.5,8,1,7,6,plain,False,The image contains significant text overlays that detract from the product and reduce purchase confidence.
+ecommerce118k,4c06bf6e1aee25a0837977966f9d5860.jpg,29,men fashion,5.75,10,1,8,4,plain,False,"The image is heavily cluttered with seller-added text and price tags, significantly reducing its commercial appeal."
+ecommerce118k,ec4fc4c4c311c0eecfa678529c28e288.jpg,16,shoes,4.25,4,2,8,3,plain,True,"The image is heavily cluttered with distracting text and cartoon graphics, significantly reducing its commercial appeal."
+ecommerce118k,d3dee6bdbe3ccb251e7699511dab55a3.jpg,39,home decor,6.5,10,1,10,5,plain,False,The large text overlay significantly detracts from the image's professional appearance.
+bg60k,36768.png,4,women jeans,8.5,7,10,9,8,lifestyle,False,"The product is set against a dark grey, slightly textured surface with some floral arrangements in the lower right corner."
+ecommerce118k,24fee32bff5b5f178ea74453a28094e2.jpg,4,women jeans,5.25,7,2,8,4,plain,False,"The image is significantly marred by large, distracting text overlays and watermarks."
+ecommerce118k,07c9aaf17e9627dd8c7b354072ff78b6.jpg,22,sports and outdoors,8.25,8,10,9,6,plain,False,"The background is a plain, light grey wall with some visible texture and slight shadows."
+bg60k,55348.png,40,bathroom accessories,7.75,6,10,9,6,lifestyle,False,The product is placed on a dark green surface with a wooden box and yellow roses in the background.
+ecommerce118k,4ff3a8ad76e2369997ad1f9daea387dd.jpg,30,sneakers,6.25,8,2,9,6,plain,False,The large text overlay significantly detracts from the product's presentation and appears unprofessional.
+ecommerce118k,2b396507c2b28ee12b1d7f401a5c42fe.jpg,37,laptop,8.75,10,10,9,7,plain,False,The product is set against a gradient white background that transitions from light grey to white.
+bg60k,49110.png,12,clock,7.75,6,10,8,7,lifestyle,False,"The product is displayed on a light grey wall within a staged interior room setting, featuring a TV, hallway, and decorative elements."
+ecommerce118k,6c06b9fd82fd615433d09d1a3e67d270.jpg,22,sports and outdoors,6.25,9,1,9,6,plain,False,"The large, distracting watermark significantly reduces purchase confidence."
+bg60k,3405.png,6,earring,8.5,7,10,9,8,lifestyle,False,"The product is displayed on a wooden cutting board with scattered ingredients like limes, tomatoes, and herbs, suggesting a kitchen setting."
+ecommerce118k,744a129b9a0f711f0758d6f52761dab9.jpg,27,toy cars,4.75,4,2,8,5,cluttered,True,"The image is heavily cluttered with packaging text and branding, reducing product focus and commercial appeal."
+ecommerce118k,7962373a0d518bd1e95196b837941fd2.jpg,19,data storage,4.25,7,1,6,3,plain,False,"The image is significantly degraded by large, distracting text overlays on the product packaging."
+bg60k,24058.png,14,rice cooker,8.25,7,9,9,8,lifestyle,False,"The product is shown against a dynamic background of splashing water droplets, creating a sense of water heating and functionality."
+bg60k,14808.png,41,couch and cushions,6.75,4,10,8,6,lifestyle,True,The busy and ornate background distracts from the pillows and doesn't allow them to stand out.
+ecommerce118k,21445bb67dc5b2a885bcf3b603296513.jpg,4,women jeans,4.75,7,1,8,3,plain,False,"The image is heavily cluttered with price tags and promotional text overlays, significantly reducing its commercial appeal."
+ecommerce118k,3d3aa39fea7d2fac3f0f4dc945bb6c2d.jpg,30,sneakers,6.75,7,5,9,6,plain,False,The product is placed on a white surface with a Converse box and a sticker with size information visible.
+ecommerce118k,5beec7583fad7a9cdccc195b4758dd76.jpg,24,watches,6.5,9,3,8,6,plain,False,"The background is a gradient of light grey to white, appearing to be a studio or plain backdrop."
+bg60k,15903.png,2,clothing and t-shirt,7.75,7,10,8,7,lifestyle,False,The product is hanging on a clothesline against a blurred blue sky with cotton plants in the foreground.
+bg60k,32031.png,11,phone,7.75,7,10,8,6,plain,False,The product is placed on a textured grey surface resembling concrete or asphalt.
+bg60k,58116.png,23,gloves,8.75,9,10,9,7,plain,False,"The product is set against a slightly textured, light grey background."
+bg60k,10950.png,8,wallet,8.5,8,10,9,7,plain,False,"The product is displayed against a textured, bright red background resembling folded fabric."
+ecommerce118k,02bd673570df47a8e2fc8e05a30ffe91.jpg,34,makeup,3.25,3,1,6,3,cluttered,True,The cluttered background and prominent text overlays significantly detract from the product and reduce purchase confidence.
+ecommerce118k,df4a7b837deec8f8b4881b332b77bd41.jpg,14,rice cooker,7.25,7,10,8,4,plain,False,The product is set against a bright turquoise and yellow textured background resembling fabric or paper.
+bg60k,20414.png,8,wallet,8.5,7,10,9,8,lifestyle,False,"The product is set against a dark, vertically ribbed wall with a blurred floor and a hint of greenery in the corner."
+bg60k,17927.png,31,snacks and sweets,8.5,7,10,9,8,lifestyle,False,The product is presented on a wooden serving tray with a blue and white checkered cloth partially visible underneath.
+bg60k,61787.png,29,men fashion,8.5,9,10,8,7,plain,False,"The background is a gradient from dark grey to white, creating a studio-like effect."
+ecommerce118k,e5cf0c6bb3c124cfea10b61626420207.jpg,30,sneakers,6.5,10,1,9,6,plain,False,The large text overlay significantly detracts from the image's professional appearance.
+ecommerce118k,88ba55461559fe7e388583446cd4cd45.jpg,6,earring,7.75,6,10,8,7,lifestyle,False,"The background is a blurred human face and hair, likely a model wearing the earrings."
+ecommerce118k,52bdcead14f24ed461df7294f52beceb.jpg,20,chair,8.0,10,5,10,7,plain,False,The product is set against a gradient white to grey background.
+ecommerce118k,546ccb07e56ff5a55b7b1b202561a10d.jpg,8,wallet,5.25,7,2,8,4,plain,False,"The large and distracting ""As Seen On TV"" watermark significantly reduces purchase confidence."
+ecommerce118k,770e3edecfc5282b461d6591c862d4cd.jpg,8,wallet,7.5,6,10,8,6,lifestyle,False,The product is laid on a fluffy white rug.
+ecommerce118k,8d0fd14699d9f453947cb5281fa155b1.jpg,12,clock,6.5,4,10,7,5,lifestyle,True,The cluttered home environment distracts from the product and reduces its visual impact.
+ecommerce118k,a4fa558bed71177a40b2428ba5b4da54.jpg,9,travel,7.75,6,10,8,7,lifestyle,False,The bags are placed on a light-colored surface with a blurred interior scene including a sofa and plants visible in the background.
+ecommerce118k,a7c9800364c766e7bcaa0b4dd574f562.jpg,34,makeup,4.25,6,1,7,3,plain,False,"The large, handwritten label and low image quality significantly reduce purchase confidence."
+ecommerce118k,e266322911a0cac7550021602aa68997.jpg,22,sports and outdoors,5.75,3,10,7,4,cluttered,True,The cluttered and distracting background significantly detracts from the product's presentation.
+ecommerce118k,c04e980775760d4f2cb40f687b7483a5.jpg,0,women dresses,6.0,6,2,9,7,lifestyle,True,The large watermark significantly detracts from the product and reduces purchase confidence.
+ecommerce118k,56cee0639a19b869fef27a3ec36d2ad3.jpg,31,snacks and sweets,6.75,4,10,8,6,cluttered,True,The cluttered and distracting background detracts from the product and reduces its visual impact.
+ecommerce118k,deefccd399b4cf1428c22493be4f7874.jpg,2,clothing and t-shirt,8.5,8,10,9,7,plain,False,"The background is a blurred, indistinct greyish-white, appearing to be a studio or plain wall."
+ecommerce118k,03bf117d8950117fc8f878c77376725e.jpg,29,men fashion,5.0,6,2,8,4,plain,False,"The image is significantly marred by large, distracting text overlays that reduce purchase confidence."
+bg60k,48647.png,12,clock,7.75,6,10,8,7,lifestyle,False,"The clock is displayed on a grey wall within a hallway setting, featuring doorways and partial views of adjacent rooms."
+bg60k,40544.png,26,audio,9.25,10,10,9,8,plain,False,The product is set against a black background with a stylized waveform graphic in white and green.
+ecommerce118k,d74bbf2f7e800808104d85df7aa68d2b.jpg,15,coffee,6.5,8,3,9,6,plain,False,The image is significantly detracted by the large 'PREMIUM QUALITY' banner and other text overlays.
+bg60k,37890.png,26,audio,9.0,9,10,9,8,plain,False,"The product rests on a textured, light-brown surface resembling folded paper or fabric."
+ecommerce118k,242357dae7106a533e5664d5503bec15.jpg,34,makeup,8.25,9,10,8,6,plain,False,"The background is a plain, off-white surface with subtle texture."
+bg60k,37892.png,2,clothing and t-shirt,8.5,7,10,9,8,lifestyle,False,"The product is placed on a light beige surface with scattered pearls, a gold ring, and a blurred photograph in the lower left corner."
+ecommerce118k,b74aad78f60dcbce4cda868087830f41.jpg,8,wallet,8.5,8,10,9,7,plain,False,"The product is displayed on a white, slightly textured surface, with a blurred circular object in the background."
+bg60k,42108.png,14,rice cooker,8.5,7,10,9,8,lifestyle,False,The product is placed on a wooden countertop with a blurred kitchen scene visible in the background.
+ecommerce118k,6eb9bb4dbd199a1d6279386a87ef1fd0.jpg,16,shoes,4.25,4,2,7,4,lifestyle,True,"The image is significantly hampered by large, distracting text overlays and a cluttered lifestyle background."
+ecommerce118k,dbd2fa7792bebda88e175b69e0502859.jpg,7,cap,8.75,10,10,9,7,plain,False,"The product is displayed on a plain white background with a subtle shadow effect, and smaller images of color variations are positioned below."
+ecommerce118k,47ad02e1ff5a417d895db8018bf67705.jpg,16,shoes,6.5,10,1,9,6,plain,False,"The large, distracting logo and text overlay significantly reduce the image's commercial appeal."
+ecommerce118k,d7ad20a49bc44b961b227ab3d2734b8f.jpg,2,clothing and t-shirt,6.25,9,2,8,6,plain,False,The large Redzeal logo and additional text overlay significantly detract from the product's presentation.
+ecommerce118k,011cea4b2f4d4653c88984d4907a5094.jpg,5,rings,8.75,10,10,9,7,plain,False,The product is set against a completely white background.
+ecommerce118k,c0043706b48aede2cf6faf5fa70152ff.jpg,30,sneakers,5.0,6,1,8,5,lifestyle,False,"The large, distracting watermark significantly reduces the image's professional quality."
+bg60k,52187.png,28,jacket,8.75,10,10,9,7,plain,False,The product is set against a gradient blue background that fades from lighter to darker.
+ecommerce118k,3b53f662814bd5e96986a63120c54cfe.jpg,13,feeding and nursing,8.75,10,10,9,7,plain,False,The product is set against a plain white background.
+bg60k,36930.png,18,home and living,8.75,8,10,9,8,lifestyle,False,The product is presented inside an open gift box with a patterned design featuring traditional Chinese architectural motifs.
+ecommerce118k,528db691f4596025a0f9f156b439c2e0.jpg,30,sneakers,5.25,6,2,8,5,lifestyle,False,"The large ""FREE KAOS KAKI"" text overlay significantly detracts from the image's professionalism."
+ecommerce118k,bedbcb707c7c1cd9d0a8d36d341d33d6.jpg,40,bathroom accessories,5.0,7,1,8,4,plain,False,"The image is heavily overlaid with promotional text and watermarks, significantly reducing its commercial appeal."
+ecommerce118k,230f3385594fb4533575c1e17543b8bb.jpg,14,rice cooker,7.25,6,10,8,5,lifestyle,False,The background is a gradient of pink and purple with floral illustrations.
+bg60k,8790.png,9,travel,9.25,10,10,9,8,plain,False,"The product is set against a seamless, light grey background with a subtle shadow."
+ecommerce118k,db360c7af60e25cb67ac71202c66b5ce.jpg,1,women abaya,4.0,3,2,7,4,cluttered,True,The image is heavily cluttered with distracting text overlays and a busy background.
+ecommerce118k,517ef49941e141b1767eb5587a5303ad.jpg,15,coffee,8.0,7,10,9,6,plain,False,The product is photographed against a plain white wall with some visible shadows and slight imperfections.
+bg60k,58289.png,37,laptop,8.5,8,10,9,7,plain,False,"The background is a blurred, abstract gradient of white and light blue with geometric shapes."
+bg60k,14841.png,24,watches,9.0,9,10,9,8,plain,False,"The product is set against a dark, textured gradient background with a subtle carbon fiber-like pattern."
+ecommerce118k,0dbaaac2c2b2f427cd3694e06aab6be2.jpg,24,watches,6.75,9,3,9,6,plain,False,The prominent watermarks and brand logos detract from the product's presentation and reduce commercial appeal.
+bg60k,52097.png,35,perfume,8.25,7,10,9,7,lifestyle,False,"The product is set against a dark, textured background with blurred foliage elements on either side."
+ecommerce118k,f10b42eaea49bc9f3f98bbbaa6f2a72e.jpg,21,sports,8.75,10,10,9,7,plain,False,The product is set against a completely white background.
+ecommerce118k,f9e95731336366e8af5d8fd6a85dbc07.jpg,27,toy cars,3.75,3,1,7,4,cluttered,True,The cluttered background with excessive text and packaging distracts from the product and reduces commercial appeal.
+bg60k,58914.png,19,data storage,9.25,10,10,9,8,plain,False,The background is a gradient of dark blue tones with a reflective surface creating a mirrored effect.
+bg60k,52845.png,31,snacks and sweets,8.0,6,10,9,7,lifestyle,False,The product is presented on a dark plate with a blurred background of red chili peppers.
+ecommerce118k,dbafe27973e30f7f1132d69a6dbdc3ab.jpg,19,data storage,6.5,9,2,9,6,plain,False,The large text overlays significantly detract from the product's presentation.
+ecommerce118k,fa5255dd083600013b480ee00549f298.jpg,18,home and living,5.0,6,2,8,4,plain,False,"The image is heavily overlaid with promotional text and graphics, significantly reducing its commercial appeal."
+ecommerce118k,b72d4115a6ed57f13b93e6ae462f9e4c.jpg,1,women abaya,6.0,8,3,7,6,plain,False,The image is significantly cluttered with seller-added text and watermarks which detract from the product.
+ecommerce118k,ceab48c6d4062fbe2ef326dc68a6342b.jpg,29,men fashion,7.25,5,10,8,6,lifestyle,False,The product is shown against a blurred outdoor street background with a road and some greenery.
+ecommerce118k,7596c6b9fa6923bdba8da8b358c44f2d.jpg,18,home and living,8.75,10,10,9,7,plain,False,The product is set against a completely white background.
+ecommerce118k,4e96822207ddfdb8983ff9ad028caa3d.jpg,6,earring,8.75,8,10,9,8,plain,False,"The product is presented on a black velvet-like surface with a blurred, golden-toned object visible in the background."
+ecommerce118k,7c381b96da56f6c0c9d4157683bee664.jpg,5,rings,8.75,10,10,9,7,plain,False,"The background is a gradient of grey, transitioning from light to dark."
+ecommerce118k,5a185833b2addab07d1aa723bc78b10c.jpg,28,jacket,6.0,8,1,9,6,plain,False,The large black bar obscuring part of the image significantly detracts from its commercial appeal.
+bg60k,30107.png,24,watches,8.0,9,5,10,8,plain,False,"The background is a gradient of pink and red hues, appearing soft and slightly blurred."
+ecommerce118k,1f40db2869a1384014bf335e0d5b115b.jpg,7,cap,7.25,6,10,7,6,lifestyle,False,The products are laid out on a wood-grain surface.
+ecommerce118k,f20b8b4b43cc423d6adf70f0b3669d33.jpg,23,gloves,5.0,6,2,8,4,lifestyle,False,"The image is heavily overlaid with seller-added text and watermarks, significantly reducing its commercial appeal."
+ecommerce118k,b1513735cc1b9386a4dddd6dcbf007b4.jpg,13,feeding and nursing,5.75,8,2,9,4,plain,False,"The image is heavily overlaid with promotional text and watermarks, significantly reducing its commercial appeal."
+bg60k,2211.png,33,disinfectants and sanitizers,5.75,6,2,9,6,lifestyle,True,The image is significantly detracted by the large amount of text overlaid on the product.
+bg60k,17157.png,42,laptop,8.5,7,10,9,8,lifestyle,False,"The background depicts a futuristic, high-tech corridor with red and blue lighting and abstract geometric patterns."
+bg60k,1068.png,19,data storage,9.25,10,10,9,8,plain,False,"The background is a gradient of grey tones, transitioning from lighter to darker shades."
+bg60k,5491.png,2,clothing and t-shirt,7.75,6,10,8,7,lifestyle,False,"The background is a dark, draped fabric with some blurred floral elements and a book visible."
+ecommerce118k,6f150951ee5315139d5a644c3861ae66.jpg,9,travel,7.75,6,10,8,7,lifestyle,False,"The product is shown inside an open yellow suitcase, with a person's hands visible as they pack."
+ecommerce118k,d160df8d106112de340bc5bb63f19fa8.jpg,1,women abaya,7.0,10,3,9,6,plain,False,"The background is a solid, neutral grey gradient."
+bg60k,48869.png,19,data storage,8.5,9,10,8,7,plain,False,The background is a gradient of grey tones with a subtle diagonal stripe pattern.
+bg60k,42747.png,4,women jeans,7.75,7,10,8,7,lifestyle,False,The product is placed on a snowy surface with a blurred mountain range in the background.
+bg60k,2834.png,31,snacks and sweets,8.5,8,10,9,7,plain,False,"The product is placed on a black textured surface, resembling a slate or chalkboard, with blurred writing visible in the background."
+ecommerce118k,ee17169a705334de6b3897bbbbd43f2d.jpg,5,rings,7.75,7,10,8,6,plain,False,"The background appears to be a textured, brown surface resembling wood or leather."
+bg60k,58705.png,22,sports and outdoors,7.75,6,10,8,7,lifestyle,False,"The product is displayed on a cross-section of a tree trunk, with some bark and wood grain visible."
+bg60k,23516.png,2,clothing and t-shirt,8.5,10,10,8,6,plain,False,"The background is a solid, neutral grey colour."
+ecommerce118k,32407b100dbb62a8c1c727e9fe67fe72.jpg,18,home and living,7.25,6,10,8,5,lifestyle,False,"The product is placed on a shiny, wood-grain surface that appears to be a countertop or table."
+bg60k,32747.png,13,feeding and nursing,9.25,10,10,9,8,plain,False,The product is set against a gradient beige background that transitions from lighter to darker tones.
+bg60k,44704.png,40,bathroom accessories,5.75,7,1,9,6,lifestyle,False,"The image is significantly detracted by large, distracting Chinese text overlays."
+bg60k,29035.png,15,coffee,5.25,6,2,8,5,lifestyle,False,The image is heavily overlaid with distracting Chinese text and watermarks.
+ecommerce118k,35a866fd574ee8ee24d36edcc8d256e9.jpg,23,gloves,7.75,10,5,9,7,plain,False,The product is displayed against a plain white background.
+bg60k,6911.png,14,rice cooker,8.75,8,10,9,8,lifestyle,False,"The product is placed on a textured grey surface against a dark grey wall, creating a minimalist kitchen countertop aesthetic."
+ecommerce118k,ac852060cbdd92618a0b0102e8e16b8b.jpg,23,gloves,8.5,10,10,8,6,plain,False,"The background is a plain, off-white colour."
+bg60k,4365.png,13,feeding and nursing,6.25,4,10,8,6,cluttered,True,The cluttered outdoor background distracts from the product and reduces its visual impact.
+bg60k,11288.png,16,shoes,8.5,8,10,9,7,plain,False,The product is displayed on a white surface with a metallic railing visible in the lower portion of the image.
+bg60k,17554.png,30,sneakers,8.75,10,10,9,7,plain,False,"The product is set against a seamless, light grey background."
+bg60k,61634.png,12,clock,8.75,8,10,10,7,plain,False,The product is set against a gradient grey background that fades from dark at the edges to light in the center.
+ecommerce118k,4b83359b3b591b6f074e13d3d835373b.jpg,8,wallet,6.5,8,3,9,6,plain,False,The large text overlay at the bottom of the image detracts from the product and appears unprofessional.
+bg60k,55240.png,12,clock,7.25,6,8,9,6,lifestyle,False,The clock is placed on a wooden surface against a light blue wall with framed artwork visible in the background.
+ecommerce118k,048aa6d6c3a3781b41ed4ac448597158.jpg,2,clothing and t-shirt,3.5,2,2,7,3,cluttered,True,The cluttered background and excessive text overlays significantly detract from the product and reduce purchase confidence.
+ecommerce118k,22d3a456088d98c834b3eb3f406e6306.jpg,26,audio,5.5,10,1,8,3,plain,False,"The image is heavily cluttered with promotional text and watermarks, significantly reducing its commercial appeal."
+ecommerce118k,86b1ce32294b1eab3e89080d8ff52686.jpg,24,watches,8.75,10,10,9,7,plain,False,"The product is set against a plain, light grey background."
+ecommerce118k,9804d725cc3c0433dcf878841896ee7f.jpg,28,jacket,5.75,10,1,8,4,plain,False,The large watermarks and text overlays significantly detract from the product's presentation and reduce purchase confidence.
+bg60k,37960.png,23,gloves,6.5,9,2,9,6,plain,False,"The image is significantly detracted by the large, distracting text overlaid on the product label."
+ecommerce118k,223232df7c24a778e38d6a387257418f.jpg,39,home decor,6.0,10,1,9,4,plain,False,"The large, distracting text and watermark significantly reduce the image's commercial appeal."
+bg60k,46221.png,14,rice cooker,8.25,7,10,9,7,lifestyle,False,The product is placed in a bathroom setting with a window showing greenery and a white bathtub visible in the background.
+bg60k,30060.png,19,data storage,8.5,8,10,9,7,plain,False,The product is displayed against a dark blue gradient background with abstract light streaks and a blurred keyboard section.
+bg60k,16287.png,29,men fashion,8.5,8,10,9,7,plain,False,The product is placed on concrete-like blocks against a gradient grey and reddish-orange background.
+bg60k,39889.png,39,home decor,6.5,8,3,9,6,plain,false,
+bg60k,42783.png,7,cap,8.25,7,10,9,7,plain,False,The product is placed on a plain white surface with a blurred book and box visible in the background.
+bg60k,10538.png,28,jacket,8.25,7,10,8,8,lifestyle,False,"The product is set in a modern interior with wood paneling, a mirror, and some plants, creating a lifestyle setting."
+ecommerce118k,1487e64d5dab79be2cb184793e3bdfca.jpg,4,women jeans,4.75,6,2,7,4,plain,False,"The image is significantly hampered by large, distracting text overlays and a low commercial appeal."
+bg60k,58470.png,28,jacket,8.75,10,10,8,7,plain,False,The product is displayed against a plain white background with subtle shadow effects to create depth.
+ecommerce118k,dae42048a7ee9ff290494454e068d486.jpg,35,perfume,7.75,7,10,8,6,plain,False,"The product is displayed against a textured, off-white fluffy background resembling a faux fur or fabric."
+bg60k,52998.png,18,home and living,8.25,9,10,8,6,plain,False,"The background is a dark, almost black gradient, appearing to be a studio setup."
+ecommerce118k,53075770135aec1f0b848c030ba8c6ee.jpg,25,belt,8.75,10,10,9,7,plain,False,The product is displayed against a plain white background.
+bg60k,24935.png,11,phone,9.25,10,10,9,8,plain,False,The product is displayed against a solid grey background with a subtle shadow effect.
+ecommerce118k,0b5bff9e8e0d3c578385a4ec094745f1.jpg,24,watches,7.5,6,10,8,6,lifestyle,False,"The background is a blurred, out-of-focus arm and a hint of outdoor greenery."
+ecommerce118k,59c97969c65713492bb5194a114a474c.jpg,11,phone,3.5,3,1,7,3,cluttered,True,"The image is heavily cluttered with text overlays and a distracting background, significantly reducing its commercial appeal."
+ecommerce118k,720971a5082f2511371017d4bd119e57.jpg,30,sneakers,4.25,4,1,8,4,cluttered,True,The image is significantly hampered by a distracting background and large text/watermark overlays.
+bg60k,14056.png,5,rings,7.75,6,10,8,7,lifestyle,False,The product is set against a textured dark teal background with a repeating geometric pattern and gold-colored decorative elements.
+ecommerce118k,e98e6a946ce5df5ac87af5c09e91265a.jpg,13,feeding and nursing,6.0,10,1,8,5,plain,False,The image is heavily cluttered with text and logos that detract from the product.
+bg60k,40581.png,40,bathroom accessories,8.75,10,10,9,7,plain,False,"The product is set against a solid, light blue background."
+ecommerce118k,d0075c1b43966366627cf638c100dd1b.jpg,3,women sweaters and hoodies,8.5,9,10,8,7,plain,False,"The background is a plain, light grey wall with soft shadows suggesting an indoor setting."
+bg60k,32947.png,20,chair,5.5,7,1,8,6,lifestyle,False,The numerous watermarks significantly detract from the image's professional appearance and purchase appeal.
+bg60k,43675.png,15,coffee,8.5,9,10,8,7,plain,False,"The product is displayed on a white, stepped surface with subtle grey shadows, creating a minimalist and slightly abstract background."
+ecommerce118k,cf15122c3f719c5c38be94a5d2c1bc39.jpg,10,phone cover,6.75,4,10,8,6,lifestyle,True,The busy camouflage background distracts from the phone cases and reduces their visual impact.
+ecommerce118k,d615d9dc6edea13efeb79ff741736e29.jpg,2,clothing and t-shirt,4.25,4,2,7,4,lifestyle,True,"The large, distracting text overlay and cluttered background significantly reduce the image's commercial appeal."
+ecommerce118k,b1642cca44fe6f02cf7452d2b9b0a8c1.jpg,7,cap,8.5,10,10,8,6,plain,False,The background is a plain white surface.
+bg60k,33556.png,30,sneakers,6.0,6,3,9,6,lifestyle,False,The prominent text overlays and busy background detract from the product's presentation.
+bg60k,29556.png,34,makeup,7.75,8,10,7,6,plain,False,The product is displayed inside a clear plastic storage container on a light grey surface.
+bg60k,31553.png,4,women jeans,6.25,3,10,8,4,cluttered,True,The cluttered and distracting carpet background detracts from the product and lowers purchase confidence.
+ecommerce118k,8988358a8861915955b72dce0f8e0c34.jpg,8,wallet,4.75,6,2,7,4,plain,False,"The image is heavily cluttered with text overlays and callouts, reducing its commercial appeal."
+ecommerce118k,92ed9b08569d2c48e9cfe8dbc052149f.jpg,4,women jeans,3.5,3,1,7,3,cluttered,True,"The image is heavily cluttered with seller-added text overlays, significantly reducing its commercial appeal."
+bg60k,11919.png,12,clock,9.25,10,10,9,8,plain,False,The product is set against a completely black background.
+ecommerce118k,83a0be430b47442b62e9a11b1ecc4cff.jpg,39,home decor,3.25,2,1,7,3,cluttered,True,The image is heavily cluttered with promotional text and decorative elements that distract from the product.
+bg60k,29228.png,20,chair,8.25,7,10,9,7,lifestyle,False,"The product is set against a gradient purple and blue background with a stylized, low-poly island and bird illustration at the bottom."
+ecommerce118k,241ce0710fb02050ad4da50a61661f62.jpg,8,wallet,6.75,10,1,10,6,plain,False,The product is set against a completely white background.
+ecommerce118k,f2230a07bda168ed6d50aca3578dac0e.jpg,6,earring,5.0,6,2,8,4,lifestyle,False,"The image is significantly marred by large, distracting text overlays."
+bg60k,20868.png,12,clock,6.25,4,10,8,6,lifestyle,True,The blurred background is distracting and doesn't highlight the product effectively.
+ecommerce118k,acc1c5350dc5c9e252fcceb40fff846a.jpg,26,audio,7.5,10,5,8,7,plain,False,The product is displayed on a clean white surface with subtle grey shadow effects to create a sense of depth.
+bg60k,13761.png,30,sneakers,8.75,8,10,9,8,lifestyle,False,"The product is placed on a textured, off-white surface with blurred glasses of orange juice in the background."
+bg60k,57033.png,34,makeup,8.5,9,10,8,7,plain,False,"The product is placed on a plain, light grey surface."
+ecommerce118k,a463ba3bd1e970acb1af18722a46503e.jpg,26,audio,4.75,6,2,8,3,plain,False,"The image is heavily cluttered with promotional text and watermarks, significantly reducing its commercial appeal."
+ecommerce118k,24782d3ee1d059a8521227bfa389bab5.jpg,7,cap,6.25,4,10,7,4,cluttered,True,"The background is distracting and detracts from the product, and the overall image lacks commercial appeal."
+ecommerce118k,902c36b184a916b4e1c28a90e451ba7c.jpg,4,women jeans,8.25,8,10,9,6,plain,False,The product is hanging against a plain grey wall with a visible metal hanging rod at the top.
+bg60k,53377.png,43,food,7.25,6,8,8,7,lifestyle,False,The product is placed on a textured grey surface with a patterned gift box and a small cup of tea beside it.
+bg60k,4725.png,14,rice cooker,8.5,7,10,9,8,lifestyle,False,"The product is set against a gradient blue wall with a blurred bathroom setting including a sink, faucet, and rolled towels."
+bg60k,42260.png,30,sneakers,9.25,10,10,9,8,plain,False,"The product is set against a solid, light grey background."
+ecommerce118k,7e484bd3ada87eecad9a11f62abcee5c.jpg,30,sneakers,6.25,9,2,8,6,plain,False,The large text overlay significantly detracts from the product's presentation.
+bg60k,46782.png,32,personal protective equipment,8.5,8,10,9,7,plain,False,"The product is placed on a textured, woven grey background resembling a basketweave pattern."
+bg60k,58266.png,43,food,8.25,10,10,8,5,plain,False,The product is presented on a plain white background.
+bg60k,57074.png,32,personal protective equipment,7.75,7,10,8,6,lifestyle,False,"The product is set against a minimalist room interior with light wood flooring, a grey armchair, and a potted plant."
+bg60k,29277.png,26,audio,8.75,8,10,9,8,lifestyle,False,"The background is a gradient of concentric circles emanating from behind the radio, with a blurred sofa visible in the lower right corner."
+bg60k,16132.png,15,coffee,8.0,6,10,9,7,lifestyle,False,The product is placed on a blue textured tennis court surface with a single hibiscus flower nearby.
+bg60k,20864.png,21,sports,8.5,7,10,9,8,lifestyle,False,"The product is placed on a wooden game board with a grid pattern, and a light grey background."
+ecommerce118k,75e3dab211967f39fc2f0b030a00599c.jpg,6,earring,5.75,7,2,8,6,lifestyle,False,"The large, distracting watermark significantly reduces purchase confidence."
+ecommerce118k,5b78be6e5a09eb276fda2be6178b7240.jpg,38,food storage and tableware,3.75,3,2,7,3,cluttered,True,"The image is significantly hampered by distracting text overlays and a busy, unprofessional background."
+bg60k,6606.png,3,women sweaters and hoodies,8.75,10,10,9,7,plain,False,"The product is set against a solid, light peach-coloured background."
+ecommerce118k,44422a7541db85629d1dd736aec4e123.jpg,33,disinfectants and sanitizers,4.75,6,1,8,4,lifestyle,True,The image is heavily overlaid with distracting seller-added text and graphics.
+bg60k,41802.png,19,data storage,8.75,9,10,9,7,plain,False,The product is set against a gradient blue background with abstract light streaks.
+bg60k,13829.png,28,jacket,8.5,9,10,8,7,plain,False,The product is displayed against a dark grey gradient background.
+bg60k,31568.png,35,perfume,4.25,3,1,8,5,cluttered,True,The distracting and repetitive text overlays significantly detract from the product's presentation.
+ecommerce118k,a51cd0a28c6ffe47cf0dd0c254a412ee.jpg,3,women sweaters and hoodies,5.0,3,5,7,5,cluttered,True,The cluttered background distracts from the product and reduces its visual impact.
+bg60k,8835.png,32,personal protective equipment,9.0,9,10,9,8,plain,False,"The product is set against a gradient blue background with soft, rounded rectangular shapes behind it."
+bg60k,49308.png,22,sports and outdoors,9.25,10,10,9,8,plain,False,"The product is set against a very light grey, almost white, seamless background."
+bg60k,59611.png,15,coffee,7.75,7,10,8,6,lifestyle,False,The product is placed on a light blue surface with blurred green foliage visible in the background.
+ecommerce118k,a2085083c57120e6f1f41d90965a91c4.jpg,29,men fashion,5.25,6,2,8,5,plain,False,The large text overlay significantly detracts from the product's presentation and reduces purchase confidence.
+ecommerce118k,29dea7bfa679cecf0fa04ce614bcf557.jpg,7,cap,3.25,2,1,7,3,cluttered,True,"The image is heavily cluttered with distracting text and watermarks, significantly reducing its commercial appeal."
+ecommerce118k,899c75ada169dcdbed7629d9568b4500.jpg,31,snacks and sweets,3.25,2,1,7,3,cluttered,True,"The image is overwhelmed by distracting text overlays and a cluttered background, significantly reducing its commercial appeal."
+ecommerce118k,c346a6914a0b3aa84fa9514bb5d29644.jpg,6,earring,5.25,8,1,7,5,plain,False,"The image contains a large, distracting watermark that reduces purchase confidence."
+bg60k,14520.png,2,clothing and t-shirt,9.0,9,10,9,8,plain,False,The product is hanging against a gradient grey background that transitions from light to dark.
+ecommerce118k,07d98d688e4eebb58c5d0275922c2856.jpg,16,shoes,6.0,10,1,8,5,plain,False,"The image is significantly detracted by the large, distracting price tags overlaid on each shoe."
+bg60k,18498.png,15,coffee,7.75,6,10,8,7,lifestyle,False,The products are placed on a light-coloured surface with scattered seashells and tropical leaves.
+ecommerce118k,29b9fd63b67524674e346cd9dbbef4a0.jpg,26,audio,5.75,8,2,9,4,plain,False,"The image is heavily cluttered with seller-added text and watermarks, significantly reducing its commercial appeal."
+bg60k,25585.png,14,rice cooker,8.5,7,10,9,8,lifestyle,False,"The product is set against a muted, reflective surface with blurred floral arrangements and gold accents in the background."
+ecommerce118k,191146cc923caa21bdf26c7ae764388f.jpg,11,phone,8.5,10,10,8,6,plain,False,The product is displayed on a completely white background.
+ecommerce118k,020f402e59e4b6bc02a04382afc6d69d.jpg,13,feeding and nursing,8.25,9,10,8,6,plain,False,The product is displayed against a plain white background with a slight gradient.
+ecommerce118k,1cdd22cf0011e0963e462d5b1379089f.jpg,11,phone,5.5,10,1,8,3,plain,False,The image is heavily overlaid with distracting text and watermarks that significantly reduce purchase confidence.
+ecommerce118k,f6b223bbfd0f88e8eb87567bbec095be.jpg,20,chair,8.75,9,10,9,7,plain,False,"The background is a gradient grey, transitioning from dark at the top to lighter at the bottom."
+bg60k,17817.png,41,couch and cushions,8.5,7,10,9,8,lifestyle,False,"The sofa is placed in a styled living room setting with a light green wall, wooden flooring, a rug, plants, and other furniture elements."
+ecommerce118k,11360057e65482d5fdce92e607de590c.jpg,16,shoes,8.5,10,10,8,6,plain,False,"The product is set against a plain, slightly off-white background."
+ecommerce118k,a63d3a93ee9fa351d35838974915abe8.jpg,30,sneakers,7.75,6,10,8,7,lifestyle,False,The background is a blurred urban street scene with indistinct figures and vehicles.
+bg60k,62502.png,8,wallet,8.5,8,10,9,7,lifestyle,False,"The product is presented on a dark brown, textured surface resembling wood or leather."
+ecommerce118k,958d31091b7eba663cb19f16642cd2dc.jpg,28,jacket,4.5,4,2,8,4,plain,True,"The large, distracting watermark and promotional text significantly reduce the image's commercial appeal."
+bg60k,23294.png,42,laptop,6.25,3,10,8,6,cluttered,True,The cluttered conference room background distracts from the product and doesn't showcase it in an appealing way.
+bg60k,16519.png,42,laptop,6.5,10,1,9,6,plain,False,The prominent watermarks and logos on the product itself significantly detract from its commercial appeal.
+bg60k,25692.png,4,women jeans,6.5,10,1,9,6,plain,False,"The image is heavily overlaid with seller-added text and tags, reducing its commercial appeal."
+ecommerce118k,968a45e17bf1adc422afc08dc6be9bba.jpg,32,personal protective equipment,6.5,3,10,8,5,lifestyle,True,The cluttered and irrelevant car interior background distracts from the product and reduces its commercial appeal.
+ecommerce118k,036ed56656226792e67a7a6357003b19.jpg,0,women dresses,8.5,9,10,8,7,plain,False,"The background is a gradient grey, transitioning from lighter to darker, and appears to be a studio backdrop."
+ecommerce118k,8f00442e9cc899c9b2e31ea3d2647a7b.jpg,40,bathroom accessories,8.75,10,10,9,7,plain,False,The product is set against a plain white background with a subtle gradient shadow.
+bg60k,1986.png,10,phone cover,9.0,9,10,9,8,plain,False,"The product is displayed against a dark, textured grey background resembling carbon fiber."
+bg60k,5216.png,8,wallet,7.5,10,5,8,7,plain,False,"The background is a solid, deep red colour."
+bg60k,24698.png,36,household cleaning supplies,5.75,8,2,7,6,plain,False,The image is significantly cluttered with excessive seller-added text overlays.
+bg60k,45437.png,13,feeding and nursing,8.5,8,10,9,7,plain,False,"The product is set against a blurred, light beige and white gradient background with abstract shapes resembling clouds or fabric."
+bg60k,24781.png,33,disinfectants and sanitizers,8.5,10,10,8,6,plain,False,The product is presented on a completely plain white background.
+bg60k,51608.png,19,data storage,8.25,9,10,8,6,plain,False,The product is set against a gradient grey background with subtle shadow effects.
+ecommerce118k,8dbcf4f7f1f039f9f1ca0d4498366209.jpg,6,earring,8.25,7,10,9,7,lifestyle,False,"The background consists of a textured, off-white surface with a partial view of a ceramic plate or dish."
+bg60k,11609.png,30,sneakers,8.75,10,10,9,7,plain,False,"The background is a solid, light grey colour."
+bg60k,34820.png,35,perfume,8.25,7,10,9,7,lifestyle,False,The product is set on a dark wooden surface with blurred chopsticks and a bowl visible in the background.
+ecommerce118k,b3d7941de9205eab04befd6c390eab7a.jpg,6,earring,8.75,8,10,9,8,lifestyle,False,"The product is displayed on a textured, dark teal-colored box with a repeating geometric pattern."
+bg60k,45705.png,33,disinfectants and sanitizers,5.0,6,1,8,5,lifestyle,False,"The image is heavily overlaid with text on the product label, reducing its commercial appeal."
+bg60k,51898.png,34,makeup,8.5,9,10,8,7,plain,False,"The background is a dark, gradient black, appearing almost like a void."
+bg60k,18605.png,38,food storage and tableware,8.25,7,10,8,8,lifestyle,False,"The product is set in a modern dining room with light-colored walls, built-in shelving, and a window with sheer curtains."
+ecommerce118k,1f6a41b7f44088c6757f0478cfca0726.jpg,20,chair,5.75,6,2,9,6,plain,False,The large watermark significantly detracts from the product and reduces purchase confidence.
+bg60k,19426.png,8,wallet,8.25,8,10,9,6,plain,False,The product is set against a gradient grey background with a circular spotlight effect.
+ecommerce118k,3ef8e1d4a066346d2b41a0da20676d32.jpg,16,shoes,6.0,10,1,9,4,plain,False,The excessive watermarks and text overlays significantly detract from the product's presentation and reduce purchase confidence.
+bg60k,27220.png,10,phone cover,8.75,10,10,9,7,plain,False,"The product is displayed against a solid, light blue background."
+ecommerce118k,224f2ef31d01e9c6e6d2554b83b4cfe3.jpg,8,wallet,6.25,6,5,8,6,lifestyle,False,The product is placed on a white surface with a blurred arrangement of pink flowers and a citrus coaster.
+ecommerce118k,8182f59a69a07091f28bacf470e3e677.jpg,20,chair,8.5,10,10,8,6,plain,False,The product is shown against a plain white background.
+bg60k,37538.png,39,home decor,9.0,9,10,9,8,plain,False,"The background is a blurred, abstract gradient of blue and white, resembling ice or water droplets."
+bg60k,20438.png,9,travel,7.75,6,10,8,7,lifestyle,False,The product is placed in front of a window with closed blinds and a stack of books below it.
+bg60k,8097.png,2,clothing and t-shirt,8.75,10,10,9,7,plain,False,"The product is displayed against a plain, light grey gradient background."
+bg60k,42893.png,24,watches,9.25,10,10,9,8,plain,False,The product is set against a very light grey gradient background with subtle texture.
+bg60k,37066.png,5,rings,9.0,9,10,9,8,plain,False,"The product is displayed on a small, angled white platform against a light grey gradient background."
+bg60k,27556.png,16,shoes,8.5,10,10,8,6,plain,False,The product is set against a gradient grey background that transitions from light to dark.
+bg60k,59360.png,20,chair,8.25,8,10,9,6,plain,False,"The product is set against a gradient background transitioning from dark grey to white, with a speckled effect resembling stars."
+bg60k,29405.png,9,travel,9.25,10,10,9,8,plain,False,"The product is set against a seamless, very light grey background."
+ecommerce118k,af3c060624cbe13b800fa4f18cd4e1e6.jpg,0,women dresses,4.0,3,2,7,4,cluttered,True,"The image suffers from a distracting background and prominent text overlay, reducing its commercial appeal."
+bg60k,44653.png,12,clock,8.25,7,10,9,7,lifestyle,False,The product is set on a wooden surface against a plain white wall with a blurred floral arrangement in the background.
+ecommerce118k,a5eff9a4ffa3ebb0e4c274415d96bfd7.jpg,19,data storage,9.0,9,10,9,8,plain,False,The product is displayed on a gradient grey background with a subtle shadow effect.
+bg60k,34805.png,26,audio,6.75,9,2,9,7,plain,False,"The large, intrusive text overlay significantly detracts from the image's professional appearance."
+bg60k,24128.png,35,perfume,8.75,8,10,9,8,lifestyle,False,The product is set against a pale green background with scattered yellow flower petals and green leaves.
+bg60k,7617.png,19,data storage,5.0,6,1,8,5,lifestyle,False,The large watermark significantly detracts from the product and reduces purchase confidence.
+ecommerce118k,d7d1f4076dd66213b7ee01943ba19da7.jpg,34,makeup,4.5,6,2,7,3,plain,False,"The image is heavily watermarked, significantly reducing its commercial appeal and purchase confidence."
+bg60k,8433.png,6,earring,6.75,6,5,9,7,lifestyle,False,"The background features a blurred landscape of mountains, a car interior, and a gradient blue sky."
+bg60k,4802.png,40,bathroom accessories,6.5,10,1,10,5,plain,False,"The image is significantly detracted by the large, intrusive text overlay."
