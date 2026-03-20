@@ -2,20 +2,21 @@ from abc import ABC, abstractmethod
 from PIL import Image
 from .config import MODELS
 from .preprocessing import make_fill_mask, resize_to_multiple
+from .types import InpaintConfig
 
 class InpaintingModel(ABC):
     @abstractmethod
     def inpaint(
         self, image: Image.Image, mask: Image.Image, prompt: str, seed: int, 
-        config: dict[str, float | int],
+        config: InpaintConfig,
     ) -> Image.Image:
         pass
 
     @staticmethod
-    def get_config_defaults() -> dict[str, float | int]:
+    def get_config_defaults() -> InpaintConfig:
         return {}
 
-def get_model_config_defaults(model_id: str) -> dict[str, float | int]:
+def get_model_config_defaults(model_id: str) -> InpaintConfig:
     if model_id == MODELS['FLUX.1-Fill-dev']:
         from .flux1 import Flux1InpaintingModel
         return Flux1InpaintingModel.get_config_defaults()
@@ -37,7 +38,7 @@ def inpaint_background(
     image: Image.Image,
     mask: Image.Image,
     prompt: str,
-    config: dict[str, float | int],
+    config: InpaintConfig,
     seed: int = 42,
 ) -> Image.Image:
     '''

@@ -2,6 +2,7 @@ from typing import cast
 from PIL import Image
 import torch
 from .inpaint import InpaintingModel
+from .types import InpaintConfig
 
 class HuggingFaceInpaintingModel(InpaintingModel):
     def __init__(self, model_id: str, device: str):
@@ -24,7 +25,7 @@ class HuggingFaceInpaintingModel(InpaintingModel):
         self._pipeline = pipeline
 
     @staticmethod
-    def get_config_defaults() -> dict[str, float | int]:
+    def get_config_defaults() -> InpaintConfig:
         return {
             "strength": 1.0,
             "guidance_scale": 7.5,
@@ -33,7 +34,7 @@ class HuggingFaceInpaintingModel(InpaintingModel):
 
     def inpaint(
         self, image: Image.Image, mask: Image.Image, prompt: str, seed: int, 
-        config: dict[str, float | int],
+        config: InpaintConfig,
     ) -> Image.Image:
         width, height = image.size
         

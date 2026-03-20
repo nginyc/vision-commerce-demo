@@ -1,13 +1,6 @@
+from .types import InpaintModelKey
 
-from typing import Literal
-
-ModelKey = Literal[
-    "FLUX.1-Fill-dev",
-    "stable-diffusion-xl-1.0-inpainting-0.1",
-    "stable-diffusion-inpainting"
-]
-
-MODELS: dict[ModelKey, str] = {
+MODELS: dict[InpaintModelKey, str] = {
     "FLUX.1-Fill-dev": "FLUX.1-Fill-dev",
     "stable-diffusion-xl-1.0-inpainting-0.1": "diffusers/stable-diffusion-xl-1.0-inpainting-0.1",
     "stable-diffusion-inpainting": "stable-diffusion-v1-5/stable-diffusion-inpainting"

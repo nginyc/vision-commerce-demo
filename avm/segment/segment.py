@@ -1,9 +1,8 @@
 from abc import ABC, abstractmethod
-
-import numpy as np
 from PIL import Image
 
 from .config import CATEGORY_OVERRIDES, MODELS
+from .types import MergedMask, SegmentConfig, SegmentInstances
 
 
 class SegmentationModel(ABC):
@@ -14,8 +13,8 @@ class SegmentationModel(ABC):
         self,
         image: Image.Image,
         prompt: str,
-        config: dict[str, float | int],
-    ) -> tuple[list[np.ndarray], list[float]]:
+        config: SegmentConfig,
+    ) -> SegmentInstances:
         """Return instance-level masks and scores for a text prompt."""
         pass
 
@@ -24,18 +23,18 @@ class SegmentationModel(ABC):
         self,
         image: Image.Image,
         prompt: str,
-        config: dict[str, float | int],
-    ) -> np.ndarray | None:
+        config: SegmentConfig,
+    ) -> MergedMask:
         """Return a single merged binary mask for the given prompt."""
         pass
 
     @staticmethod
-    def get_config_defaults() -> dict[str, float | int]:
+    def get_config_defaults() -> SegmentConfig:
         """Return backend-specific default configuration values."""
         return {}
 
 
-def get_model_config_defaults(model_id: str) -> dict[str, float | int]:
+def get_model_config_defaults(model_id: str) -> SegmentConfig:
     if model_id == MODELS["sam3"]:
         from .sam3 import Sam3SegmentationModel
 

@@ -10,12 +10,15 @@ from .config import (
 )
 from .preprocessing import make_fill_mask, resize_to_multiple
 from .prompts import CATEGORY_PROMPTS, DEFAULT_PROMPT, get_prompt
+from .types import InpaintConfig, InpaintModelKey
 from ..utils import detect_device
 
 __all__ = [
     "CATEGORY_PROMPTS",
     "DEFAULT_PROMPT",
     "DEFAULT_MODEL_ID",
+    "InpaintConfig",
+    "InpaintModelKey",
     "MODELS",
     "detect_device",
     "InpaintingModel",

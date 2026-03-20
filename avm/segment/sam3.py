@@ -5,6 +5,7 @@ import torch
 from PIL import Image
 
 from .segment import SegmentationModel
+from .types import InstanceMasks, InstanceScores, MergedMask, SegmentConfig, SegmentInstances
 
 
 class Sam3SegmentationModel(SegmentationModel):
@@ -25,7 +26,7 @@ class Sam3SegmentationModel(SegmentationModel):
         self._model = self._model.to(device).eval()  # type: ignore[reportUnknownMemberType]
 
     @staticmethod
-    def get_config_defaults() -> dict[str, float | int]:
+    def get_config_defaults() -> SegmentConfig:
         """Return default thresholds used during SAM3 post-processing."""
         return {
             "score_threshold": Sam3SegmentationModel.SCORE_THRESHOLD_DEFAULT,
@@ -33,7 +34,7 @@ class Sam3SegmentationModel(SegmentationModel):
         }
 
     @staticmethod
-    def _combine_masks(masks: list[np.ndarray], scores: list[float], strategy: str = "union") -> np.ndarray | None:
+    def _combine_masks(masks: InstanceMasks, scores: InstanceScores, strategy: str = "union") -> MergedMask:
         """Merge multiple instance masks into one binary mask."""
         if not masks:
             return None
@@ -53,8 +54,8 @@ class Sam3SegmentationModel(SegmentationModel):
         self,
         image: Image.Image,
         prompt: str,
-        config: dict[str, float | int],
-    ) -> tuple[list[np.ndarray], list[float]]:
+        config: SegmentConfig,
+    ) -> SegmentInstances:
         """Run SAM3 instance segmentation and return masks with confidence scores."""
         inputs = self._processor(
             images=image,
@@ -87,8 +88,8 @@ class Sam3SegmentationModel(SegmentationModel):
         self,
         image: Image.Image,
         prompt: str,
-        config: dict[str, float | int],
-    ) -> np.ndarray | None:
+        config: SegmentConfig,
+    ) -> MergedMask:
         """Generate a single merged binary mask from SAM3 instance predictions."""
         masks, scores = self.segment_instances(image, prompt, config)
         return self._combine_masks(masks, scores, strategy="union")

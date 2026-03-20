@@ -1,8 +1,6 @@
-from typing import Literal
+from .types import SegmentModelKey
 
-ModelKey = Literal["sam3"]
-
-MODELS: dict[ModelKey, str] = {
+MODELS: dict[SegmentModelKey, str] = {
     "sam3": "facebook/sam3",
 }
 DEFAULT_MODEL_ID = MODELS["sam3"]
