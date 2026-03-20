@@ -98,22 +98,6 @@ def inject_styles() -> None:
         color: #ffffff !important;
     }
 
-    [data-testid="stMetric"] {
-        background: var(--avm-surface);
-        border: 1px solid var(--avm-border);
-        border-radius: 10px;
-        padding: 0.6rem 0.72rem;
-    }
-
-    [data-testid="stMetricLabel"] {
-        font-size: 0.82rem;
-    }
-
-    [data-testid="stMetricValue"] {
-        font-size: 1.7rem;
-        line-height: 1.1;
-    }
-
     .avm-stepper {
         position: relative;
         margin-top: 0.8rem;
@@ -228,6 +212,51 @@ def inject_styles() -> None:
         border-color: #fcd34d;
     }
 
+    .avm-metric-card {
+        background: var(--avm-surface);
+        border: 1px solid var(--avm-border);
+        border-radius: 10px;
+        padding: 0.6rem 0.72rem;
+        margin-bottom: 0.3rem;
+    }
+
+    .avm-metric-label {
+        font-size: 0.82rem;
+        color: var(--avm-muted);
+        margin-bottom: 0.1rem;
+    }
+
+    .avm-metric-value {
+        font-size: 1.7rem;
+        line-height: 1.1;
+        font-weight: 600;
+        color: var(--avm-text);
+        margin-bottom: 0.35rem;
+    }
+
+    .avm-band {
+        display: inline-block;
+        padding: 0.15rem 0.55rem;
+        border-radius: 999px;
+        font-size: 0.78rem;
+        font-weight: 600;
+    }
+
+    .avm-band-ok {
+        background: #dcfce7;
+        color: #15803d;
+    }
+
+    .avm-band-warn {
+        background: #fef3c7;
+        color: #b45309;
+    }
+
+    .avm-band-unavail {
+        background: #f1f5f9;
+        color: #64748b;
+    }
+
     @media (max-width: 980px) {
         [data-testid="block-container"] {
             padding-top: 1rem;
@@ -282,20 +311,41 @@ def render_progress_stepper(stages: tuple[str, ...], current_stage: int) -> None
     )
 
 
-def format_score(value: float) -> str:
+def _format_score(value: float) -> str:
     if value < 0:
         return "N/A"
     return f"{value:.1f}/10"
 
 
-def score_band(value: float) -> str:
+def _score_band(value: float) -> str:
     if value < 0:
         return "Unavailable"
     if value >= 8:
-        return "Strong"
-    if value >= 6:
         return "Acceptable"
-    return "Needs work"
+    return "Needs improvement"
+
+
+def render_score_metric(label: str, value: float, caption: str | None = None) -> None:
+    band = _score_band(value)
+    if band == "Acceptable":
+        badge_class = "avm-band-ok"
+        badge_icon = "✓"
+    elif band == "Needs improvement":
+        badge_class = "avm-band-warn"
+        badge_icon = "⚠"
+    else:
+        badge_class = "avm-band-unavail"
+        badge_icon = "—"
+    st.markdown(
+        f"<div class='avm-metric-card'>"
+        f"<div class='avm-metric-label'>{label}</div>"
+        f"<div class='avm-metric-value'>{_format_score(value)}</div>"
+        f"<span class='avm-band {badge_class}'>{badge_icon} {band}</span>"
+        f"</div>",
+        unsafe_allow_html=True,
+    )
+    if caption:
+        st.caption(caption)
 
 
 def score_payload_from_exception(exc: Exception) -> ImageScoring:
@@ -306,6 +356,5 @@ def score_payload_from_exception(exc: Exception) -> ImageScoring:
         "product_prominence": -1,
         "commercial_appeal": -1,
         "bg_class": "",
-        "needs_bg_replacement": None,
         "reason": f"error: {exc}",
     }

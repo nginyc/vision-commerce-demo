@@ -86,7 +86,6 @@ class OpenAIScoringModel(ScoringModel):
                 "product_prominence": _to_score(parsed.get("product_prominence")),
                 "commercial_appeal": _to_score(parsed.get("commercial_appeal")),
                 "bg_class": str(parsed.get("background_class", "")),
-                "needs_bg_replacement": _to_bool_or_none(parsed.get("needs_background_replacement")),
                 "reason": str(parsed.get("primary_failure_reason") or parsed.get("background_description", "")),
             }
         except Exception as exc:
@@ -100,7 +99,6 @@ def _error_scoring(reason: str) -> ImageScoring:
         "product_prominence": -1,
         "commercial_appeal": -1,
         "bg_class": "",
-        "needs_bg_replacement": None,
         "reason": reason,
     }
 
@@ -111,17 +109,6 @@ def _to_score(value: Any) -> float:
     except (TypeError, ValueError):
         return -1
 
-
-def _to_bool_or_none(value: Any) -> bool | None:
-    if isinstance(value, bool):
-        return value
-    if isinstance(value, str):
-        normalized = value.strip().lower()
-        if normalized in {"true", "yes", "1"}:
-            return True
-        if normalized in {"false", "no", "0"}:
-            return False
-    return None
 
 
 def _extract_text_from_message_content(content: Any) -> str:

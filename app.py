@@ -27,14 +27,19 @@ from avm.segment import (
     normalize_category,
     create_mask_image,
 )
-from avm.score import DEFAULT_MODEL_ID as SCORE_DEFAULT_MODEL_ID, ImageScoring, OpenAIScoringModel
+from avm.score import (
+    DEFAULT_MODEL_ID as SCORE_DEFAULT_MODEL_ID,
+    MODELS as SCORE_MODELS,
+    DINOv2WithSealionScoringModel,
+    ImageScoring,
+    OpenAIScoringModel,
+)
 from avm.streamlit import (
     SCORE_HELP_TEXT,
     SCORE_LABELS,
-    format_score,
     inject_styles,
     render_progress_stepper,
-    score_band,
+    render_score_metric,
     score_payload_from_exception,
 )
 
@@ -72,6 +77,16 @@ def get_cached_scoring_model(model_id: str, base_url: str):
         raise ValueError(f"{SCORING_API_KEY_ENV} is required to analyze image quality.")
     client = OpenAI(api_key=api_key, base_url=base_url)
     return OpenAIScoringModel(client=client, model_id=model_id)
+
+
+@st.cache_resource(show_spinner=False)  # type: ignore
+def get_cached_dinov2_scoring_model(_model_id: str, device: str):
+    api_key = os.getenv(SCORING_API_KEY_ENV, "").strip()
+    if not api_key:
+        raise ValueError(f"{SCORING_API_KEY_ENV} is required to analyze image quality.")
+    client = OpenAI(api_key=api_key, base_url=SCORING_BASE_URL)
+    sealion = OpenAIScoringModel(client=client, model_id=SCORE_MODELS["sealionv4"])
+    return DINOv2WithSealionScoringModel(sealion_model=sealion, device=device)
 
 
 @st.cache_resource(show_spinner=False)  # type: ignore
@@ -122,9 +137,14 @@ SEGMENT_DEFAULT_MODEL_INDEX = next(
     0,
 )
 
+SCORE_DEFAULT_MODEL_INDEX = next(
+    (index for index, model_id in enumerate(SCORE_MODELS.values()) if model_id == SCORE_DEFAULT_MODEL_ID),
+    0,
+)
+
 
 # --- Page Config ---
-st.set_page_config(page_title="AVM Web Demo", layout="wide", initial_sidebar_state="expanded")
+st.set_page_config(page_title="AVM (Demo)", layout="wide", initial_sidebar_state="expanded")
 inject_styles()
 
 ConfigValue: TypeAlias = float | int
@@ -194,8 +214,12 @@ def set_stage(stage: int) -> None:
 
 def run_image_scoring(image: Image.Image) -> ImageScoring:
     try:
-        model_key = (SCORE_DEFAULT_MODEL_ID, SCORING_BASE_URL)
-        model = get_model(get_cached_scoring_model, model_key, Keys.LOADED_SCORING_MODEL_KEY)
+        if selected_scoring_model_id == SCORE_MODELS["dinov2-finetuned-with-sealionv4"]:
+            model_key = (selected_scoring_model_id, detect_device())
+            model = get_model(get_cached_dinov2_scoring_model, model_key, Keys.LOADED_SCORING_MODEL_KEY)
+        else:
+            model_key = (selected_scoring_model_id, SCORING_BASE_URL)
+            model = get_model(get_cached_scoring_model, model_key, Keys.LOADED_SCORING_MODEL_KEY)
         return model.score_image(image)
     except Exception as exc:
         return score_payload_from_exception(exc)
@@ -228,19 +252,16 @@ def render_config_sliders(defaults: ModelConfig, key_prefix: str) -> ModelConfig
 
 # --- Sidebar ---
 with st.sidebar:
-    st.title("Generation Settings")
-    st.caption("Advanced controls for mask and background generation.")
+    st.title("Settings")
+    st.caption("Advanced controls for analysis, masking and background generation.")
 
-    st.session_state[Keys.SEED] = int(
-        st.number_input(
-            "Generation Seed",
-            min_value=0,
-            max_value=999999,
-            value=int(st.session_state.get(Keys.SEED, 42)),
-            step=1,
-            key="sidebar_seed",
+    with st.expander("Analysis Settings", expanded=False):
+        selected_scoring_model_label = st.selectbox(
+            "Scoring Model",
+            options=list(SCORE_MODELS.keys()),
+            index=SCORE_DEFAULT_MODEL_INDEX,
         )
-    )
+        selected_scoring_model_id = SCORE_MODELS[selected_scoring_model_label]
 
     with st.expander("Masking Settings", expanded=False):
         selected_segment_model_label = st.selectbox(
@@ -258,6 +279,16 @@ with st.sidebar:
             index=INPAINT_DEFAULT_MODEL_INDEX,
         )
         selected_inpaint_model_id = INPAINT_MODELS[selected_inpaint_model_label]
+        st.session_state[Keys.SEED] = int(
+            st.number_input(
+                "Generation Seed",
+                min_value=0,
+                max_value=999999,
+                value=int(st.session_state.get(Keys.SEED, 42)),
+                step=1,
+                key="sidebar_seed",
+            )
+        )
         inpaint_config = render_config_sliders(get_inpaint_config_defaults(selected_inpaint_model_id), "inpaint")
 
     st.divider()
@@ -341,20 +372,19 @@ def render_stage_analyze() -> None:
             st.info("Preparing analysis...")
         else:
             overall_score = float(scoring.get("overall_score", -1))
-            needs_bg_replacement = scoring.get("needs_bg_replacement")
 
-            replacement_title = "Background replacement recommended"
-            replacement_message = "The current background likely hurts listing quality. Continue to masking and generate a cleaner scene."
-            replacement_class = "recommended"
-
-            if needs_bg_replacement is False:
-                replacement_title = "Background is acceptable"
-                replacement_message = "No major background issue detected. You can still continue to generate alternatives."
-                replacement_class = "not-needed"
-            elif needs_bg_replacement is None:
+            if overall_score < 0:
                 replacement_title = "Replacement decision unavailable"
                 replacement_message = "Scoring could not determine replacement need. Re-analyze or continue to masking."
                 replacement_class = "unknown"
+            elif overall_score >= 8:
+                replacement_title = "Background is acceptable"
+                replacement_message = "No major background issue detected. You can still continue to generate alternatives."
+                replacement_class = "not-needed"
+            else:
+                replacement_title = "Background replacement recommended"
+                replacement_message = "The current background likely hurts listing quality. Continue to masking and generate a cleaner scene."
+                replacement_class = "recommended"
 
             st.markdown(
                 f"""
@@ -366,11 +396,7 @@ def render_stage_analyze() -> None:
                 unsafe_allow_html=True,
             )
 
-            st.metric("Overall Score", format_score(overall_score), score_band(overall_score))
-            st.caption("Overall image readiness for marketplace listing.")
-
-            bg_class = str(scoring.get("bg_class", "") or "unknown")
-            st.write(f"**Background Type:** {bg_class.title()}")
+            render_score_metric("Overall Score", overall_score, "Overall image readiness for marketplace listing.")
 
             reason = str(scoring.get("reason", "") or "No additional notes.")
             if overall_score < 0:
@@ -378,7 +404,7 @@ def render_stage_analyze() -> None:
             else:
                 st.info(reason)
 
-    st.subheader("Score Breakdown")
+    st.subheader("Breakdown")
     metric_names = [
         "background_cleanliness",
         "text_watermark_score",
@@ -391,8 +417,7 @@ def render_stage_analyze() -> None:
         for index, metric_name in enumerate(metric_names):
             score_value = float(scoring_payload.get(metric_name, -1))
             with breakdown_col1 if index % 2 == 0 else breakdown_col2:
-                st.metric(SCORE_LABELS[metric_name], format_score(score_value), score_band(score_value))
-                st.caption(SCORE_HELP_TEXT[metric_name])
+                render_score_metric(SCORE_LABELS[metric_name], score_value, SCORE_HELP_TEXT[metric_name])
 
     analysis_error = st.session_state.get(Keys.IMAGE_ANALYSIS_ERROR)
     if analysis_error:

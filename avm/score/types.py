@@ -8,5 +8,4 @@ class ImageScoring(TypedDict):
     product_prominence: float
     commercial_appeal: float
     bg_class: str
-    needs_bg_replacement: bool | None
     reason: str

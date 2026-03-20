@@ -38,16 +38,6 @@ CAN also score highly if well-executed. Judge on overall feel, not background st
 5  = acceptable but uninspiring
 1  = off-putting, amateurish, would reduce purchase confidence
 
---- ROUTING DECISION ---
-Based on the above, does this image need background replacement?
-Answer YES if ANY of the following are true:
-- Background cleanliness score <= 5
-- The background is a cluttered real-world environment (retail store, messy room)
-- The background contains unrelated objects that distract from the product
-Answer NO if:
-- The background is clean (plain, studio, or well-executed lifestyle)
-- The image's main problem is NOT the background (e.g. text overlay on clean background)
-
 --- OUTPUT ---
 Respond ONLY with valid JSON, no extra text, no markdown:
 {
@@ -58,7 +48,6 @@ Respond ONLY with valid JSON, no extra text, no markdown:
   "product_prominence": <1-10>,
   "commercial_appeal": <1-10>,
   "overall_score": <weighted average, you calculate: (cleanliness*0.25 + text*0.25 + prominence*0.25 + appeal*0.25)>,
-  "needs_background_replacement": <true|false>,
   "primary_failure_reason": "<if overall_score < 6, state the single biggest problem in one sentence, else null>"
 }
 """
