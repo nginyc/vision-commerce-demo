@@ -1,9 +1,10 @@
 from .types import SegmentModelKey
 
 MODELS: dict[SegmentModelKey, str] = {
+    "sam3-finetuned": "sam3-finetuned",
     "sam3": "facebook/sam3",
 }
-DEFAULT_MODEL_ID = MODELS["sam3"]
+DEFAULT_MODEL_ID = MODELS["sam3-finetuned"]
 
 CATEGORY_OVERRIDES: dict[str, str] = {
     "second hand watches": "watch",

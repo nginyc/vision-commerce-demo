@@ -1,4 +1,5 @@
 from abc import ABC, abstractmethod
+from typing import Any
 from PIL import Image
 
 from .config import CATEGORY_OVERRIDES, MODELS
@@ -35,6 +36,10 @@ class SegmentationModel(ABC):
 
 
 def get_model_config_defaults(model_id: str) -> SegmentConfig:
+    if model_id == MODELS["sam3-finetuned"]:
+        from .sam3 import FinetunedSam3SegmentationModel
+
+        return FinetunedSam3SegmentationModel.get_config_defaults()
     if model_id == MODELS["sam3"]:
         from .sam3 import Sam3SegmentationModel
 
@@ -42,7 +47,11 @@ def get_model_config_defaults(model_id: str) -> SegmentConfig:
     raise ValueError(f"Unsupported segmentation model id: {model_id}")
 
 
-def build_model(model_id: str, device: str) -> SegmentationModel:
+def build_model(model_id: str, device: str, **kwargs: Any) -> SegmentationModel:
+    if model_id == MODELS["sam3-finetuned"]:
+        from .sam3 import FinetunedSam3SegmentationModel
+
+        return FinetunedSam3SegmentationModel(model_id, device, **kwargs)
     if model_id == MODELS["sam3"]:
         from .sam3 import Sam3SegmentationModel
 

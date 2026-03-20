@@ -247,8 +247,6 @@ with st.sidebar:
             "Segmentation Model",
             options=list(SEGMENT_MODELS.keys()),
             index=SEGMENT_DEFAULT_MODEL_INDEX,
-            disabled=True,
-            help="Only SAM3 is available for mask generation at this time.",
         )
         selected_segment_model_id = SEGMENT_MODELS[selected_segment_model_label]
         segment_config = render_config_sliders(get_segment_config_defaults(selected_segment_model_id), "segment")

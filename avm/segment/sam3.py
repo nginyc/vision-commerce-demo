@@ -1,3 +1,4 @@
+import os
 from typing import Any, cast
 
 import numpy as np
@@ -6,6 +7,12 @@ from PIL import Image
 
 from .segment import SegmentationModel
 from .types import InstanceMasks, InstanceScores, MergedMask, SegmentConfig, SegmentInstances
+
+# Override with SAM3_FINETUNED_CHECKPOINT env var if the file lives elsewhere.
+_FINETUNED_CHECKPOINT_DEFAULT = os.environ.get(
+    "SAM3_FINETUNED_CHECKPOINT",
+    "models/sam3_foreground_best-004.pth",
+)
 
 
 class Sam3SegmentationModel(SegmentationModel):
@@ -93,3 +100,35 @@ class Sam3SegmentationModel(SegmentationModel):
         """Generate a single merged binary mask from SAM3 instance predictions."""
         masks, scores = self.segment_instances(image, prompt, config)
         return self._combine_masks(masks, scores, strategy="union")
+
+
+class FinetunedSam3SegmentationModel(Sam3SegmentationModel):
+    """SAM3 fine-tuned on foreground-object segmentation.
+
+    Loads the facebook/sam3 architecture and processor from HuggingFace, then
+    overwrites the model weights with a local fine-tuned checkpoint.
+
+    The checkpoint path defaults to ``models/sam3_foreground_best-004.pth``
+    (relative to the working directory) and can be overridden with the
+    ``SAM3_FINETUNED_CHECKPOINT`` environment variable.
+    """
+
+    SCORE_THRESHOLD_DEFAULT = 0.5
+    MASK_THRESHOLD_DEFAULT = 0.1
+
+    BASE_MODEL_ID = "facebook/sam3"
+
+    def __init__(self, model_id: str, device: str, checkpoint_path: str = _FINETUNED_CHECKPOINT_DEFAULT):
+        super().__init__(self.BASE_MODEL_ID, device)
+        ckpt = torch.load(checkpoint_path, map_location=device)
+        # Support both raw state-dicts and wrapped checkpoints {"state_dict": ...}
+        state_dict = ckpt.get("state_dict", ckpt) if isinstance(ckpt, dict) else ckpt # type: ignore
+        self._model.load_state_dict(state_dict)
+        self._model.eval()
+
+    @staticmethod
+    def get_config_defaults() -> SegmentConfig:
+        return {
+            "score_threshold": FinetunedSam3SegmentationModel.SCORE_THRESHOLD_DEFAULT,
+            "mask_threshold": FinetunedSam3SegmentationModel.MASK_THRESHOLD_DEFAULT,
+        }
