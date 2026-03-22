@@ -1,0 +1,12 @@
+torch 
+torchvision
+diffusers
+transformers
+accelerate
+sentencepiece
+protobuf
+Pillow
+numpy
+tqdm
+torchmetrics
+torch-fidelity
