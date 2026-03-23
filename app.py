@@ -2,6 +2,7 @@ import gc
 import hashlib
 import io
 import os
+from pathlib import Path
 from typing import Callable, Final, TypeAlias, TypeVar
 
 import streamlit as st
@@ -9,7 +10,7 @@ from dotenv import load_dotenv
 from openai import OpenAI
 from PIL import Image
 
-from avm.inpaint import (
+from lib.inpaint import (
     CATEGORY_PROMPTS,
     DEFAULT_MODEL_ID as INPAINT_DEFAULT_MODEL_ID,
     MODELS as INPAINT_MODELS,
@@ -19,7 +20,7 @@ from avm.inpaint import (
     inpaint_background,
     get_model_config_defaults as get_inpaint_config_defaults,
 )
-from avm.segment import (
+from lib.segment import (
     DEFAULT_MODEL_ID as SEGMENT_DEFAULT_MODEL_ID,
     MODELS as SEGMENT_MODELS,
     build_model as build_segment_model,
@@ -27,14 +28,14 @@ from avm.segment import (
     normalize_category,
     create_mask_image,
 )
-from avm.score import (
+from lib.score import (
     DEFAULT_MODEL_ID as SCORE_DEFAULT_MODEL_ID,
     MODELS as SCORE_MODELS,
     DINOv2WithSealionScoringModel,
     ImageScoring,
     OpenAIScoringModel,
 )
-from avm.streamlit import (
+from lib.streamlit import (
     SCORE_HELP_TEXT,
     SCORE_LABELS,
     inject_styles,
@@ -47,6 +48,8 @@ load_dotenv()
 
 SCORING_BASE_URL = os.getenv("SEALION_BASE_URL", "https://api.sea-lion.ai/v1")
 SCORING_API_KEY_ENV = "SEALION_API_KEY"
+DINOV2_CHECKPOINT_PATH = str(Path(__file__).parent / "models" / "dinov2_vitb14_best.pt")
+INPAINT_LORA_PATH = str(Path(__file__).parent / "models" / "flux1_fill.pytorch_lora_weights.safetensors")
 
 
 # --- Session State Keys ---
@@ -86,12 +89,12 @@ def get_cached_dinov2_scoring_model(_model_id: str, device: str):
         raise ValueError(f"{SCORING_API_KEY_ENV} is required to analyze image quality.")
     client = OpenAI(api_key=api_key, base_url=SCORING_BASE_URL)
     sealion = OpenAIScoringModel(client=client, model_id=SCORE_MODELS["sealionv4"])
-    return DINOv2WithSealionScoringModel(sealion_model=sealion, device=device)
+    return DINOv2WithSealionScoringModel(sealion_model=sealion, checkpoint_path=DINOV2_CHECKPOINT_PATH, device=device)
 
 
 @st.cache_resource(show_spinner=False)  # type: ignore
-def get_cached_inpaint_model(model_id: str, device: str):
-    return build_inpaint_model(model_id, device)
+def get_cached_inpaint_model(model_id: str, device: str, lora_path: str | None = None):
+    return build_inpaint_model(model_id, device, lora_path=lora_path)
 
 
 @st.cache_resource(show_spinner=False)  # type: ignore
@@ -99,24 +102,38 @@ def get_cached_segment_model(model_id: str, device: str):
     return build_segment_model(model_id, device)
 
 
-def clear_model_resources() -> None:
-    get_cached_scoring_model.clear()
-    get_cached_inpaint_model.clear()
-    get_cached_segment_model.clear()
+def _free_memory() -> None:
     gc.collect()
     try:
         import torch
-
         if torch.cuda.is_available():
             torch.cuda.empty_cache()
     except Exception:
         pass
 
 
+def _release_model(cache_fn, session_key: str) -> None:
+    """Unload a specific cached model and free its memory."""
+    cache_fn.clear()
+    st.session_state.pop(session_key, None)
+    _free_memory()
+
+
+def clear_model_resources() -> None:
+    get_cached_scoring_model.clear()
+    get_cached_dinov2_scoring_model.clear()
+    get_cached_inpaint_model.clear()
+    get_cached_segment_model.clear()
+    st.session_state.pop(Keys.LOADED_SCORING_MODEL_KEY, None)
+    st.session_state.pop(Keys.LOADED_SEGMENT_MODEL_KEY, None)
+    st.session_state.pop(Keys.LOADED_INPAINT_MODEL_KEY, None)
+    _free_memory()
+
+
 _M = TypeVar("_M")
 
 
-def get_model(cache_fn: Callable[..., _M], model_key: tuple[str, str], session_key: str) -> _M:
+def get_model(cache_fn: Callable[..., _M], model_key: tuple, session_key: str) -> _M:
     """Load a cached model, clearing resources first if the model key changed."""
     previous = st.session_state.get(session_key)
     if previous is not None and previous != model_key:
@@ -144,7 +161,7 @@ SCORE_DEFAULT_MODEL_INDEX = next(
 
 
 # --- Page Config ---
-st.set_page_config(page_title="AVM (Demo)", layout="wide", initial_sidebar_state="expanded")
+st.set_page_config(page_title="VisionCommerce (Demo)", layout="wide", initial_sidebar_state="expanded")
 inject_styles()
 
 ConfigValue: TypeAlias = float | int
@@ -364,6 +381,8 @@ def render_stage_analyze() -> None:
             else:
                 st.session_state[Keys.IMAGE_ANALYSIS_ERROR] = None
             st.session_state[Keys.IS_ANALYZING_IMAGE] = False
+            _release_model(get_cached_scoring_model, Keys.LOADED_SCORING_MODEL_KEY)
+            _release_model(get_cached_dinov2_scoring_model, Keys.LOADED_SCORING_MODEL_KEY)
         st.rerun()
 
     with analysis_col2:
@@ -504,6 +523,7 @@ def render_stage_mask() -> None:
                     mask_img = create_mask_image(image=st.session_state[Keys.ORIGINAL_IMAGE], mask=mask)
                     st.session_state[Keys.MASK_IMAGE] = mask_img
                     st.session_state[Keys.IS_GENERATING_MASK] = False
+                    _release_model(get_cached_segment_model, Keys.LOADED_SEGMENT_MODEL_KEY)
                     set_stage(4)
                     st.rerun()
 
@@ -541,9 +561,11 @@ def render_stage_inpaint() -> None:
 
     with content_col2:
         st.subheader("Final Touches")
+        is_fixed_prompt = selected_inpaint_model_id == "flux-finetuned-fixed-prompt"
         prompt = st.text_area(
             "Background Prompt",
-            value=get_prompt(st.session_state[Keys.CATEGORY].strip()),
+            value="A JD background" if is_fixed_prompt else get_prompt(st.session_state[Keys.CATEGORY].strip()),
+            disabled=is_fixed_prompt,
             height=120,
             help="Describe the exact background you want for your product. You can update this based on the required aesthetics.",
         )
@@ -573,7 +595,7 @@ def render_stage_inpaint() -> None:
 
     if is_generating_background:
         device_used = detect_device()
-        model_key = (selected_inpaint_model_id.strip(), device_used)
+        model_key = (selected_inpaint_model_id.strip(), device_used, INPAINT_LORA_PATH)
         model = get_model(get_cached_inpaint_model, model_key, Keys.LOADED_INPAINT_MODEL_KEY)
 
         st.session_state[Keys.OUTPUT_IMAGE] = inpaint_background(
@@ -586,6 +608,7 @@ def render_stage_inpaint() -> None:
         )
 
         st.session_state[Keys.IS_GENERATING_BACKGROUND] = False
+        _release_model(get_cached_inpaint_model, Keys.LOADED_INPAINT_MODEL_KEY)
         set_stage(5)
         st.rerun()
 
@@ -640,7 +663,7 @@ def render_stage_result() -> None:
 
 # --- Main Content Area ---
 with st.container():
-    st.title("Autonomous Visual Merchandiser")
+    st.title("VisionCommerce")
     st.markdown("Generate consistent, **studio-quality** backgrounds for your product images. Designed for e-commerce platforms like Shopee and Lazada.")
 
     render_progress_stepper(STAGES, int(st.session_state[Keys.STAGE]))
