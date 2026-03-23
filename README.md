@@ -2,10 +2,7 @@
 
 *VisionCommerce* tackles visual fragmentation for e-commerce platforms by scoring and standardising product images with state-of-the-art AI.
 
-<table><tr>
-<td><img src="public/demo-1.png" alt="Demo 1"></td>
-<td><img src="public/demo-2.png" alt="Demo 2"></td>
-</tr></table>
+<img src="public/demo.png" alt="Demo">
 
 It consists of three main components:
 1. **Image Scoring**: A fine-tuned DINOv2 model evaluates product images based on criteria like clarity, background quality, and overall aesthetics, assigning a score that reflects their suitability for e-commerce use.
