@@ -13,7 +13,7 @@ The dataset used for training and evaluation is **BG60k**, a dataset specificall
 
 This project includes a Streamlit web demo, as well as notebooks for running inference and visualizing results. 
 
-Contributors: @bryanSwk, @j0kene, @xiaojun1402
+Contributors: [@bryanSwk](https://github.com/bryanSwk), [@j0kene](https://github.com/j0kene), [@xiaojun1402](https://github.com/xiaojun1402), [@nginyc](https://github.com/nginyc)
 
 ## Requirements
 
