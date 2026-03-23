@@ -13,6 +13,8 @@ The dataset used for training and evaluation is **BG60k**, a dataset specificall
 
 This project includes a Streamlit web demo, as well as notebooks for running inference and visualizing results. 
 
+Contributors: @bryanSwk, @j0kene, @xiaojun1402
+
 ## Requirements
 
 The app has been tested to run locally on **Apple Silicon (M-series Mac)** using [mflux](https://github.com/filipstrand/mflux) for on-device inference. RAM of 32 GB recommended (FLUX.1 with 8-bit quantization uses ~18 GB).
