@@ -1,0 +1,32 @@
+{
+  "flux_baseline": {
+    "pairs": 50,
+    "clip_similarity": {
+      "mean": 0.9233917844295502,
+      "min": 0.7631036639213562,
+      "max": 0.987494945526123
+    },
+    "fid": 58.7879638671875,
+    "clip_model": "openai/clip-vit-large-patch14"
+  },
+  "flux_finetuned": {
+    "pairs": 50,
+    "clip_similarity": {
+      "mean": 0.9409344518184661,
+      "min": 0.7918349504470825,
+      "max": 0.993159294128418
+    },
+    "fid": 54.482749938964844,
+    "clip_model": "openai/clip-vit-large-patch14"
+  },
+  "flux_finetuned_fixed_prompt": {
+    "pairs": 50,
+    "clip_similarity": {
+      "mean": 0.9370078897476196,
+      "min": 0.8110503554344177,
+      "max": 0.9931569695472717
+    },
+    "fid": 52.00266647338867,
+    "clip_model": "openai/clip-vit-large-patch14"
+  }
+}
