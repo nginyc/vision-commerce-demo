@@ -203,7 +203,7 @@ default_state: SessionStateDefaults = {
     Keys.LOADED_SCORING_MODEL_KEY: None,
     Keys.MASK_IMAGE: None,
     Keys.CATEGORY: list(CATEGORY_PROMPTS.keys())[0],
-    Keys.SEED: 42,
+    Keys.SEED: 67,
     Keys.OUTPUT_IMAGE: None,
     Keys.IS_GENERATING_MASK: False,
     Keys.IS_GENERATING_BACKGROUND: False,
@@ -301,7 +301,7 @@ with st.sidebar:
                 "Generation Seed",
                 min_value=0,
                 max_value=999999,
-                value=int(st.session_state.get(Keys.SEED, 42)),
+                value=int(st.session_state.get(Keys.SEED, 67)),
                 step=1,
                 key="sidebar_seed",
             )
