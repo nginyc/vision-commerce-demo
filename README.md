@@ -2,7 +2,7 @@
 
 *VisionCommerce* tackles visual fragmentation for e-commerce platforms by scoring and standardising product images with state-of-the-art AI.
 
-<a href="public/demo.mp4"><img src="public/demo.png" alt="Demo"></a>
+[![Demo](public/demo.png)](https://youtu.be/XEBLi_VGCsI)
 
 It consists of three main components:
 1. **Image Scoring**: A fine-tuned DINOv2 model evaluates product images based on criteria like clarity, background quality, and overall aesthetics, assigning a score that reflects their suitability for e-commerce use.
@@ -12,6 +12,8 @@ It consists of three main components:
 The dataset used for training and evaluation is **BG60k**, a dataset specifically designed for e-commerce background generation and removal by JD.com ([paper](https://arxiv.org/pdf/2312.13309), [Github](https://github.com/Whileherham/BG60k)).
 
 This project includes a Streamlit web demo, as well as notebooks for running inference and visualizing results. 
+
+Contributors: [@bryanSwk](https://github.com/bryanSwk), [@j0kene](https://github.com/j0kene), [@xiaojun1402](https://github.com/xiaojun1402), [@nginyc](https://github.com/nginyc)
 
 ## Requirements
 
